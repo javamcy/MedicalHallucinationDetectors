@@ -1,0 +1,10 @@
+{
+  "L0_leaky": {
+    "self_verification": 0.516986111111111,
+    "n": 1200
+  },
+  "L4_fair": {
+    "self_verification": 0.516986111111111,
+    "n": 1200
+  }
+}

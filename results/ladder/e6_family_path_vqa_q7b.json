@@ -1,0 +1,28 @@
+{
+  "L0_leaky": {
+    "level": "L0_leaky",
+    "n_test": 2400,
+    "pos_test": 1181,
+    "zero_shot_judge": {
+      "auroc": 0.6627835172567567,
+      "raw_auroc": 0.3372164827432433
+    },
+    "answer_nll": {
+      "auroc": 0.5674863629006994,
+      "raw_auroc": 0.5674863629006994
+    }
+  },
+  "L4_fair": {
+    "level": "L4_fair",
+    "n_test": 2380,
+    "pos_test": 1190,
+    "zero_shot_judge": {
+      "auroc": 0.5947083539298073,
+      "raw_auroc": 0.4052916460701928
+    },
+    "answer_nll": {
+      "auroc": 0.5714239813572488,
+      "raw_auroc": 0.5714239813572488
+    }
+  }
+}

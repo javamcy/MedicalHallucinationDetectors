@@ -1,0 +1,9 @@
+{
+  "method": "VASE-FULL-LLaVA-Med",
+  "dataset": "pope_random",
+  "vase": 0.5299111111111111,
+  "se": 0.5311152777777778,
+  "radflag": 0.4602124999999999,
+  "num_samples": 10,
+  "n": 1200
+}

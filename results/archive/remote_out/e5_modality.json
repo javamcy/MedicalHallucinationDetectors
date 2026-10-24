@@ -1,0 +1,502 @@
+{
+  "omni|L4_fair|Dermoscopy": {
+    "n": 118,
+    "pos": 59,
+    "mlp": 0.9643780522838264,
+    "qce": 0.9428325193909797,
+    "mlp_noimage": 0.9069232979029014,
+    "shortcut_gbm": 0.6795461074403906,
+    "clipscore": 0.708129847744901,
+    "maxpatch": 0.702671646078713
+  },
+  "omni|L4_fair|CT(Computed Tomography)": {
+    "n": 108,
+    "pos": 54,
+    "mlp": 0.9523319615912208,
+    "qce": 0.9417009602194787,
+    "mlp_noimage": 0.8950617283950617,
+    "shortcut_gbm": 0.7211934156378601,
+    "clipscore": 0.5867626886145405,
+    "maxpatch": 0.5473251028806585
+  },
+  "omni|L4_fair|MR (Mag-netic Resonance Imaging)": {
+    "n": 108,
+    "pos": 54,
+    "mlp": 0.9375857338820301,
+    "qce": 0.9238683127572017,
+    "mlp_noimage": 0.8942043895747599,
+    "shortcut_gbm": 0.7102194787379973,
+    "clipscore": 0.7455418381344308,
+    "maxpatch": 0.6008230452674896
+  },
+  "omni|L4_fair|Fundus Photography": {
+    "n": 106,
+    "pos": 53,
+    "mlp": 0.9761480954076185,
+    "qce": 0.9708081167675329,
+    "mlp_noimage": 0.9606621573513706,
+    "shortcut_gbm": 0.857066571733713,
+    "clipscore": 0.8301886792452831,
+    "maxpatch": 0.7639729441082236
+  },
+  "omni|L4_fair|Microscopy Images": {
+    "n": 102,
+    "pos": 51,
+    "mlp": 0.9903883121876201,
+    "qce": 0.9853902345251826,
+    "mlp_noimage": 0.9715494040753556,
+    "shortcut_gbm": 0.8392925797770088,
+    "clipscore": 0.7839292579777009,
+    "maxpatch": 0.7620146097654747
+  },
+  "omni|L4_fair|ultrasound": {
+    "n": 98,
+    "pos": 49,
+    "mlp": 0.9441899208663057,
+    "qce": 0.9475218658892128,
+    "mlp_noimage": 0.9085797584339859,
+    "shortcut_gbm": 0.8132028321532695,
+    "clipscore": 0.9004581424406497,
+    "maxpatch": 0.7213660974593918
+  },
+  "omni|L4_fair|X-Ray": {
+    "n": 90,
+    "pos": 45,
+    "mlp": 0.9762962962962962,
+    "qce": 0.9753086419753086,
+    "mlp_noimage": 0.9523456790123456,
+    "shortcut_gbm": 0.7864197530864198,
+    "clipscore": 0.7906172839506173,
+    "maxpatch": 0.5130864197530864
+  },
+  "omni|L4_fair|OCT (Optical Coherence Tomography": {
+    "n": 72,
+    "pos": 36,
+    "mlp": 0.9907407407407408,
+    "qce": 0.9938271604938272,
+    "mlp_noimage": 0.9166666666666667,
+    "shortcut_gbm": 0.7592592592592592,
+    "clipscore": 0.7307098765432098,
+    "maxpatch": 0.6766975308641976
+  },
+  "omni|L4_fair|RadImageNet": {
+    "n": 296,
+    "pos": 148,
+    "mlp": 0.9491873630387144,
+    "qce": 0.9400566106647187,
+    "mlp_noimage": 0.9092859751643535,
+    "shortcut_gbm": 0.7394539810080349,
+    "clipscore": 0.7382213294375457,
+    "maxpatch": 0.6176497443389335
+  },
+  "omni|L4_fair|Retinal OCT-C8": {
+    "n": 62,
+    "pos": 31,
+    "mlp": 0.9927159209157128,
+    "qce": 0.9989594172736733,
+    "mlp_noimage": 0.9053069719042665,
+    "shortcut_gbm": 0.7304890738813735,
+    "clipscore": 0.7460978147762747,
+    "maxpatch": 0.6930280957336108
+  },
+  "omni|L4_fair|Yangxi": {
+    "n": 46,
+    "pos": 23,
+    "mlp": 1.0,
+    "qce": 1.0,
+    "mlp_noimage": 1.0,
+    "shortcut_gbm": 0.941398865784499,
+    "clipscore": 0.8601134215500945,
+    "maxpatch": 0.8638941398865785
+  },
+  "omni|L6_native|Dermoscopy": {
+    "n": 118,
+    "pos": 59,
+    "mlp": 0.9755817293881069,
+    "qce": 0.9681126113185866,
+    "mlp_noimage": 0.9752944556162022,
+    "shortcut_gbm": 0.9712726228095374,
+    "clipscore": 0.714162596954898,
+    "maxpatch": 0.7084171215168056
+  },
+  "omni|L6_native|CT(Computed Tomography)": {
+    "n": 108,
+    "pos": 54,
+    "mlp": 0.9571330589849107,
+    "qce": 0.9595336076817558,
+    "mlp_noimage": 0.9571330589849109,
+    "shortcut_gbm": 0.9843964334705075,
+    "clipscore": 0.5188614540466392,
+    "maxpatch": 0.5408093278463648
+  },
+  "omni|L6_native|MR (Mag-netic Resonance Imaging)": {
+    "n": 108,
+    "pos": 54,
+    "mlp": 0.9804526748971194,
+    "qce": 0.9718792866941015,
+    "mlp_noimage": 0.9794238683127572,
+    "shortcut_gbm": 0.9931412894375858,
+    "clipscore": 0.6234567901234568,
+    "maxpatch": 0.5751028806584362
+  },
+  "omni|L6_native|Fundus Photography": {
+    "n": 106,
+    "pos": 53,
+    "mlp": 0.967248131007476,
+    "qce": 0.9811320754716981,
+    "mlp_noimage": 0.9855820576717693,
+    "shortcut_gbm": 0.9969740121039516,
+    "clipscore": 0.7525809896760414,
+    "maxpatch": 0.692061231755073
+  },
+  "omni|L6_native|Microscopy Images": {
+    "n": 102,
+    "pos": 51,
+    "mlp": 0.9692425990003845,
+    "qce": 0.9415609381007305,
+    "mlp_noimage": 0.9730872741253365,
+    "shortcut_gbm": 0.9992310649750097,
+    "clipscore": 0.6201460976547482,
+    "maxpatch": 0.5978469819300269
+  },
+  "omni|L6_native|ultrasound": {
+    "n": 98,
+    "pos": 49,
+    "mlp": 0.9571012078300708,
+    "qce": 0.9758433985839233,
+    "mlp_noimage": 0.9079550187421908,
+    "shortcut_gbm": 0.9858392336526447,
+    "clipscore": 0.8833819241982508,
+    "maxpatch": 0.7309454394002499
+  },
+  "omni|L6_native|X-Ray": {
+    "n": 90,
+    "pos": 45,
+    "mlp": 0.9925925925925926,
+    "qce": 0.9960493827160495,
+    "mlp_noimage": 0.9881481481481481,
+    "shortcut_gbm": 1.0,
+    "clipscore": 0.7545679012345679,
+    "maxpatch": 0.5328395061728395
+  },
+  "omni|L6_native|OCT (Optical Coherence Tomography": {
+    "n": 72,
+    "pos": 36,
+    "mlp": 0.9922839506172839,
+    "qce": 0.9876543209876544,
+    "mlp_noimage": 0.9899691358024691,
+    "shortcut_gbm": 0.9652777777777777,
+    "clipscore": 0.783179012345679,
+    "maxpatch": 0.7137345679012346
+  },
+  "omni|L6_native|RadImageNet": {
+    "n": 296,
+    "pos": 148,
+    "mlp": 0.9779948867786705,
+    "qce": 0.9774013878743608,
+    "mlp_noimage": 0.9665814463111762,
+    "shortcut_gbm": 0.9888833089846603,
+    "clipscore": 0.6533509861212564,
+    "maxpatch": 0.6094320672023374
+  },
+  "omni|L6_native|Retinal OCT-C8": {
+    "n": 62,
+    "pos": 31,
+    "mlp": 0.9906347554630592,
+    "qce": 0.983350676378772,
+    "mlp_noimage": 0.9864724245577524,
+    "shortcut_gbm": 0.963579604578564,
+    "clipscore": 0.7950052029136316,
+    "maxpatch": 0.7148803329864725
+  },
+  "omni|L6_native|Yangxi": {
+    "n": 46,
+    "pos": 23,
+    "mlp": 1.0,
+    "qce": 1.0,
+    "mlp_noimage": 1.0,
+    "shortcut_gbm": 1.0,
+    "clipscore": 0.775047258979206,
+    "maxpatch": 0.890359168241966
+  },
+  "vqa_rad|L4_fair|yes_no": {
+    "n": 490,
+    "pos": 245,
+    "mlp": 0.6433402748854644,
+    "qce": 0.6398167430237401,
+    "mlp_noimage": 0.7094543940024991,
+    "shortcut_gbm": 0.5233569346105789,
+    "clipscore": 0.5022740524781342,
+    "maxpatch": 0.5025072886297376
+  },
+  "vqa_rad|L4_fair|what": {
+    "n": 218,
+    "pos": 109,
+    "mlp": 0.6905984344752126,
+    "qce": 0.6926184664590522,
+    "mlp_noimage": 0.5684706674522346,
+    "shortcut_gbm": 0.4608197963134416,
+    "clipscore": 0.6411076508711389,
+    "maxpatch": 0.613416379092669
+  },
+  "vqa_rad|L4_fair|where": {
+    "n": 58,
+    "pos": 29,
+    "mlp": 0.7990487514863258,
+    "qce": 0.7728894173602853,
+    "mlp_noimage": 0.6058263971462545,
+    "shortcut_gbm": 0.4946492271105826,
+    "clipscore": 0.6730083234244947,
+    "maxpatch": 0.7253269916765754
+  },
+  "vqa_rad|L4_fair|other": {
+    "n": 58,
+    "pos": 29,
+    "mlp": 0.7931034482758621,
+    "qce": 0.7395957193816884,
+    "mlp_noimage": 0.7063020214030915,
+    "shortcut_gbm": 0.6070154577883472,
+    "clipscore": 0.6753864447086801,
+    "maxpatch": 0.5755053507728893
+  },
+  "vqa_rad|L4_fair|which": {
+    "n": 48,
+    "pos": 24,
+    "mlp": 0.7864583333333333,
+    "qce": 0.7743055555555556,
+    "mlp_noimage": 0.7343750000000001,
+    "shortcut_gbm": 0.5833333333333334,
+    "clipscore": 0.515625,
+    "maxpatch": 0.5329861111111112
+  },
+  "vqa_rad|L4_fair|unknown": {
+    "n": 904,
+    "pos": 452,
+    "mlp": 0.6817634505442869,
+    "qce": 0.6767023651029838,
+    "mlp_noimage": 0.6645170921763647,
+    "shortcut_gbm": 0.5132498629493304,
+    "clipscore": 0.5392625695042681,
+    "maxpatch": 0.5473730323439581
+  },
+  "path_vqa|L4_fair|yes_no": {
+    "n": 1240,
+    "pos": 620,
+    "mlp": 0.94528616024974,
+    "qce": 0.9438397502601457,
+    "mlp_noimage": 0.9434599375650364,
+    "shortcut_gbm": 0.7243522372528617,
+    "clipscore": 0.5427445369406868,
+    "maxpatch": 0.5034001040582726
+  },
+  "path_vqa|L4_fair|what": {
+    "n": 1050,
+    "pos": 525,
+    "mlp": 0.8574222222222223,
+    "qce": 0.8525188208616781,
+    "mlp_noimage": 0.6666013605442177,
+    "shortcut_gbm": 0.6496834467120182,
+    "clipscore": 0.62361179138322,
+    "maxpatch": 0.5904471655328798
+  },
+  "path_vqa|L4_fair|how": {
+    "n": 42,
+    "pos": 21,
+    "mlp": 0.671201814058957,
+    "qce": 0.6417233560090704,
+    "mlp_noimage": 0.5328798185941043,
+    "shortcut_gbm": 0.6666666666666666,
+    "clipscore": 0.526077097505669,
+    "maxpatch": 0.5895691609977325
+  },
+  "path_vqa|L4_fair|unknown": {
+    "n": 2380,
+    "pos": 1190,
+    "mlp": 0.9059565002471578,
+    "qce": 0.9040742179224632,
+    "mlp_noimage": 0.8473730668738083,
+    "shortcut_gbm": 0.6974599251465292,
+    "clipscore": 0.5237726855448062,
+    "maxpatch": 0.5274461549325612
+  },
+  "omni|L4_fair|what": {
+    "n": 602,
+    "pos": 301,
+    "mlp": 0.9623734837363824,
+    "qce": 0.9522190704296861,
+    "mlp_noimage": 0.9131521727133255,
+    "shortcut_gbm": 0.7467853555700268,
+    "clipscore": 0.787596163397755,
+    "maxpatch": 0.6828732574695644
+  },
+  "omni|L4_fair|yes_no": {
+    "n": 96,
+    "pos": 48,
+    "mlp": 0.9670138888888888,
+    "qce": 0.9578993055555556,
+    "mlp_noimage": 0.9652777777777778,
+    "shortcut_gbm": 0.8498263888888888,
+    "clipscore": 0.5690104166666666,
+    "maxpatch": 0.5425347222222223
+  },
+  "omni|L4_fair|other": {
+    "n": 54,
+    "pos": 27,
+    "mlp": 1.0,
+    "qce": 1.0,
+    "mlp_noimage": 1.0,
+    "shortcut_gbm": 0.9080932784636488,
+    "clipscore": 0.7818930041152263,
+    "maxpatch": 0.6021947873799727
+  },
+  "omni|L4_fair|which": {
+    "n": 50,
+    "pos": 25,
+    "mlp": 0.9568,
+    "qce": 0.9648,
+    "mlp_noimage": 0.8984,
+    "shortcut_gbm": 0.6472,
+    "clipscore": 0.9184,
+    "maxpatch": 0.784
+  },
+  "omni|L4_fair|Disease Diagnosis": {
+    "n": 402,
+    "pos": 201,
+    "mlp": 0.9551743768718595,
+    "qce": 0.9423281601940545,
+    "mlp_noimage": 0.9078488156233757,
+    "shortcut_gbm": 0.7552164550382416,
+    "clipscore": 0.6732011583871687,
+    "maxpatch": 0.6199599019826242
+  },
+  "omni|L4_fair|Anatomy Identification": {
+    "n": 178,
+    "pos": 89,
+    "mlp": 0.9649034212851912,
+    "qce": 0.9642721878550687,
+    "mlp_noimage": 0.9666077515465218,
+    "shortcut_gbm": 0.7779952026259311,
+    "clipscore": 0.860118671884863,
+    "maxpatch": 0.649917939654084
+  },
+  "omni|L4_fair|Modality Recognition": {
+    "n": 122,
+    "pos": 61,
+    "mlp": 0.9959688255845203,
+    "qce": 0.986025262026337,
+    "mlp_noimage": 0.8954582101585595,
+    "shortcut_gbm": 0.6952432141897339,
+    "clipscore": 0.8360655737704918,
+    "maxpatch": 0.777747917226552
+  },
+  "omni|L4_fair|Other Biological Attributes": {
+    "n": 60,
+    "pos": 30,
+    "mlp": 0.9966666666666667,
+    "qce": 0.9988888888888889,
+    "mlp_noimage": 0.991111111111111,
+    "shortcut_gbm": 0.8633333333333334,
+    "clipscore": 0.7344444444444445,
+    "maxpatch": 0.7366666666666667
+  },
+  "omni|L4_fair|Lesion Grading": {
+    "n": 40,
+    "pos": 20,
+    "mlp": 0.9125000000000001,
+    "qce": 0.905,
+    "mlp_noimage": 0.88625,
+    "shortcut_gbm": 0.9487499999999999,
+    "clipscore": 0.7849999999999999,
+    "maxpatch": 0.7975
+  },
+  "omni|L6_native|what": {
+    "n": 602,
+    "pos": 301,
+    "mlp": 0.9706405006567256,
+    "qce": 0.9739296475756338,
+    "mlp_noimage": 0.9700389620423615,
+    "shortcut_gbm": 0.9869041180560921,
+    "clipscore": 0.7051577797154557,
+    "maxpatch": 0.6187238551450867
+  },
+  "omni|L6_native|yes_no": {
+    "n": 96,
+    "pos": 48,
+    "mlp": 0.9500868055555556,
+    "qce": 0.9544270833333334,
+    "mlp_noimage": 0.9769965277777778,
+    "shortcut_gbm": 0.9867621527777778,
+    "clipscore": 0.5542534722222222,
+    "maxpatch": 0.5286458333333334
+  },
+  "omni|L6_native|other": {
+    "n": 54,
+    "pos": 27,
+    "mlp": 0.9890260631001372,
+    "qce": 0.98079561042524,
+    "mlp_noimage": 0.99039780521262,
+    "shortcut_gbm": 0.9986282578875171,
+    "clipscore": 0.7187928669410151,
+    "maxpatch": 0.5720164609053497
+  },
+  "omni|L6_native|which": {
+    "n": 50,
+    "pos": 25,
+    "mlp": 0.9856,
+    "qce": 0.9856,
+    "mlp_noimage": 0.9664,
+    "shortcut_gbm": 0.9712000000000001,
+    "clipscore": 0.7664,
+    "maxpatch": 0.6976
+  },
+  "omni|L6_native|Disease Diagnosis": {
+    "n": 402,
+    "pos": 201,
+    "mlp": 0.9633672433850647,
+    "qce": 0.964654340239103,
+    "mlp_noimage": 0.9756441672235836,
+    "shortcut_gbm": 0.9833543724165243,
+    "clipscore": 0.5934259052993738,
+    "maxpatch": 0.5767431499220316
+  },
+  "omni|L6_native|Anatomy Identification": {
+    "n": 178,
+    "pos": 89,
+    "mlp": 0.9583385936119176,
+    "qce": 0.9608635273324075,
+    "mlp_noimage": 0.9388966039641459,
+    "shortcut_gbm": 0.9955813659891428,
+    "clipscore": 0.7860118671884863,
+    "maxpatch": 0.634768337331145
+  },
+  "omni|L6_native|Modality Recognition": {
+    "n": 122,
+    "pos": 61,
+    "mlp": 0.999731255038968,
+    "qce": 0.9970438054286482,
+    "mlp_noimage": 0.9905939263638807,
+    "shortcut_gbm": 0.97285675893577,
+    "clipscore": 0.8309594195108841,
+    "maxpatch": 0.7081429723192689
+  },
+  "omni|L6_native|Other Biological Attributes": {
+    "n": 60,
+    "pos": 30,
+    "mlp": 0.9811111111111112,
+    "qce": 0.9988888888888889,
+    "mlp_noimage": 0.99,
+    "shortcut_gbm": 1.0,
+    "clipscore": 0.6788888888888889,
+    "maxpatch": 0.6788888888888889
+  },
+  "omni|L6_native|Lesion Grading": {
+    "n": 40,
+    "pos": 20,
+    "mlp": 0.9525,
+    "qce": 0.955,
+    "mlp_noimage": 0.92625,
+    "shortcut_gbm": 0.9962500000000001,
+    "clipscore": 0.7,
+    "maxpatch": 0.635
+  }
+}

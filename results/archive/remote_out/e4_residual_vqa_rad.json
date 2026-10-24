@@ -1,0 +1,113 @@
+{
+  "L0_leaky": {
+    "level": "L0_leaky",
+    "audit": {
+      "unmatched": 2244
+    },
+    "n_test": 898,
+    "pos_test": 435,
+    "len_mean_pos": 1.6140819964349375,
+    "len_mean_neg": 1.6769162210338682,
+    "len_abs_gap": 0.06283422459893062,
+    "frac_neg_within2": 0.8618538324420677,
+    "tfidf_answer_word": 0.4783272510612944,
+    "tfidf_answer_char": 0.4784464139420571,
+    "tfidf_question_word": 0.22079640525309702,
+    "tfidf_qa_word": 0.37420868399493556,
+    "lexical_only": 0.6220873364613589,
+    "answer_frequency_leak": 0.5086293786152281
+  },
+  "L1_imgsplit": {
+    "level": "L1_imgsplit",
+    "audit": {
+      "unmatched": 2244
+    },
+    "n_test": 904,
+    "pos_test": 452,
+    "len_mean_pos": 1.6140819964349375,
+    "len_mean_neg": 1.6938502673796791,
+    "len_abs_gap": 0.07976827094474159,
+    "frac_neg_within2": 0.857397504456328,
+    "tfidf_answer_word": 0.430804095857154,
+    "tfidf_answer_char": 0.4316043738742266,
+    "tfidf_question_word": 0.5,
+    "tfidf_qa_word": 0.5634250920197352,
+    "lexical_only": 0.6181425718537082,
+    "answer_frequency_leak": 0.5338564100556034
+  },
+  "L2_len": {
+    "level": "L2_len",
+    "audit": {
+      "len2": 2243,
+      "len5": 1
+    },
+    "n_test": 904,
+    "pos_test": 452,
+    "len_mean_pos": 1.6140819964349375,
+    "len_mean_neg": 1.623885918003565,
+    "len_abs_gap": 0.009803921568627416,
+    "frac_neg_within2": 0.999554367201426,
+    "tfidf_answer_word": 0.4409898974077845,
+    "tfidf_answer_char": 0.430826121857624,
+    "tfidf_question_word": 0.5,
+    "tfidf_qa_word": 0.5563718772026001,
+    "lexical_only": 0.5846018678048399,
+    "answer_frequency_leak": 0.528122307933276
+  },
+  "L3_type": {
+    "level": "L3_type",
+    "audit": {
+      "type_only": 2244
+    },
+    "n_test": 904,
+    "pos_test": 452,
+    "len_mean_pos": 1.6140819964349375,
+    "len_mean_neg": 1.606951871657754,
+    "len_abs_gap": 0.007130124777183555,
+    "frac_neg_within2": 0.9656862745098039,
+    "tfidf_answer_word": 0.42211361500509037,
+    "tfidf_answer_char": 0.42466618372621184,
+    "tfidf_question_word": 0.5,
+    "tfidf_qa_word": 0.5207362557757067,
+    "lexical_only": 0.5658430574046519,
+    "answer_frequency_leak": 0.5451655376301981
+  },
+  "L4_fair": {
+    "level": "L4_fair",
+    "audit": {
+      "type+len2": 2243,
+      "type+len5": 1
+    },
+    "n_test": 904,
+    "pos_test": 452,
+    "len_mean_pos": 1.6140819964349375,
+    "len_mean_neg": 1.6127450980392157,
+    "len_abs_gap": 0.0013368983957218195,
+    "frac_neg_within2": 0.999554367201426,
+    "tfidf_answer_word": 0.37917025608896543,
+    "tfidf_answer_char": 0.38876869762706556,
+    "tfidf_question_word": 0.5,
+    "tfidf_qa_word": 0.5013558226955909,
+    "lexical_only": 0.5509975330879474,
+    "answer_frequency_leak": 0.5539025178165871
+  },
+  "L5_fair_row": {
+    "level": "L5_fair_row",
+    "audit": {
+      "type+len2": 2243,
+      "type+len5": 1
+    },
+    "n_test": 898,
+    "pos_test": 435,
+    "len_mean_pos": 1.6140819964349375,
+    "len_mean_neg": 1.6038324420677361,
+    "len_abs_gap": 0.01024955436720143,
+    "frac_neg_within2": 0.999554367201426,
+    "tfidf_answer_word": 0.4473424195029915,
+    "tfidf_answer_char": 0.4452719644497406,
+    "tfidf_question_word": 0.22079640525309702,
+    "tfidf_qa_word": 0.30329932226111567,
+    "lexical_only": 0.5670316029890022,
+    "answer_frequency_leak": 0.5258732404855887
+  }
+}

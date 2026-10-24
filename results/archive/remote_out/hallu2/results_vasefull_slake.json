@@ -1,0 +1,9 @@
+{
+  "method": "VASE-FULL-LLaVA-Med",
+  "dataset": "slake",
+  "vase": 0.875,
+  "se": 0.875,
+  "radflag": 0.125,
+  "num_samples": 10,
+  "n": 6
+}

@@ -1,0 +1,113 @@
+{
+  "L0_leaky": {
+    "level": "L0_leaky",
+    "n_test": 800,
+    "pos_test": 399,
+    "semantic_entropy": {
+      "auroc": 0.5016656354102212,
+      "raw_auroc": 0.5016656354102212
+    },
+    "radflag": {
+      "auroc": 0.5032031450196564,
+      "raw_auroc": 0.4967968549803436
+    },
+    "answer_consistency_max": {
+      "auroc": 0.7095794348714679,
+      "raw_auroc": 0.29042056512853204
+    },
+    "answer_consistency_mean": {
+      "auroc": 0.7015856349102182,
+      "raw_auroc": 0.2984143650897818
+    },
+    "greedy_agreement": {
+      "auroc": 0.6858980368627303,
+      "raw_auroc": 0.3141019631372696
+    },
+    "consistency_token_overlap": {
+      "auroc": 0.6211163819773873,
+      "raw_auroc": 0.6211163819773873
+    },
+    "zero_shot_judge": {
+      "auroc": 0.7333452084075526,
+      "raw_auroc": 0.2666547915924474
+    },
+    "answer_nll": {
+      "auroc": 0.6420290126813293,
+      "raw_auroc": 0.6420290126813293
+    }
+  },
+  "L1_imgsplit": {
+    "level": "L1_imgsplit",
+    "n_test": 802,
+    "pos_test": 401,
+    "semantic_entropy": {
+      "auroc": 0.5,
+      "raw_auroc": 0.5
+    },
+    "radflag": {
+      "auroc": 0.5,
+      "raw_auroc": 0.5
+    },
+    "answer_consistency_max": {
+      "auroc": 0.706261155092319,
+      "raw_auroc": 0.29373884490768093
+    },
+    "answer_consistency_mean": {
+      "auroc": 0.6935622290906152,
+      "raw_auroc": 0.30643777090938484
+    },
+    "greedy_agreement": {
+      "auroc": 0.6804217635462466,
+      "raw_auroc": 0.3195782364537534
+    },
+    "consistency_token_overlap": {
+      "auroc": 0.5945858545655811,
+      "raw_auroc": 0.5945858545655811
+    },
+    "zero_shot_judge": {
+      "auroc": 0.7425233673919938,
+      "raw_auroc": 0.2574766326080062
+    },
+    "answer_nll": {
+      "auroc": 0.6645170117101262,
+      "raw_auroc": 0.6645170117101262
+    }
+  },
+  "L4_fair": {
+    "level": "L4_fair",
+    "n_test": 802,
+    "pos_test": 401,
+    "semantic_entropy": {
+      "auroc": 0.5,
+      "raw_auroc": 0.5
+    },
+    "radflag": {
+      "auroc": 0.5,
+      "raw_auroc": 0.5
+    },
+    "answer_consistency_max": {
+      "auroc": 0.6881238300756836,
+      "raw_auroc": 0.3118761699243164
+    },
+    "answer_consistency_mean": {
+      "auroc": 0.6831331894702147,
+      "raw_auroc": 0.31686681052978527
+    },
+    "greedy_agreement": {
+      "auroc": 0.6581613298424761,
+      "raw_auroc": 0.3418386701575239
+    },
+    "consistency_token_overlap": {
+      "auroc": 0.594445930062624,
+      "raw_auroc": 0.594445930062624
+    },
+    "zero_shot_judge": {
+      "auroc": 0.7502223244880318,
+      "raw_auroc": 0.2497776755119682
+    },
+    "answer_nll": {
+      "auroc": 0.6614573292454649,
+      "raw_auroc": 0.6614573292454649
+    }
+  }
+}

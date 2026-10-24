@@ -1,0 +1,1 @@
+{"ds": "pope_random", "seed": 0, "test_auroc": 0.9407958333333333, "n": 1200, "best_epoch": 1, "best_val_auroc": 0.9225083333333334, "note": "val-earlystop lr3e-05-gc1.0-6000-10ep maxnNone seed0"}

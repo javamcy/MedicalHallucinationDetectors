@@ -1,0 +1,7 @@
+{
+  "ds": "path_vqa",
+  "level": "L4_fair",
+  "n_test": 2380,
+  "clipscore_official": 0.5367654120471718,
+  "biomedclip_official": null
+}

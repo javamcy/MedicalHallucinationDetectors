@@ -1,0 +1,22 @@
+{
+  "native": {
+    "ds": "pope_random",
+    "level": "native",
+    "tag": "q3b",
+    "n_test": 1200,
+    "semantic_entropy": 0.5,
+    "radflag": 0.5,
+    "answer_consistency": 0.5,
+    "vase_visual": 0.5232805555555555
+  },
+  "leaky": {
+    "ds": "pope_random",
+    "level": "leaky",
+    "tag": "q3b",
+    "n_test": 1200,
+    "semantic_entropy": 0.5,
+    "radflag": 0.5,
+    "answer_consistency": 0.5,
+    "vase_visual": 0.5232805555555555
+  }
+}

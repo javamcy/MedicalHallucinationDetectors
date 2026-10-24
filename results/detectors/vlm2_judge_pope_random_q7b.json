@@ -1,0 +1,29 @@
+{
+  "native": {
+    "ds": "pope_random",
+    "level": "native",
+    "tag": "q7b",
+    "n_test": 1200,
+    "judge": 0.8549430555555555,
+    "judge_raw": 0.14505694444444445,
+    "answer_nll": 0.8247888888888889
+  },
+  "native_row": {
+    "ds": "pope_random",
+    "level": "native_row",
+    "tag": "q7b",
+    "n_test": 1200,
+    "judge": 0.857790752011037,
+    "judge_raw": 0.14220924798896295,
+    "answer_nll": 0.8197632372411798
+  },
+  "leaky": {
+    "ds": "pope_random",
+    "level": "leaky",
+    "tag": "q7b",
+    "n_test": 1200,
+    "judge": 0.8549430555555555,
+    "judge_raw": 0.14505694444444445,
+    "answer_nll": 0.8247888888888889
+  }
+}
