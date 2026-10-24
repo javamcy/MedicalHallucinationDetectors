@@ -159,6 +159,11 @@ column widths and 6–7 pt sans type.
   LLaVA-Med backbone, and the 32B and Lingshu judge values on VQA-RAD and Path-VQA, were carried
   over from an earlier experiment batch whose raw score files were not retained. They are consistent
   with the surrounding rows but are **not** recomputable from this repository.
+* Two numbers in the section "What survives" are likewise not recomputable from the files here: the
+  yes/no-block score of the protocol-trained LoRA model (0.821) and that of the frozen-feature
+  detector on the same block (0.679). They came from an interactive analysis whose per-item output
+  was not archived. The third number in that sentence, the cosine similarity between the CLIP text
+  embeddings of "yes" and "no" (0.949), was re-measured with CLIP-L/14 and returns 0.9489.
 * Med-HallMark was obtained but not used: its `response` field is a hallucination-category label,
   not an answer, so no positive/negative pair can be built from it.
 * RULE, MMedPO and MMed-RAG were excluded because they improve the factuality of generated text and
