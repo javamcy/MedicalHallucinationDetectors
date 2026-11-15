@@ -1,0 +1,22 @@
+{
+  "native": {
+    "ds": "medhallmark",
+    "level": "native",
+    "n_rows": 1500,
+    "n_train": 942,
+    "n_val": 286,
+    "n_test": 272,
+    "pos_test": 136,
+    "audit": {},
+    "split": "gid",
+    "shortcut_gbm": 0.5,
+    "clipscore": 0.5,
+    "maxpatch": 0.5,
+    "mlp": 0.5,
+    "qce": 0.49999999999999994,
+    "mlp_noimage": 0.5000000000000001,
+    "phrase_fc": 0.5,
+    "cebag": 0.5,
+    "prove": 0.5
+  }
+}

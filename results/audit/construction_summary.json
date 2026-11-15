@@ -1,0 +1,65 @@
+{
+  "vqa_rad": {
+    "benchmark": "vqa_rad",
+    "level": "L4_fair",
+    "n_rows": 4488,
+    "n_pairs": 2244,
+    "n_train": 2690,
+    "n_val": 894,
+    "n_test": 904,
+    "match_quality": {
+      "type+len2": 2243,
+      "type+len5": 1
+    }
+  },
+  "path_vqa": {
+    "benchmark": "path_vqa",
+    "level": "L4_fair",
+    "n_rows": 12000,
+    "n_pairs": 6000,
+    "n_train": 7242,
+    "n_val": 2378,
+    "n_test": 2380,
+    "match_quality": {
+      "type+len2": 5998,
+      "type+len5": 2
+    }
+  },
+  "omni": {
+    "benchmark": "omni",
+    "level": "L4_fair",
+    "n_rows": 4000,
+    "n_pairs": 2000,
+    "n_train": 2400,
+    "n_val": 798,
+    "n_test": 802,
+    "match_quality": {
+      "type+len2": 1990,
+      "type+len5": 10
+    }
+  },
+  "slake": {
+    "benchmark": "slake",
+    "level": "L4_fair",
+    "n_rows": 10016,
+    "n_pairs": 5008,
+    "n_train": 6048,
+    "n_val": 1960,
+    "n_test": 2008,
+    "match_quality": {
+      "type+len2": 5008
+    }
+  },
+  "kvasir": {
+    "benchmark": "kvasir",
+    "level": "L4_fair",
+    "n_rows": 68092,
+    "n_pairs": 34046,
+    "n_train": 40852,
+    "n_val": 13564,
+    "n_test": 13676,
+    "match_quality": {
+      "type+len2": 34046
+    }
+  }
+}

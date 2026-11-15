@@ -1,0 +1,10 @@
+{
+  "native": {
+    "ds": "pope_random",
+    "level": "native",
+    "tag": "q3b",
+    "topk": 16,
+    "n_test": 1200,
+    "vihd": 0.5104583333333332
+  }
+}

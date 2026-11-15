@@ -1,0 +1,942 @@
+{
+  "meta": {
+    "integrity_rule": "null means NOT MEASURED. No value in this file is inferred, interpolated or reconstructed. Where only a difference (delta) was logged, the absolute cells are left null.",
+    "source": "Run logs transcribed before the GPU host was released; raw generation records archived in _xd_backup/xd_results/cache/*.jsonl and logs/xd14 (gemma-4), logs reproduced alongside each run.",
+    "protocol": "Six-rung admissibility ladder. L0_leaky = answer pool unconstrained; L4_fair = answer pool matched to question format. AUROC on the held-out 40% split.",
+    "judge_backbone": "Lingshu-7B judged under transformers 4.57.1. Generation ran under transformers 5.20.2 where the backbone requires it (Qwen3.5, gemma-4).",
+    "chance": 0.5,
+    "benchmarks": "3 medical + 8 non-medical = 11"
+  },
+  "tier1_protocol_ladder_clip_mlp": {
+    "note": "Frozen CLIP features + MLP trained independently at each rung; no VLM involved, so any change is attributable to the protocol alone.",
+    "mmmu": {
+      "L0_leaky": 0.68,
+      "L0_sd": 0.011,
+      "L1_imgsplit": 0.678,
+      "L2_len": 0.647,
+      "L3_type": 0.572,
+      "L4_fair": 0.569,
+      "L4_sd": 0.02,
+      "L5_fair_row": 0.56,
+      "noimg_L4": 0.531,
+      "text_oracle_L4": 0.545,
+      "n_test_pairs": 676,
+      "seeds": 3,
+      "delta_L0_L4": 0.111,
+      "noimg_recovery_percent": 93.3
+    },
+    "other_benchmarks": {
+      "note": "Only the L0->L4 difference, the no-image recovery rate and the text-only oracle were recorded per benchmark. Absolute L0 and L4 cells were NOT logged and are therefore omitted; they must not be back-filled.",
+      "columns": [
+        "ds",
+        "delta_L0_L4",
+        "noimg_L4",
+        "text_oracle_L4",
+        "noimg_recovery_percent"
+      ],
+      "rows": [
+        [
+          "scienceqa",
+          0.079,
+          null,
+          0.811,
+          98.0
+        ],
+        [
+          "mmbench",
+          0.05,
+          null,
+          0.817,
+          98.0
+        ],
+        [
+          "cvbench",
+          0.083,
+          null,
+          0.869,
+          101.0
+        ],
+        [
+          "chartqa",
+          0.063,
+          null,
+          0.506,
+          89.0
+        ],
+        [
+          "hallusion",
+          0.0,
+          null,
+          0.539,
+          null
+        ]
+      ]
+    },
+    "hallusion_control": {
+      "observation": "HallusionBench scored identically at all six rungs (0.572) because its items are single-word yes/no answers already matched in length and format, so the ladder has no leak to remove.",
+      "reading": "This is the built-in negative control: the protocol effect tracks answer-pool shape, not the benchmark's subject matter."
+    }
+  },
+  "tier2_sampling_families_mmmu": {
+    "columns": [
+      "backbone",
+      "params_b",
+      "vendor",
+      "release",
+      "rung",
+      "SE",
+      "RadFlag",
+      "verify",
+      "consMax"
+    ],
+    "rows": [
+      [
+        "Qwen2.5-VL-3B",
+        3.0,
+        "Alibaba",
+        "2025",
+        "L0_leaky",
+        0.501,
+        0.506,
+        0.64,
+        0.704
+      ],
+      [
+        "Qwen2.5-VL-3B",
+        3.0,
+        "Alibaba",
+        "2025",
+        "L4_fair",
+        0.5,
+        0.5,
+        0.648,
+        0.668
+      ],
+      [
+        "Qwen3.5-4B",
+        4.5,
+        "Alibaba",
+        "2026",
+        "L0_leaky",
+        0.511,
+        0.505,
+        0.675,
+        0.705
+      ],
+      [
+        "Qwen3.5-4B",
+        4.5,
+        "Alibaba",
+        "2026",
+        "L4_fair",
+        0.5,
+        0.5,
+        0.625,
+        0.634
+      ],
+      [
+        "Qwen3.5-9B",
+        9.0,
+        "Alibaba",
+        "2026",
+        "L0_leaky",
+        0.514,
+        0.517,
+        0.646,
+        0.67
+      ],
+      [
+        "Qwen3.5-9B",
+        9.0,
+        "Alibaba",
+        "2026",
+        "L4_fair",
+        0.5,
+        0.5,
+        0.637,
+        0.632
+      ],
+      [
+        "gemma-4-31B-it",
+        31.3,
+        "Google",
+        "2026-04",
+        "L0_leaky",
+        0.549,
+        0.552,
+        0.647,
+        0.661
+      ],
+      [
+        "gemma-4-31B-it",
+        31.3,
+        "Google",
+        "2026-04",
+        "L4_fair",
+        0.5,
+        0.5,
+        0.668,
+        0.661
+      ]
+    ],
+    "note": "SE and RadFlag are recomputed from each backbone's own samples. verify and consMax likewise. At the matched rung every backbone lands on exactly 0.500 for SE and RadFlag."
+  },
+  "headline": {
+    "claim": "At the matched rung the sampling-statistics families sit at exactly 0.500 across two vendors, four parameter scales (3B to 31B) and two generations (2025, 2026).",
+    "positive_control": "At the leaky rung the same detectors do carry signal on MMMU (0.501 to 0.552), so 0.500 is not a floor artefact.",
+    "limit": "The claim is about two of the six detector families. judge and NLL retain non-trivial AUROC at the matched rung on MMMU (0.564 to 0.588 and 0.690 to 0.749), so the analysis must not say that every family collapses."
+  },
+  "tier2_sampling_families_scienceqa": {
+    "columns": [
+      "backbone",
+      "params_b",
+      "vendor",
+      "release",
+      "rung",
+      "SE",
+      "RadFlag",
+      "verify",
+      "consMax"
+    ],
+    "rows": [
+      [
+        "Qwen2.5-VL-3B",
+        3.0,
+        "Alibaba",
+        "2025",
+        "L0_leaky",
+        0.507,
+        0.508,
+        0.781,
+        0.824
+      ],
+      [
+        "Qwen2.5-VL-3B",
+        3.0,
+        "Alibaba",
+        "2025",
+        "L4_fair",
+        0.5,
+        0.5,
+        0.768,
+        0.805
+      ],
+      [
+        "Qwen3.5-4B",
+        4.5,
+        "Alibaba",
+        "2026",
+        "L0_leaky",
+        0.505,
+        0.506,
+        0.75,
+        0.754
+      ],
+      [
+        "Qwen3.5-4B",
+        4.5,
+        "Alibaba",
+        "2026",
+        "L4_fair",
+        0.5,
+        0.5,
+        0.735,
+        0.744
+      ],
+      [
+        "Qwen3.5-9B",
+        9.0,
+        "Alibaba",
+        "2026",
+        "L0_leaky",
+        0.514,
+        0.514,
+        0.743,
+        0.752
+      ],
+      [
+        "Qwen3.5-9B",
+        9.0,
+        "Alibaba",
+        "2026",
+        "L4_fair",
+        0.5,
+        0.5,
+        0.737,
+        0.762
+      ],
+      [
+        "gemma-4-31B-it",
+        31.3,
+        "Google",
+        "2026-04",
+        "L0_leaky",
+        0.503,
+        0.503,
+        0.753,
+        0.745
+      ],
+      [
+        "gemma-4-31B-it",
+        31.3,
+        "Google",
+        "2026-04",
+        "L4_fair",
+        0.5,
+        0.5,
+        0.736,
+        0.751
+      ]
+    ],
+    "note": "Same design on ScienceQA. The matched-rung SE and RadFlag values are exactly 0.500 for all four backbones."
+  },
+  "tier2_judge_nll": {
+    "note": "The judge score and the teacher-forced NLL are computed on the benchmark's own question-answer pairs, not on the evaluated model's generations. They therefore depend on the benchmark, the protocol rung and the judge backbone, and not on the evaluated model. Re-running them for each evaluated model produced byte-identical values, and the run logs show todo=338 fresh pairs each time, so this is not cache reuse.",
+    "judged_by": "Lingshu-7B",
+    "rows": [
+      [
+        "MMMU",
+        "L0_leaky",
+        0.617,
+        0.766
+      ],
+      [
+        "MMMU",
+        "L4_fair",
+        0.57,
+        0.749
+      ],
+      [
+        "ScienceQA",
+        "L0_leaky",
+        0.599,
+        0.809
+      ],
+      [
+        "ScienceQA",
+        "L4_fair",
+        0.592,
+        0.786
+      ]
+    ],
+    "columns": [
+      "benchmark",
+      "rung",
+      "judge",
+      "nll"
+    ],
+    "delta": {
+      "mmmu_judge": 0.047,
+      "mmmu_nll": 0.017,
+      "scienceqa_judge": 0.007,
+      "scienceqa_nll": 0.023
+    }
+  },
+  "gaps": "None. All cells in the four-backbone by two-domain matrix were measured.",
+  "tier1_full_ladder": {
+    "note": "Same e1_protocol pipeline, six rungs, nine benchmarks, no missing cells. The leakage measure used in the text is the drop from L1 (split at image level, maximum leakage) to L4 (matched negatives); image_contrib_L4 is the full detector minus the same detector with the image withheld.",
+    "columns": [
+      "benchmark",
+      "L0_leaky",
+      "L1_imgsplit",
+      "L2_len",
+      "L3_type",
+      "L4_fair",
+      "L5_fair_row",
+      "noimg_L4",
+      "text_oracle_L4",
+      "n_test",
+      "delta_L1_L4",
+      "image_contrib_L4"
+    ],
+    "rows": [
+      [
+        "VQA-RAD",
+        0.788,
+        0.796,
+        0.772,
+        0.685,
+        0.682,
+        0.787,
+        0.665,
+        0.513,
+        904,
+        0.114,
+        0.017
+      ],
+      [
+        "Path-VQA",
+        0.947,
+        0.954,
+        0.941,
+        0.914,
+        0.906,
+        0.915,
+        0.847,
+        0.697,
+        2380,
+        0.048,
+        0.059
+      ],
+      [
+        "OmniMedVQA",
+        0.929,
+        0.976,
+        0.98,
+        0.959,
+        0.966,
+        0.915,
+        0.926,
+        0.769,
+        802,
+        0.01,
+        0.04
+      ],
+      [
+        "MMMU",
+        0.551,
+        0.75,
+        0.716,
+        0.621,
+        0.644,
+        0.667,
+        0.506,
+        0.523,
+        338,
+        0.106,
+        0.138
+      ],
+      [
+        "ScienceQA",
+        0.923,
+        0.961,
+        0.935,
+        0.905,
+        0.915,
+        0.851,
+        0.898,
+        0.838,
+        800,
+        0.046,
+        0.017
+      ],
+      [
+        "MMBench",
+        0.873,
+        0.924,
+        0.915,
+        0.91,
+        0.878,
+        0.831,
+        0.861,
+        0.856,
+        800,
+        0.046,
+        0.017
+      ],
+      [
+        "CV-Bench",
+        0.898,
+        0.931,
+        0.928,
+        0.877,
+        0.86,
+        0.832,
+        0.883,
+        0.876,
+        800,
+        0.071,
+        -0.023
+      ],
+      [
+        "ChartQA",
+        0.592,
+        0.742,
+        0.743,
+        0.699,
+        0.675,
+        0.535,
+        0.602,
+        0.52,
+        800,
+        0.067,
+        0.073
+      ],
+      [
+        "HallusionBench",
+        0.538,
+        0.558,
+        0.558,
+        0.558,
+        0.558,
+        0.538,
+        0.553,
+        0.566,
+        382,
+        0.0,
+        0.005
+      ],
+      [
+        "DocumentVQA",
+        0.598,
+        0.765,
+        0.768,
+        0.679,
+        0.718,
+        0.505,
+        0.671,
+        0.564,
+        800,
+        0.047,
+        0.047
+      ],
+      [
+        "RSVQA-HR",
+        0.885,
+        0.93,
+        0.897,
+        0.883,
+        0.879,
+        0.851,
+        0.882,
+        0.684,
+        400,
+        0.051,
+        -0.003
+      ]
+    ]
+  },
+  "tier2_six_crossdomain_benchmarks": {
+    "note": "Qwen3.5-4B generated the samples; Lingshu-7B judged. Semantic entropy and RadFlag read exactly 0.500 at the matched rung on all eight non-medical benchmarks, while the leaky rung carries a little signal (0.503 to 0.549).",
+    "columns": [
+      "benchmark",
+      "judge",
+      "nll",
+      "SE",
+      "RadFlag",
+      "verify",
+      "consMax",
+      "rung"
+    ],
+    "rows": [
+      [
+        "MMMU",
+        0.617,
+        0.766,
+        0.511,
+        0.505,
+        0.675,
+        0.705,
+        "L0_leaky"
+      ],
+      [
+        "MMMU",
+        0.57,
+        0.749,
+        0.5,
+        0.5,
+        0.625,
+        0.634,
+        "L4_fair"
+      ],
+      [
+        "ScienceQA",
+        0.599,
+        0.809,
+        0.505,
+        0.506,
+        0.75,
+        0.754,
+        "L0_leaky"
+      ],
+      [
+        "ScienceQA",
+        0.592,
+        0.786,
+        0.5,
+        0.5,
+        0.735,
+        0.744,
+        "L4_fair"
+      ],
+      [
+        "MMBench",
+        0.595,
+        0.705,
+        0.508,
+        0.51,
+        0.769,
+        0.768,
+        "L0_leaky"
+      ],
+      [
+        "MMBench",
+        0.576,
+        0.716,
+        0.5,
+        0.5,
+        0.715,
+        0.728,
+        "L4_fair"
+      ],
+      [
+        "CV-Bench",
+        0.512,
+        0.711,
+        0.504,
+        0.505,
+        0.608,
+        0.614,
+        "L0_leaky"
+      ],
+      [
+        "CV-Bench",
+        0.528,
+        0.736,
+        0.5,
+        0.5,
+        0.597,
+        0.616,
+        "L4_fair"
+      ],
+      [
+        "ChartQA",
+        0.559,
+        0.743,
+        0.503,
+        0.504,
+        0.549,
+        0.541,
+        "L0_leaky"
+      ],
+      [
+        "ChartQA",
+        0.549,
+        0.746,
+        0.5,
+        0.5,
+        0.565,
+        0.582,
+        "L4_fair"
+      ],
+      [
+        "HallusionBench",
+        0.533,
+        0.613,
+        0.549,
+        0.549,
+        0.554,
+        0.534,
+        "L0_leaky"
+      ],
+      [
+        "HallusionBench",
+        0.56,
+        0.603,
+        0.5,
+        0.5,
+        0.515,
+        0.517,
+        "L4_fair"
+      ],
+      [
+        "DocumentVQA",
+        0.617,
+        0.765,
+        0.503,
+        0.504,
+        0.687,
+        0.694,
+        "L0_leaky"
+      ],
+      [
+        "DocumentVQA",
+        0.63,
+        0.758,
+        0.5,
+        0.5,
+        0.651,
+        0.669,
+        "L4_fair"
+      ],
+      [
+        "RSVQA-HR",
+        0.505,
+        0.6,
+        0.507,
+        0.508,
+        0.55,
+        0.527,
+        "L0_leaky"
+      ],
+      [
+        "RSVQA-HR",
+        0.528,
+        0.56,
+        0.5,
+        0.5,
+        0.507,
+        0.512,
+        "L4_fair"
+      ]
+    ]
+  },
+  "leakage_summary": {
+    "delta_L1_L4_range": [
+      0.0,
+      0.114
+    ],
+    "negative_control": {
+      "benchmark": "HallusionBench",
+      "delta": 0.0
+    },
+    "image_contrib_L4_range": [
+      -0.023,
+      0.138
+    ],
+    "corr_delta_vs_text_oracle": -0.369,
+    "reading": "Benchmarks whose answer pool is already text-predictable are also format-homogeneous, so they leak least; the correlation of the leak gap with the text-oracle AUROC is -0.37 across the nine benchmarks."
+  },
+  "cheap_audit": {
+    "note": "A text-only classifier scored at L0 and L4 needs no vision-language model. Its drop tracks the detector drop with r = 0.595 across eleven benchmarks.",
+    "corr_detector_drop_vs_oracle_drop": 0.595,
+    "columns": [
+      "benchmark",
+      "detector_drop_L1_L4",
+      "oracle_L0",
+      "oracle_L4",
+      "oracle_drop_L0_L4"
+    ],
+    "rows": [
+      [
+        "VQA-RAD",
+        0.114,
+        0.629,
+        0.513,
+        0.116
+      ],
+      [
+        "MMMU",
+        0.106,
+        0.586,
+        0.523,
+        0.063
+      ],
+      [
+        "CV-Bench",
+        0.071,
+        0.944,
+        0.876,
+        0.068
+      ],
+      [
+        "ChartQA",
+        0.067,
+        0.526,
+        0.52,
+        0.006
+      ],
+      [
+        "RSVQA-HR",
+        0.051,
+        0.754,
+        0.684,
+        0.07
+      ],
+      [
+        "Path-VQA",
+        0.048,
+        0.833,
+        0.697,
+        0.135
+      ],
+      [
+        "MMBench",
+        0.047,
+        0.889,
+        0.856,
+        0.033
+      ],
+      [
+        "DocumentVQA",
+        0.046,
+        0.532,
+        0.564,
+        -0.032
+      ],
+      [
+        "ScienceQA",
+        0.046,
+        0.895,
+        0.838,
+        0.057
+      ],
+      [
+        "OmniMedVQA",
+        0.01,
+        0.735,
+        0.769,
+        -0.034
+      ],
+      [
+        "HallusionBench",
+        0.0,
+        0.557,
+        0.566,
+        -0.009
+      ]
+    ]
+  },
+  "gemma_extra_domains": {
+    "note": "gemma-4-31B run on two further non-medical benchmarks, one whose negatives are authored options (MMBench) and one whose answers are short free text (ChartQA). Semantic entropy and RadFlag again read exactly 0.500 at the matched rung. Samples generated under transformers 5.20.2 with 4-bit NF4; judged by Lingshu-7B.",
+    "columns": [
+      "benchmark",
+      "rung",
+      "SE",
+      "RadFlag",
+      "verify",
+      "consMax",
+      "judge",
+      "nll"
+    ],
+    "rows": [
+      [
+        "MMBench",
+        "L0",
+        0.512,
+        0.513,
+        0.792,
+        0.806,
+        0.659,
+        0.703
+      ],
+      [
+        "MMBench",
+        "L4",
+        0.5,
+        0.5,
+        0.774,
+        0.781,
+        0.631,
+        0.715
+      ],
+      [
+        "ChartQA",
+        "L0",
+        0.511,
+        0.512,
+        0.605,
+        0.615,
+        0.629,
+        0.757
+      ],
+      [
+        "ChartQA",
+        "L4",
+        0.5,
+        0.5,
+        0.618,
+        0.63,
+        0.618,
+        0.754
+      ]
+    ]
+  },
+  "matrix_L0": {
+    "note": "Leaky-rung values for the same grid, where available.",
+    "Qwen3.5-4B": {
+      "MMMU": 0.511,
+      "ScienceQA": 0.505,
+      "MMBench": 0.508,
+      "CV-Bench": 0.504,
+      "ChartQA": 0.503,
+      "HallusionBench": 0.549,
+      "DocumentVQA": 0.503,
+      "RSVQA-HR": 0.507
+    },
+    "gemma-4-31B": {
+      "MMMU": 0.549,
+      "ScienceQA": 0.503,
+      "MMBench": 0.512,
+      "ChartQA": 0.511
+    }
+  },
+  "answer_conditioned_matrix": {
+    "note": "The four families that read the candidate answer, at the matched rung. All 32 cells are measured. An earlier draft duplicated the gemma-4-31B ScienceQA values into the Qwen2.5-VL-3B row because a shared score cache had been overwritten; the correct values were recovered by re-scoring that backbone's existing generations under a separate tag (e6_family_scienceqa_q3c.json).",
+    "columns": [
+      "backbone",
+      "benchmark",
+      "consistency max",
+      "consistency mean",
+      "greedy agreement",
+      "token overlap"
+    ],
+    "rows": [
+      [
+        "Qwen2.5-VL-3B",
+        "MMMU",
+        0.668,
+        0.664,
+        0.648,
+        0.63
+      ],
+      [
+        "Qwen2.5-VL-3B",
+        "ScienceQA",
+        0.8055,
+        0.7759,
+        0.7677,
+        0.7985
+      ],
+      [
+        "Qwen3.5-4B",
+        "MMMU",
+        0.634,
+        0.629,
+        0.625,
+        0.551
+      ],
+      [
+        "Qwen3.5-4B",
+        "ScienceQA",
+        0.744,
+        0.74,
+        0.735,
+        0.638
+      ],
+      [
+        "Qwen3.5-9B",
+        "MMMU",
+        0.632,
+        0.631,
+        0.637,
+        0.544
+      ],
+      [
+        "Qwen3.5-9B",
+        "ScienceQA",
+        0.762,
+        0.751,
+        0.737,
+        0.638
+      ],
+      [
+        "gemma-4-31B",
+        "MMMU",
+        0.661,
+        0.656,
+        0.668,
+        0.564
+      ],
+      [
+        "gemma-4-31B",
+        "ScienceQA",
+        0.751,
+        0.746,
+        0.736,
+        0.683
+      ]
+    ],
+    "table_removed": "The previous all-0.500 matrix was deleted; it recorded an algebraic identity, not a measurement."
+  }
+}

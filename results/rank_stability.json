@@ -1,0 +1,402 @@
+[
+  {
+    "ds": "mmmu",
+    "tag": "g4",
+    "n_fams": 8,
+    "tau": 0.8518518518518519,
+    "rho": 0.9145506294483956,
+    "top_L0": "answer_nll",
+    "top_L4": "answer_nll",
+    "biggest_move": "greedy agreement (4->2)",
+    "a0": {
+      "semantic_entropy": 0.5489722309766433,
+      "radflag": 0.552123822530378,
+      "answer_consistency_max": 0.6605735896627797,
+      "answer_consistency_mean": 0.6536050705606331,
+      "greedy_agreement": 0.6465665160906258,
+      "consistency_token_overlap": 0.5918864026333298,
+      "zero_shot_judge": 0.5999579787792835,
+      "answer_nll": 0.7107889484189516
+    },
+    "a4": {
+      "semantic_entropy": 0.5,
+      "radflag": 0.5,
+      "answer_consistency_max": 0.66100626728756,
+      "answer_consistency_mean": 0.6556493119988795,
+      "greedy_agreement": 0.6682539126781275,
+      "consistency_token_overlap": 0.5643359826336614,
+      "zero_shot_judge": 0.5880046216869157,
+      "answer_nll": 0.6898217849515074
+    }
+  },
+  {
+    "ds": "mmmu",
+    "tag": "g9",
+    "n_fams": 8,
+    "tau": 0.8518518518518519,
+    "rho": 0.9145506294483956,
+    "top_L0": "answer_nll",
+    "top_L4": "answer_nll",
+    "biggest_move": "greedy agreement (4->2)",
+    "a0": {
+      "semantic_entropy": 0.5142346885177015,
+      "radflag": 0.5174913331232273,
+      "answer_consistency_max": 0.6697482228525405,
+      "answer_consistency_mean": 0.6600133067198936,
+      "greedy_agreement": 0.6457260916762966,
+      "consistency_token_overlap": 0.5782995412683405,
+      "zero_shot_judge": 0.6168189935917638,
+      "answer_nll": 0.7658717652414468
+    },
+    "a4": {
+      "semantic_entropy": 0.5,
+      "radflag": 0.5,
+      "answer_consistency_max": 0.6324358390812647,
+      "answer_consistency_mean": 0.6314904940303211,
+      "greedy_agreement": 0.6374776793529638,
+      "consistency_token_overlap": 0.5440460768180385,
+      "zero_shot_judge": 0.563775778159028,
+      "answer_nll": 0.7488533314659851
+    }
+  },
+  {
+    "ds": "mmmu",
+    "tag": "j7",
+    "n_fams": 8,
+    "tau": 0.9259259259259259,
+    "rho": 0.9660746085722489,
+    "top_L0": "answer_nll",
+    "top_L4": "answer_nll",
+    "biggest_move": "semantic entropy (8->7)",
+    "a0": {
+      "semantic_entropy": 0.5013831985152502,
+      "radflag": 0.5064957803690864,
+      "answer_consistency_max": 0.7035753055292923,
+      "answer_consistency_mean": 0.6930349826662465,
+      "greedy_agreement": 0.6398431207759918,
+      "consistency_token_overlap": 0.6542879153972757,
+      "zero_shot_judge": 0.6171691704310677,
+      "answer_nll": 0.7656616591378647
+    },
+    "a4": {
+      "semantic_entropy": 0.5,
+      "radflag": 0.5,
+      "answer_consistency_max": 0.6683589510171213,
+      "answer_consistency_mean": 0.6643324813556948,
+      "greedy_agreement": 0.648401666608312,
+      "consistency_token_overlap": 0.629669829487763,
+      "zero_shot_judge": 0.5699030146003292,
+      "answer_nll": 0.748783305906656
+    }
+  },
+  {
+    "ds": "mmmu",
+    "tag": "l7b",
+    "n_fams": 8,
+    "tau": 1.0,
+    "rho": 0.9918365981341755,
+    "top_L0": "answer_nll",
+    "top_L4": "answer_nll",
+    "biggest_move": "zero-shot judge (5->5)",
+    "a0": {
+      "semantic_entropy": 0.5105053051791155,
+      "radflag": 0.5054977763770704,
+      "answer_consistency_max": 0.70518611899009,
+      "answer_consistency_mean": 0.6889379136463915,
+      "greedy_agreement": 0.6745456455510033,
+      "consistency_token_overlap": 0.607381727772525,
+      "zero_shot_judge": 0.6171691704310677,
+      "answer_nll": 0.7656616591378647
+    },
+    "a4": {
+      "semantic_entropy": 0.5,
+      "radflag": 0.5,
+      "answer_consistency_max": 0.6338713630475123,
+      "answer_consistency_mean": 0.628934561114807,
+      "greedy_agreement": 0.6248730786737159,
+      "consistency_token_overlap": 0.5506985049543083,
+      "zero_shot_judge": 0.5699030146003292,
+      "answer_nll": 0.748783305906656
+    }
+  },
+  {
+    "ds": "mmmu",
+    "tag": "q35",
+    "n_fams": 6,
+    "tau": 1.0,
+    "rho": 0.9819805060619656,
+    "top_L0": "answer_consistency_max",
+    "top_L4": "answer_consistency_max",
+    "biggest_move": "semantic entropy (5->5)",
+    "a0": {
+      "semantic_entropy": 0.5105053051791155,
+      "radflag": 0.5054977763770704,
+      "answer_consistency_max": 0.70518611899009,
+      "answer_consistency_mean": 0.6889379136463915,
+      "greedy_agreement": 0.6745456455510033,
+      "consistency_token_overlap": 0.607381727772525
+    },
+    "a4": {
+      "semantic_entropy": 0.5,
+      "radflag": 0.5,
+      "answer_consistency_max": 0.6338713630475123,
+      "answer_consistency_mean": 0.628934561114807,
+      "greedy_agreement": 0.6248730786737159,
+      "consistency_token_overlap": 0.5506985049543083
+    }
+  },
+  {
+    "ds": "mmmu",
+    "tag": "q359b",
+    "n_fams": 6,
+    "tau": 0.7142857142857143,
+    "rho": 0.7855844048495725,
+    "top_L0": "answer_consistency_max",
+    "top_L4": "greedy_agreement",
+    "biggest_move": "greedy agreement (3->1)",
+    "a0": {
+      "semantic_entropy": 0.5142346885177015,
+      "radflag": 0.5174913331232273,
+      "answer_consistency_max": 0.6697482228525405,
+      "answer_consistency_mean": 0.6600133067198936,
+      "greedy_agreement": 0.6457260916762966,
+      "consistency_token_overlap": 0.5782995412683405
+    },
+    "a4": {
+      "semantic_entropy": 0.5,
+      "radflag": 0.5,
+      "answer_consistency_max": 0.6324358390812647,
+      "answer_consistency_mean": 0.6314904940303211,
+      "greedy_agreement": 0.6374776793529638,
+      "consistency_token_overlap": 0.5440460768180385
+    }
+  },
+  {
+    "ds": "mmmu",
+    "tag": "q3b",
+    "n_fams": 6,
+    "tau": 0.8571428571428571,
+    "rho": 0.9165151389911679,
+    "top_L0": "answer_consistency_max",
+    "top_L4": "answer_consistency_max",
+    "biggest_move": "semantic entropy (6->5)",
+    "a0": {
+      "semantic_entropy": 0.5013831985152502,
+      "radflag": 0.5064957803690864,
+      "answer_consistency_max": 0.7035753055292923,
+      "answer_consistency_mean": 0.6930349826662465,
+      "greedy_agreement": 0.6398431207759918,
+      "consistency_token_overlap": 0.6542879153972757
+    },
+    "a4": {
+      "semantic_entropy": 0.5,
+      "radflag": 0.5,
+      "answer_consistency_max": 0.6683589510171213,
+      "answer_consistency_mean": 0.6643324813556948,
+      "greedy_agreement": 0.648401666608312,
+      "consistency_token_overlap": 0.629669829487763
+    }
+  },
+  {
+    "ds": "omni",
+    "tag": "q3b",
+    "n_fams": 8,
+    "tau": 0.9259259259259259,
+    "rho": 0.9660746085722489,
+    "top_L0": "zero_shot_judge",
+    "top_L4": "zero_shot_judge",
+    "biggest_move": "semantic entropy (8->7)",
+    "a0": {
+      "semantic_entropy": 0.5016656354102212,
+      "radflag": 0.5032031450196564,
+      "answer_consistency_max": 0.7095794348714679,
+      "answer_consistency_mean": 0.7015856349102182,
+      "greedy_agreement": 0.6858980368627303,
+      "consistency_token_overlap": 0.6211163819773873,
+      "zero_shot_judge": 0.7333452084075526,
+      "answer_nll": 0.6420290126813293
+    },
+    "a4": {
+      "semantic_entropy": 0.5,
+      "radflag": 0.5,
+      "answer_consistency_max": 0.6881238300756836,
+      "answer_consistency_mean": 0.6831331894702147,
+      "greedy_agreement": 0.6581613298424761,
+      "consistency_token_overlap": 0.594445930062624,
+      "zero_shot_judge": 0.7502223244880318,
+      "answer_nll": 0.6614573292454649
+    }
+  },
+  {
+    "ds": "path_vqa",
+    "tag": "q3b",
+    "n_fams": 8,
+    "tau": 0.6296296296296297,
+    "rho": 0.7857406816387624,
+    "top_L0": "consistency_token_overlap",
+    "top_L4": "answer_nll",
+    "biggest_move": "zero-shot judge (6->3)",
+    "a0": {
+      "semantic_entropy": 0.503692245069771,
+      "radflag": 0.5059636478311578,
+      "answer_consistency_max": 0.5472489978390416,
+      "answer_consistency_mean": 0.5421501501418063,
+      "greedy_agreement": 0.5256953305655099,
+      "consistency_token_overlap": 0.6288309083040958,
+      "zero_shot_judge": 0.5099872259642869,
+      "answer_nll": 0.5888497046829101
+    },
+    "a4": {
+      "semantic_entropy": 0.5,
+      "radflag": 0.5,
+      "answer_consistency_max": 0.5452612809829814,
+      "answer_consistency_mean": 0.5524235576583575,
+      "greedy_agreement": 0.5422456041240026,
+      "consistency_token_overlap": 0.5611828260716052,
+      "zero_shot_judge": 0.5559314313960878,
+      "answer_nll": 0.5676078666760822
+    }
+  },
+  {
+    "ds": "scienceqa",
+    "tag": "g9",
+    "n_fams": 8,
+    "tau": 1.0,
+    "rho": 0.9918365981341755,
+    "top_L0": "answer_nll",
+    "top_L4": "answer_nll",
+    "biggest_move": "semantic entropy (8->7)",
+    "a0": {
+      "semantic_entropy": 0.5136344602153764,
+      "radflag": 0.5140000875005468,
+      "answer_consistency_max": 0.752398452490328,
+      "answer_consistency_mean": 0.7471171694823093,
+      "greedy_agreement": 0.7425733910836942,
+      "consistency_token_overlap": 0.6462102888143051,
+      "zero_shot_judge": 0.5955318470740443,
+      "answer_nll": 0.8099613122582016
+    },
+    "a4": {
+      "semantic_entropy": 0.5,
+      "radflag": 0.5,
+      "answer_consistency_max": 0.7624625,
+      "answer_consistency_mean": 0.7507625,
+      "greedy_agreement": 0.736628125,
+      "consistency_token_overlap": 0.638375,
+      "zero_shot_judge": 0.5876281250000001,
+      "answer_nll": 0.7855531250000001
+    }
+  },
+  {
+    "ds": "scienceqa",
+    "tag": "l7b",
+    "n_fams": 8,
+    "tau": 0.9259259259259259,
+    "rho": 0.9660746085722489,
+    "top_L0": "answer_nll",
+    "top_L4": "answer_nll",
+    "biggest_move": "semantic entropy (8->7)",
+    "a0": {
+      "semantic_entropy": 0.5054000337502109,
+      "radflag": 0.5058094113088206,
+      "answer_consistency_max": 0.7542359639747749,
+      "answer_consistency_mean": 0.742948393427459,
+      "greedy_agreement": 0.7499265620410127,
+      "consistency_token_overlap": 0.6373289833061457,
+      "zero_shot_judge": 0.5988349927187044,
+      "answer_nll": 0.8093488084300526
+    },
+    "a4": {
+      "semantic_entropy": 0.5,
+      "radflag": 0.5,
+      "answer_consistency_max": 0.74404375,
+      "answer_consistency_mean": 0.73959375,
+      "greedy_agreement": 0.735421875,
+      "consistency_token_overlap": 0.63825,
+      "zero_shot_judge": 0.592359375,
+      "answer_nll": 0.7859125
+    }
+  },
+  {
+    "ds": "scienceqa",
+    "tag": "q35",
+    "n_fams": 6,
+    "tau": 0.8571428571428571,
+    "rho": 0.9165151389911679,
+    "top_L0": "answer_consistency_max",
+    "top_L4": "answer_consistency_max",
+    "biggest_move": "semantic entropy (6->5)",
+    "a0": {
+      "semantic_entropy": 0.5054000337502109,
+      "radflag": 0.5058094113088206,
+      "answer_consistency_max": 0.7542359639747749,
+      "answer_consistency_mean": 0.742948393427459,
+      "greedy_agreement": 0.7499265620410127,
+      "consistency_token_overlap": 0.6373289833061457
+    },
+    "a4": {
+      "semantic_entropy": 0.5,
+      "radflag": 0.5,
+      "answer_consistency_max": 0.74404375,
+      "answer_consistency_mean": 0.73959375,
+      "greedy_agreement": 0.735421875,
+      "consistency_token_overlap": 0.63825
+    }
+  },
+  {
+    "ds": "scienceqa",
+    "tag": "q359b",
+    "n_fams": 6,
+    "tau": 1.0,
+    "rho": 0.9819805060619656,
+    "top_L0": "answer_consistency_max",
+    "top_L4": "answer_consistency_max",
+    "biggest_move": "semantic entropy (6->5)",
+    "a0": {
+      "semantic_entropy": 0.5136344602153764,
+      "radflag": 0.5140000875005468,
+      "answer_consistency_max": 0.752398452490328,
+      "answer_consistency_mean": 0.7471171694823093,
+      "greedy_agreement": 0.7425733910836942,
+      "consistency_token_overlap": 0.6462102888143051
+    },
+    "a4": {
+      "semantic_entropy": 0.5,
+      "radflag": 0.5,
+      "answer_consistency_max": 0.7624625,
+      "answer_consistency_mean": 0.7507625,
+      "greedy_agreement": 0.736628125,
+      "consistency_token_overlap": 0.638375
+    }
+  },
+  {
+    "ds": "vqa_rad",
+    "tag": "q3b",
+    "n_fams": 8,
+    "tau": 0.8518518518518519,
+    "rho": 0.9403126190103223,
+    "top_L0": "zero_shot_judge",
+    "top_L4": "zero_shot_judge",
+    "biggest_move": "semantic entropy (8->7)",
+    "a0": {
+      "semantic_entropy": 0.5047739629105533,
+      "radflag": 0.5059953824383704,
+      "answer_consistency_max": 0.5812790149201856,
+      "answer_consistency_mean": 0.5841662322186638,
+      "greedy_agreement": 0.5597403242223381,
+      "consistency_token_overlap": 0.658007497331248,
+      "zero_shot_judge": 0.6954395372508131,
+      "answer_nll": 0.6910851269829448
+    },
+    "a4": {
+      "semantic_entropy": 0.5,
+      "radflag": 0.5,
+      "answer_consistency_max": 0.5615235139791683,
+      "answer_consistency_mean": 0.5732217675620643,
+      "greedy_agreement": 0.5616385386482888,
+      "consistency_token_overlap": 0.6045256088965463,
+      "zero_shot_judge": 0.6610712467695199,
+      "answer_nll": 0.6020733808442321
+    }
+  }
+]

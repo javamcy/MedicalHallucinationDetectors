@@ -1,0 +1,2271 @@
+{
+  "slake": {
+    "ds": "slake",
+    "level": "L4_fair",
+    "n_rows": 2008,
+    "n_pairs": 1004,
+    "share_opposite_polarity_yn": 0.3754980079681275,
+    "types": {
+      "ALL": {
+        "n_rows": 2008,
+        "n_pairs": 1004,
+        "share_yn": 0.37250996015936255,
+        "share_opposite_polarity_yn": 0.3754980079681275,
+        "auroc": {
+          "full": {
+            "auroc": 0.982409505404676,
+            "ci": [
+              0.9754982807812574,
+              0.9875933888946208
+            ],
+            "pair_acc": 0.9571713147410359,
+            "pair_acc_ci": [
+              0.9428074822045794,
+              0.968049938247206
+            ]
+          },
+          "qce": {
+            "auroc": 0.9805801693623911,
+            "ci": [
+              0.9745586627593213,
+              0.9860447775630545
+            ],
+            "pair_acc": 0.9452191235059761,
+            "pair_acc_ci": [
+              0.9293711036154609,
+              0.9576730509421602
+            ]
+          },
+          "noimage": {
+            "auroc": 0.9042966579895557,
+            "ci": [
+              0.8887141052324566,
+              0.9181516960048253
+            ],
+            "pair_acc": 0.851593625498008,
+            "pair_acc_ci": [
+              0.82826419802961,
+              0.8722427070237239
+            ]
+          }
+        },
+        "full_at_youden": {
+          "threshold": 0.6201432943344116,
+          "n_fn_missed_hallucination": 73,
+          "n_fp_rejected_grounded": 36
+        },
+        "delta_image": {
+          "diff": 0.07811284741512026,
+          "ci": [
+            0.06627528729702704,
+            0.09155260184362159
+          ]
+        }
+      },
+      "negation": {
+        "n_rows": 754,
+        "n_pairs": 377,
+        "share_yn": 0.9840848806366048,
+        "share_opposite_polarity_yn": 1.0,
+        "auroc": {
+          "full": {
+            "auroc": 0.9612605449978541,
+            "ci": [
+              0.9427481372555918,
+              0.9774375743162901
+            ]
+          },
+          "qce": {
+            "auroc": 0.9526908653406413,
+            "ci": [
+              0.9335368749516284,
+              0.9715092451223888
+            ]
+          },
+          "noimage": {
+            "auroc": 0.7893322263577454,
+            "ci": [
+              0.7456938766894864,
+              0.8306188392235222
+            ]
+          }
+        },
+        "full_at_youden": {
+          "threshold": 0.5161840915679932,
+          "n_fn_missed_hallucination": 36,
+          "n_fp_rejected_grounded": 33
+        },
+        "delta_image": {
+          "diff": 0.1719283186401087,
+          "ci": [
+            0.13270989734677643,
+            0.2159233865009956
+          ]
+        }
+      },
+      "laterality": {
+        "n_rows": 64,
+        "n_pairs": 32,
+        "share_yn": 0.0,
+        "share_opposite_polarity_yn": 0.09375,
+        "auroc": {
+          "full": {
+            "auroc": 0.943359375,
+            "ci": [
+              0.859375,
+              0.994140625
+            ]
+          },
+          "qce": {
+            "auroc": 0.96484375,
+            "ci": [
+              0.9101318359375,
+              1.0
+            ]
+          },
+          "noimage": {
+            "auroc": 0.982421875,
+            "ci": [
+              0.9541015625,
+              0.9990234375
+            ]
+          }
+        },
+        "full_at_youden": {
+          "threshold": 0.5732285976409912,
+          "n_fn_missed_hallucination": 5,
+          "n_fp_rejected_grounded": 3
+        },
+        "delta_image": {
+          "diff": -0.0390625,
+          "ci": [
+            -0.0937744140625,
+            0.0
+          ]
+        }
+      },
+      "lesion_presence": {
+        "n_rows": 192,
+        "n_pairs": 96,
+        "share_yn": 0.2708333333333333,
+        "share_opposite_polarity_yn": 0.2604166666666667,
+        "auroc": {
+          "full": {
+            "auroc": 0.9605034722222222,
+            "ci": [
+              0.9228325737847223,
+              0.9899088541666666
+            ]
+          },
+          "qce": {
+            "auroc": 0.9590928819444444,
+            "ci": [
+              0.9189236111111111,
+              0.9854709201388888
+            ]
+          },
+          "noimage": {
+            "auroc": 0.9580078125000002,
+            "ci": [
+              0.9251180013020833,
+              0.9831827799479167
+            ]
+          }
+        },
+        "full_at_youden": {
+          "threshold": 0.8723128437995911,
+          "n_fn_missed_hallucination": 10,
+          "n_fp_rejected_grounded": 1
+        },
+        "delta_image": {
+          "diff": 0.002495659722221988,
+          "ci": [
+            -0.02691243489583332,
+            0.032770453559027767
+          ]
+        }
+      },
+      "lesion_presence|image_necessary": {
+        "n_rows": 50,
+        "n_pairs": 25,
+        "share_yn": 1.0,
+        "share_opposite_polarity_yn": 1.0,
+        "auroc": {
+          "full": {
+            "auroc": 0.9455999999999999,
+            "ci": [
+              0.81436,
+              1.0
+            ]
+          },
+          "qce": {
+            "auroc": 0.9296000000000001,
+            "ci": [
+              0.784,
+              1.0
+            ]
+          },
+          "noimage": {
+            "auroc": 0.9824,
+            "ci": [
+              0.9295599999999999,
+              1.0
+            ]
+          }
+        },
+        "full_at_youden": {
+          "threshold": 0.8885668516159058,
+          "n_fn_missed_hallucination": 2,
+          "n_fp_rejected_grounded": 1
+        },
+        "delta_image": {
+          "diff": -0.036800000000000166,
+          "ci": [
+            -0.1088399999999999,
+            0.0
+          ]
+        }
+      },
+      "other": {
+        "n_rows": 1724,
+        "n_pairs": 862,
+        "share_yn": 0.39791183294663574,
+        "share_opposite_polarity_yn": 0.3990719257540603,
+        "auroc": {
+          "full": {
+            "auroc": 0.9854988399071924,
+            "ci": [
+              0.9795005073723764,
+              0.9908247021710692
+            ]
+          },
+          "qce": {
+            "auroc": 0.9833320772390328,
+            "ci": [
+              0.9773691901152556,
+              0.988781636753678
+            ]
+          },
+          "noimage": {
+            "auroc": 0.8917136804819096,
+            "ci": [
+              0.87355994396025,
+              0.9077111180495367
+            ]
+          }
+        },
+        "full_at_youden": {
+          "threshold": 0.6201432943344116,
+          "n_fn_missed_hallucination": 54,
+          "n_fp_rejected_grounded": 32
+        },
+        "delta_image": {
+          "diff": 0.09378515942528287,
+          "ci": [
+            0.07866166068227459,
+            0.10869193143340092
+          ]
+        }
+      }
+    },
+    "audit": {
+      "negation": [
+        {
+          "question": "Is the liver not healthy?",
+          "answer": "No",
+          "label": 0,
+          "keywords": [
+            "not"
+          ]
+        },
+        {
+          "question": "Is the liver not healthy?",
+          "answer": "Yes",
+          "label": 1,
+          "keywords": [
+            "not"
+          ]
+        }
+      ],
+      "laterality": [
+        {
+          "question": "Which lobe is abnormal,left or right?",
+          "answer": "Left",
+          "label": 0,
+          "keywords": [
+            "left",
+            "right"
+          ]
+        },
+        {
+          "question": "Which lobe is abnormal,left or right?",
+          "answer": "CT",
+          "label": 1,
+          "keywords": [
+            "left",
+            "right"
+          ]
+        },
+        {
+          "question": "Which hemisphere is abnormal,left or right?",
+          "answer": "Left",
+          "label": 0,
+          "keywords": [
+            "hemisphere",
+            "left",
+            "right"
+          ]
+        },
+        {
+          "question": "Which hemisphere is abnormal,left or right?",
+          "answer": "CT",
+          "label": 1,
+          "keywords": [
+            "hemisphere",
+            "left",
+            "right"
+          ]
+        },
+        {
+          "question": "What disease is/are shown on the left of brain?",
+          "answer": "Brain Edema, Brain Enhancing Tumor, Brain Non-enhancing Tumor",
+          "label": 0,
+          "keywords": [
+            "left"
+          ]
+        },
+        {
+          "question": "What disease is/are shown on the left of brain?",
+          "answer": "Absorb nutrients, secrete enzymes, digest food",
+          "label": 1,
+          "keywords": [
+            "left"
+          ]
+        },
+        {
+          "question": "What disease is/are shown on the right of brain?",
+          "answer": "Brain Edema, Brain Enhancing Tumor, Brain Non-enhancing Tumor",
+          "label": 0,
+          "keywords": [
+            "right"
+          ]
+        },
+        {
+          "question": "What disease is/are shown on the right of brain?",
+          "answer": "Brain Enhancing Tumor, Brain Edema, Brain Non-enhancing Tumor",
+          "label": 1,
+          "keywords": [
+            "right"
+          ]
+        },
+        {
+          "question": "What organ is the gray part on the left of the image?",
+          "answer": "Liver",
+          "label": 0,
+          "keywords": [
+            "left"
+          ]
+        },
+        {
+          "question": "What organ is the gray part on the left of the image?",
+          "answer": "Chest",
+          "label": 1,
+          "keywords": [
+            "left"
+          ]
+        },
+        {
+          "question": "What is the effect of the gray organ on the left of this picture?",
+          "answer": "Biotransformation, detoxification",
+          "label": 0,
+          "keywords": [
+            "left"
+          ]
+        },
+        {
+          "question": "What is the effect of the gray organ on the left of this picture?",
+          "answer": "Upper Right Lung",
+          "label": 1,
+          "keywords": [
+            "left"
+          ]
+        }
+      ],
+      "size_comparison": [
+        {
+          "question": "Is there small bowel in this image?",
+          "answer": "No",
+          "label": 0,
+          "keywords": [
+            "small"
+          ]
+        },
+        {
+          "question": "Is there small bowel in this image?",
+          "answer": "Yes",
+          "label": 1,
+          "keywords": [
+            "small"
+          ]
+        },
+        {
+          "question": "Which is smaller in this image, small bowel or liver?",
+          "answer": "Liver",
+          "label": 0,
+          "keywords": [
+            "small",
+            "smaller"
+          ]
+        },
+        {
+          "question": "Which is smaller in this image, small bowel or liver?",
+          "answer": "Black",
+          "label": 1,
+          "keywords": [
+            "small",
+            "smaller"
+          ]
+        },
+        {
+          "question": "Which is bigger in this image, duodenum or kidney?",
+          "answer": "Kidney",
+          "label": 0,
+          "keywords": [
+            "bigger"
+          ]
+        },
+        {
+          "question": "Which is bigger in this image, duodenum or kidney?",
+          "answer": "Gray",
+          "label": 1,
+          "keywords": [
+            "bigger"
+          ]
+        },
+        {
+          "question": "How to treat the most severe disease in this image?",
+          "answer": "Medical treatment, supportive treatment, surgical treatment",
+          "label": 0,
+          "keywords": [
+            "severe"
+          ]
+        },
+        {
+          "question": "How to treat the most severe disease in this image?",
+          "answer": "Brain Edema, Brain Tumor",
+          "label": 1,
+          "keywords": [
+            "severe"
+          ]
+        },
+        {
+          "question": "Which is smaller in this image, colon or small bowel?",
+          "answer": "Colon",
+          "label": 0,
+          "keywords": [
+            "small",
+            "smaller"
+          ]
+        },
+        {
+          "question": "Which is smaller in this image, colon or small bowel?",
+          "answer": "Center",
+          "label": 1,
+          "keywords": [
+            "small",
+            "smaller"
+          ]
+        },
+        {
+          "question": "Which is smaller in this image, small bowel or right kidney?",
+          "answer": "Right Kidney",
+          "label": 0,
+          "keywords": [
+            "small",
+            "smaller"
+          ]
+        },
+        {
+          "question": "Which is smaller in this image, small bowel or right kidney?",
+          "answer": "Right Lung",
+          "label": 1,
+          "keywords": [
+            "small",
+            "smaller"
+          ]
+        }
+      ],
+      "lesion_presence": [
+        {
+          "question": "Which lobe is abnormal,left or right?",
+          "answer": "Left",
+          "label": 0,
+          "keywords": [
+            "abnormal"
+          ]
+        },
+        {
+          "question": "Which lobe is abnormal,left or right?",
+          "answer": "CT",
+          "label": 1,
+          "keywords": [
+            "abnormal"
+          ]
+        },
+        {
+          "question": "Which hemisphere is abnormal,left or right?",
+          "answer": "Left",
+          "label": 0,
+          "keywords": [
+            "abnormal"
+          ]
+        },
+        {
+          "question": "Which hemisphere is abnormal,left or right?",
+          "answer": "CT",
+          "label": 1,
+          "keywords": [
+            "abnormal"
+          ]
+        },
+        {
+          "question": "What disease is/are shown on the left of brain?",
+          "answer": "Brain Edema, Brain Enhancing Tumor, Brain Non-enhancing Tumor",
+          "label": 0,
+          "keywords": [
+            "disease"
+          ]
+        },
+        {
+          "question": "What disease is/are shown on the left of brain?",
+          "answer": "Absorb nutrients, secrete enzymes, digest food",
+          "label": 1,
+          "keywords": [
+            "disease"
+          ]
+        },
+        {
+          "question": "Is the tumor enhancing?",
+          "answer": "Yes",
+          "label": 0,
+          "keywords": [
+            "tumor"
+          ]
+        },
+        {
+          "question": "Is the tumor enhancing?",
+          "answer": "No",
+          "label": 1,
+          "keywords": [
+            "tumor"
+          ]
+        },
+        {
+          "question": "Where is the brain edema?",
+          "answer": "Lower Right Lobe",
+          "label": 0,
+          "keywords": [
+            "edema"
+          ]
+        },
+        {
+          "question": "Where is the brain edema?",
+          "answer": "Lower Left Lung",
+          "label": 1,
+          "keywords": [
+            "edema"
+          ]
+        },
+        {
+          "question": "What disease is/are shown on the right of brain?",
+          "answer": "Brain Edema, Brain Enhancing Tumor, Brain Non-enhancing Tumor",
+          "label": 0,
+          "keywords": [
+            "disease"
+          ]
+        },
+        {
+          "question": "What disease is/are shown on the right of brain?",
+          "answer": "Brain Enhancing Tumor, Brain Edema, Brain Non-enhancing Tumor",
+          "label": 1,
+          "keywords": [
+            "disease"
+          ]
+        }
+      ]
+    }
+  },
+  "vqa_rad": {
+    "ds": "vqa_rad",
+    "level": "L4_fair",
+    "n_rows": 904,
+    "n_pairs": 452,
+    "share_opposite_polarity_yn": 0.5110619469026548,
+    "types": {
+      "ALL": {
+        "n_rows": 904,
+        "n_pairs": 452,
+        "share_yn": 0.5420353982300885,
+        "share_opposite_polarity_yn": 0.5110619469026548,
+        "auroc": {
+          "full": {
+            "auroc": 0.6817634505442869,
+            "ci": [
+              0.6427535682120762,
+              0.7219913707024825
+            ],
+            "pair_acc": 0.6570796460176991,
+            "pair_acc_ci": [
+              0.6121590170131571,
+              0.6993527010924304
+            ]
+          },
+          "qce": {
+            "auroc": 0.6767023651029838,
+            "ci": [
+              0.6336810586185293,
+              0.7186451317644295
+            ],
+            "pair_acc": 0.6393805309734514,
+            "pair_acc_ci": [
+              0.5941090584753624,
+              0.6823027477310042
+            ]
+          },
+          "noimage": {
+            "auroc": 0.6645170921763647,
+            "ci": [
+              0.6222944117589474,
+              0.7041628529054742
+            ],
+            "pair_acc": 0.6238938053097345,
+            "pair_acc_ci": [
+              0.5783681992007208,
+              0.6673311840938272
+            ]
+          }
+        },
+        "full_at_youden": {
+          "threshold": 0.9959865212440491,
+          "n_fn_missed_hallucination": 240,
+          "n_fp_rejected_grounded": 89
+        },
+        "delta_image": {
+          "diff": 0.01724635836792221,
+          "ci": [
+            -0.021335485355157034,
+            0.05096473882058104
+          ]
+        }
+      },
+      "negation": {
+        "n_rows": 462,
+        "n_pairs": 231,
+        "share_yn": 0.987012987012987,
+        "share_opposite_polarity_yn": 1.0,
+        "auroc": {
+          "full": {
+            "auroc": 0.6422949345027267,
+            "ci": [
+              0.5726602762317048,
+              0.7078348419257511
+            ]
+          },
+          "qce": {
+            "auroc": 0.6424729671482918,
+            "ci": [
+              0.5730758419070108,
+              0.703064972545492
+            ]
+          },
+          "noimage": {
+            "auroc": 0.716122261576807,
+            "ci": [
+              0.6503438841101178,
+              0.7793744495043197
+            ]
+          }
+        },
+        "full_at_youden": {
+          "threshold": 0.9950662851333618,
+          "n_fn_missed_hallucination": 126,
+          "n_fp_rejected_grounded": 53
+        },
+        "delta_image": {
+          "diff": -0.07382732707408035,
+          "ci": [
+            -0.13030701261220745,
+            -0.020388017465939517
+          ]
+        }
+      },
+      "laterality": {
+        "n_rows": 88,
+        "n_pairs": 44,
+        "share_yn": 0.5,
+        "share_opposite_polarity_yn": 0.4090909090909091,
+        "auroc": {
+          "full": {
+            "auroc": 0.78099173553719,
+            "ci": [
+              0.661144111570248,
+              0.885885847107438
+            ]
+          },
+          "qce": {
+            "auroc": 0.7097107438016529,
+            "ci": [
+              0.5923682851239669,
+              0.8301652892561983
+            ]
+          },
+          "noimage": {
+            "auroc": 0.7670454545454546,
+            "ci": [
+              0.6486828512396694,
+              0.8745351239669421
+            ]
+          }
+        },
+        "full_at_youden": {
+          "threshold": 0.060541946440935135,
+          "n_fn_missed_hallucination": 7,
+          "n_fp_rejected_grounded": 17
+        },
+        "delta_image": {
+          "diff": 0.013946280991735449,
+          "ci": [
+            -0.08788739669421489,
+            0.10126549586776852
+          ]
+        }
+      },
+      "size_comparison": {
+        "n_rows": 48,
+        "n_pairs": 24,
+        "share_yn": 0.8333333333333334,
+        "share_opposite_polarity_yn": 0.875,
+        "auroc": {
+          "full": {
+            "auroc": 0.671875,
+            "ci": [
+              0.44609375,
+              0.875
+            ]
+          },
+          "qce": {
+            "auroc": 0.6944444444444444,
+            "ci": [
+              0.4598524305555555,
+              0.875
+            ]
+          },
+          "noimage": {
+            "auroc": 0.5659722222222222,
+            "ci": [
+              0.34370659722222224,
+              0.7726562499999999
+            ]
+          }
+        },
+        "full_at_youden": {
+          "threshold": 0.7713882923126221,
+          "n_fn_missed_hallucination": 8,
+          "n_fp_rejected_grounded": 7
+        },
+        "delta_image": {
+          "diff": 0.10590277777777779,
+          "ci": [
+            -0.0625,
+            0.2986545138888889
+          ]
+        }
+      },
+      "size_comparison|image_necessary": {
+        "n_rows": 42,
+        "n_pairs": 21,
+        "share_yn": 0.9523809523809523,
+        "share_opposite_polarity_yn": 1.0,
+        "auroc": {
+          "full": {
+            "auroc": 0.6848072562358276,
+            "ci": [
+              0.42624716553287983,
+              0.9070294784580499
+            ]
+          },
+          "qce": {
+            "auroc": 0.7006802721088435,
+            "ci": [
+              0.48514739229024945,
+              0.8867346938775509
+            ]
+          },
+          "noimage": {
+            "auroc": 0.6190476190476191,
+            "ci": [
+              0.374092970521542,
+              0.8435374149659864
+            ]
+          }
+        },
+        "full_at_youden": {
+          "threshold": 0.7820110321044922,
+          "n_fn_missed_hallucination": 7,
+          "n_fp_rejected_grounded": 6
+        },
+        "delta_image": {
+          "diff": 0.06575963718820854,
+          "ci": [
+            -0.10657596371882083,
+            0.24489795918367346
+          ]
+        }
+      },
+      "lesion_presence": {
+        "n_rows": 216,
+        "n_pairs": 108,
+        "share_yn": 0.4351851851851852,
+        "share_opposite_polarity_yn": 0.4444444444444444,
+        "auroc": {
+          "full": {
+            "auroc": 0.7390260631001371,
+            "ci": [
+              0.6490655006858711,
+              0.8114047496570644
+            ]
+          },
+          "qce": {
+            "auroc": 0.7374828532235941,
+            "ci": [
+              0.6541259430727023,
+              0.8116212277091907
+            ]
+          },
+          "noimage": {
+            "auroc": 0.6596793552812071,
+            "ci": [
+              0.571840706447188,
+              0.7459876543209877
+            ]
+          }
+        },
+        "full_at_youden": {
+          "threshold": 0.9892009496688843,
+          "n_fn_missed_hallucination": 46,
+          "n_fp_rejected_grounded": 21
+        },
+        "delta_image": {
+          "diff": 0.07934670781892994,
+          "ci": [
+            0.005213691700960238,
+            0.1527863511659808
+          ]
+        }
+      },
+      "lesion_presence|image_necessary": {
+        "n_rows": 96,
+        "n_pairs": 48,
+        "share_yn": 0.9583333333333334,
+        "share_opposite_polarity_yn": 1.0,
+        "auroc": {
+          "full": {
+            "auroc": 0.7421875,
+            "ci": [
+              0.6041558159722222,
+              0.8654947916666665
+            ]
+          },
+          "qce": {
+            "auroc": 0.7513020833333334,
+            "ci": [
+              0.6180013020833334,
+              0.8737413194444443
+            ]
+          },
+          "noimage": {
+            "auroc": 0.8016493055555556,
+            "ci": [
+              0.6761935763888889,
+              0.9097439236111111
+            ]
+          }
+        },
+        "full_at_youden": {
+          "threshold": 0.2944605350494385,
+          "n_fn_missed_hallucination": 12,
+          "n_fp_rejected_grounded": 19
+        },
+        "delta_image": {
+          "diff": -0.05946180555555558,
+          "ci": [
+            -0.16718749999999996,
+            0.038671874999999946
+          ]
+        }
+      },
+      "other": {
+        "n_rows": 552,
+        "n_pairs": 276,
+        "share_yn": 0.5652173913043478,
+        "share_opposite_polarity_yn": 0.5217391304347826,
+        "auroc": {
+          "full": {
+            "auroc": 0.6516291220331863,
+            "ci": [
+              0.5914971578975005,
+              0.701067429374081
+            ]
+          },
+          "qce": {
+            "auroc": 0.6508217811384164,
+            "ci": [
+              0.594049306868305,
+              0.7013629620877967
+            ]
+          },
+          "noimage": {
+            "auroc": 0.6576283868935098,
+            "ci": [
+              0.6006284787859694,
+              0.7175511315900021
+            ]
+          }
+        },
+        "full_at_youden": {
+          "threshold": 0.9962361454963684,
+          "n_fn_missed_hallucination": 152,
+          "n_fp_rejected_grounded": 61
+        },
+        "delta_image": {
+          "diff": -0.005999264860323428,
+          "ci": [
+            -0.05450683286074349,
+            0.03892466131064906
+          ]
+        }
+      }
+    },
+    "audit": {
+      "negation": [
+        {
+          "question": "is this mri with contrast or without contrast?",
+          "answer": "with contrast",
+          "label": 0,
+          "keywords": [
+            "without"
+          ]
+        },
+        {
+          "question": "is this mri with contrast or without contrast?",
+          "answer": "non-contrast ct",
+          "label": 1,
+          "keywords": [
+            "without"
+          ]
+        },
+        {
+          "question": "was this mri taken with or without contrast?",
+          "answer": "with contrast",
+          "label": 0,
+          "keywords": [
+            "without"
+          ]
+        },
+        {
+          "question": "was this mri taken with or without contrast?",
+          "answer": "lower lung fields",
+          "label": 1,
+          "keywords": [
+            "without"
+          ]
+        },
+        {
+          "question": "why are the chostrochondral junctions not seen on this film?",
+          "answer": "cartilage is not well viewed by x rays",
+          "label": 0,
+          "keywords": [
+            "not"
+          ]
+        },
+        {
+          "question": "why are the chostrochondral junctions not seen on this film?",
+          "answer": "thalami, left occipital lobe, brainstem and left cerebellum",
+          "label": 1,
+          "keywords": [
+            "not"
+          ]
+        },
+        {
+          "question": "how can you tell there is no pneumothorax present?",
+          "answer": "lung markings present all the way laterally to the ribs",
+          "label": 0,
+          "keywords": [
+            "no"
+          ]
+        },
+        {
+          "question": "how can you tell there is no pneumothorax present?",
+          "answer": "blind-ending loop of bowel arising from the cecum",
+          "label": 1,
+          "keywords": [
+            "no"
+          ]
+        }
+      ],
+      "laterality": [
+        {
+          "question": "why is the left hemithorax more lucent?",
+          "answer": "decreased muscle bulk",
+          "label": 0,
+          "keywords": [
+            "left"
+          ]
+        },
+        {
+          "question": "why is the left hemithorax more lucent?",
+          "answer": "oral and iv",
+          "label": 1,
+          "keywords": [
+            "left"
+          ]
+        },
+        {
+          "question": "is the mass in the left or right side?",
+          "answer": "left",
+          "label": 0,
+          "keywords": [
+            "left",
+            "right",
+            "side"
+          ]
+        },
+        {
+          "question": "is the mass in the left or right side?",
+          "answer": "cardiopulmonary",
+          "label": 1,
+          "keywords": [
+            "left",
+            "right",
+            "side"
+          ]
+        },
+        {
+          "question": "which side is the diaphragm more depressed?",
+          "answer": "left",
+          "label": 0,
+          "keywords": [
+            "side"
+          ]
+        },
+        {
+          "question": "which side is the diaphragm more depressed?",
+          "answer": "mri-dwi",
+          "label": 1,
+          "keywords": [
+            "side"
+          ]
+        },
+        {
+          "question": "are the lateral ventricles viewed in this section?",
+          "answer": "yes",
+          "label": 0,
+          "keywords": [
+            "lateral"
+          ]
+        },
+        {
+          "question": "are the lateral ventricles viewed in this section?",
+          "answer": "no",
+          "label": 1,
+          "keywords": [
+            "lateral"
+          ]
+        },
+        {
+          "question": "is the left renal cyst uniform?",
+          "answer": "yes",
+          "label": 0,
+          "keywords": [
+            "left"
+          ]
+        },
+        {
+          "question": "is the left renal cyst uniform?",
+          "answer": "no",
+          "label": 1,
+          "keywords": [
+            "left"
+          ]
+        },
+        {
+          "question": "which side is the abnormality on?",
+          "answer": "right",
+          "label": 0,
+          "keywords": [
+            "side"
+          ]
+        },
+        {
+          "question": "which side is the abnormality on?",
+          "answer": "intestine",
+          "label": 1,
+          "keywords": [
+            "side"
+          ]
+        }
+      ],
+      "size_comparison": [
+        {
+          "question": "how large is the mass?",
+          "answer": "5cm",
+          "label": 0,
+          "keywords": [
+            "large"
+          ]
+        },
+        {
+          "question": "how large is the mass?",
+          "answer": "12",
+          "label": 1,
+          "keywords": [
+            "large"
+          ]
+        },
+        {
+          "question": "what is the size of the lesion",
+          "answer": "almost entire right side",
+          "label": 0,
+          "keywords": [
+            "size"
+          ]
+        },
+        {
+          "question": "what is the size of the lesion",
+          "answer": "the left occipital lobe",
+          "label": 1,
+          "keywords": [
+            "size"
+          ]
+        },
+        {
+          "question": "are the ventricles smaller than normal?",
+          "answer": "yes",
+          "label": 0,
+          "keywords": [
+            "smaller"
+          ]
+        },
+        {
+          "question": "are the ventricles smaller than normal?",
+          "answer": "no",
+          "label": 1,
+          "keywords": [
+            "smaller"
+          ]
+        },
+        {
+          "question": "is the gall bladder enlarged?",
+          "answer": "no",
+          "label": 0,
+          "keywords": [
+            "enlarged"
+          ]
+        },
+        {
+          "question": "is the gall bladder enlarged?",
+          "answer": "yes",
+          "label": 1,
+          "keywords": [
+            "enlarged"
+          ]
+        },
+        {
+          "question": "are the lymph nodes enlarged",
+          "answer": "yes",
+          "label": 0,
+          "keywords": [
+            "enlarged"
+          ]
+        },
+        {
+          "question": "are the lymph nodes enlarged",
+          "answer": "no",
+          "label": 1,
+          "keywords": [
+            "enlarged"
+          ]
+        },
+        {
+          "question": "is the cardiac silhouette enlarged?",
+          "answer": "yes",
+          "label": 0,
+          "keywords": [
+            "enlarged"
+          ]
+        },
+        {
+          "question": "is the cardiac silhouette enlarged?",
+          "answer": "no",
+          "label": 1,
+          "keywords": [
+            "enlarged"
+          ]
+        }
+      ],
+      "lesion_presence": [
+        {
+          "question": "which organ system is abnormal in this image?",
+          "answer": "cardiovascular",
+          "label": 0,
+          "keywords": [
+            "abnormal"
+          ]
+        },
+        {
+          "question": "which organ system is abnormal in this image?",
+          "answer": "right",
+          "label": 1,
+          "keywords": [
+            "abnormal"
+          ]
+        },
+        {
+          "question": "is the mass heterogenous?",
+          "answer": "yes",
+          "label": 0,
+          "keywords": [
+            "mass"
+          ]
+        },
+        {
+          "question": "is the mass heterogenous?",
+          "answer": "no",
+          "label": 1,
+          "keywords": [
+            "mass"
+          ]
+        },
+        {
+          "question": "is the mass heterogenous in consistency?",
+          "answer": "yes",
+          "label": 0,
+          "keywords": [
+            "mass"
+          ]
+        },
+        {
+          "question": "is the mass heterogenous in consistency?",
+          "answer": "no",
+          "label": 1,
+          "keywords": [
+            "mass"
+          ]
+        },
+        {
+          "question": "what is the location of the mass?",
+          "answer": "left rectus abdominus",
+          "label": 0,
+          "keywords": [
+            "mass"
+          ]
+        },
+        {
+          "question": "what is the location of the mass?",
+          "answer": "left hepatic lobe",
+          "label": 1,
+          "keywords": [
+            "mass"
+          ]
+        },
+        {
+          "question": "where is the mass?",
+          "answer": "left rectus abdominus",
+          "label": 0,
+          "keywords": [
+            "mass"
+          ]
+        },
+        {
+          "question": "where is the mass?",
+          "answer": "kidney cyst",
+          "label": 1,
+          "keywords": [
+            "mass"
+          ]
+        },
+        {
+          "question": "is there intrahepatic ductal dilatation?",
+          "answer": "yes",
+          "label": 0,
+          "keywords": [
+            "dilatation"
+          ]
+        },
+        {
+          "question": "is there intrahepatic ductal dilatation?",
+          "answer": "no",
+          "label": 1,
+          "keywords": [
+            "dilatation"
+          ]
+        }
+      ]
+    }
+  },
+  "path_vqa": {
+    "ds": "path_vqa",
+    "level": "L4_fair",
+    "n_rows": 2380,
+    "n_pairs": 1190,
+    "share_opposite_polarity_yn": 0.5210084033613446,
+    "types": {
+      "ALL": {
+        "n_rows": 2380,
+        "n_pairs": 1190,
+        "share_yn": 0.5210084033613446,
+        "share_opposite_polarity_yn": 0.5210084033613446,
+        "auroc": {
+          "full": {
+            "auroc": 0.9059565002471578,
+            "ci": [
+              0.8903827060235859,
+              0.9202179401172234
+            ],
+            "pair_acc": 0.8495798319327731,
+            "pair_acc_ci": [
+              0.8281451668666054,
+              0.8687647079442571
+            ]
+          },
+          "qce": {
+            "auroc": 0.9040742179224632,
+            "ci": [
+              0.8885885530682861,
+              0.9177369977402726
+            ],
+            "pair_acc": 0.8470588235294118,
+            "pair_acc_ci": [
+              0.8254940613586419,
+              0.8663900210857962
+            ]
+          },
+          "noimage": {
+            "auroc": 0.8473730668738083,
+            "ci": [
+              0.827348765976979,
+              0.8646494333027329
+            ],
+            "pair_acc": 0.7596638655462185,
+            "pair_acc_ci": [
+              0.7345755628154275,
+              0.783081050926295
+            ]
+          }
+        },
+        "full_at_youden": {
+          "threshold": 0.6738814115524292,
+          "n_fn_missed_hallucination": 222,
+          "n_fp_rejected_grounded": 197
+        },
+        "delta_image": {
+          "diff": 0.05858343337334948,
+          "ci": [
+            0.04351655073794225,
+            0.07327806122448986
+          ]
+        }
+      },
+      "negation": {
+        "n_rows": 1240,
+        "n_pairs": 620,
+        "share_yn": 1.0,
+        "share_opposite_polarity_yn": 1.0,
+        "auroc": {
+          "full": {
+            "auroc": 0.94528616024974,
+            "ci": [
+              0.9293165972944849,
+              0.9597887617065557
+            ]
+          },
+          "qce": {
+            "auroc": 0.9438397502601457,
+            "ci": [
+              0.9278584482310094,
+              0.9582211238293444
+            ]
+          },
+          "noimage": {
+            "auroc": 0.9434599375650364,
+            "ci": [
+              0.9238114594172736,
+              0.9595543704474505
+            ]
+          }
+        },
+        "full_at_youden": {
+          "threshold": 0.36963212490081787,
+          "n_fn_missed_hallucination": 78,
+          "n_fp_rejected_grounded": 84
+        },
+        "delta_image": {
+          "diff": 0.00182622268470356,
+          "ci": [
+            -0.011181711758584862,
+            0.015100546305931368
+          ]
+        }
+      },
+      "size_comparison": {
+        "n_rows": 58,
+        "n_pairs": 29,
+        "share_yn": 0.8275862068965517,
+        "share_opposite_polarity_yn": 0.8275862068965517,
+        "auroc": {
+          "full": {
+            "auroc": 0.9809750297265161,
+            "ci": [
+              0.9215219976218787,
+              1.0
+            ]
+          },
+          "qce": {
+            "auroc": 0.976218787158145,
+            "ci": [
+              0.9298156956004757,
+              1.0
+            ]
+          },
+          "noimage": {
+            "auroc": 0.9643281807372176,
+            "ci": [
+              0.9120095124851367,
+              0.9976218787158145
+            ]
+          }
+        },
+        "full_at_youden": {
+          "threshold": 0.8190019130706787,
+          "n_fn_missed_hallucination": 2,
+          "n_fp_rejected_grounded": 1
+        },
+        "delta_image": {
+          "diff": 0.01664684898929847,
+          "ci": [
+            -0.03210463733650415,
+            0.0713436385255648
+          ]
+        }
+      },
+      "size_comparison|image_necessary": {
+        "n_rows": 48,
+        "n_pairs": 24,
+        "share_yn": 1.0,
+        "share_opposite_polarity_yn": 1.0,
+        "auroc": {
+          "full": {
+            "auroc": 0.984375,
+            "ci": [
+              0.9322482638888888,
+              1.0
+            ]
+          },
+          "qce": {
+            "auroc": 0.9965277777777777,
+            "ci": [
+              0.9739583333333334,
+              1.0
+            ]
+          },
+          "noimage": {
+            "auroc": 1.0,
+            "ci": [
+              1.0,
+              1.0
+            ]
+          }
+        },
+        "full_at_youden": {
+          "threshold": 0.9054276347160339,
+          "n_fn_missed_hallucination": 2,
+          "n_fp_rejected_grounded": 1
+        },
+        "delta_image": {
+          "diff": -0.015625,
+          "ci": [
+            -0.06770833333333337,
+            0.0
+          ]
+        }
+      },
+      "lesion_presence": {
+        "n_rows": 282,
+        "n_pairs": 141,
+        "share_yn": 0.8368794326241135,
+        "share_opposite_polarity_yn": 0.8368794326241135,
+        "auroc": {
+          "full": {
+            "auroc": 0.8680146873899702,
+            "ci": [
+              0.8119234444947437,
+              0.9187867813490267
+            ]
+          },
+          "qce": {
+            "auroc": 0.8737236557517226,
+            "ci": [
+              0.8125647603239273,
+              0.9210936321110608
+            ]
+          },
+          "noimage": {
+            "auroc": 0.8697751622151803,
+            "ci": [
+              0.8099152457119864,
+              0.9273452039635833
+            ]
+          }
+        },
+        "full_at_youden": {
+          "threshold": 0.6823018789291382,
+          "n_fn_missed_hallucination": 33,
+          "n_fp_rejected_grounded": 25
+        },
+        "delta_image": {
+          "diff": -0.0017604748252100233,
+          "ci": [
+            -0.04955107891957147,
+            0.041456667169659504
+          ]
+        }
+      },
+      "lesion_presence|image_necessary": {
+        "n_rows": 236,
+        "n_pairs": 118,
+        "share_yn": 1.0,
+        "share_opposite_polarity_yn": 1.0,
+        "auroc": {
+          "full": {
+            "auroc": 0.8934214306233842,
+            "ci": [
+              0.8261814133869577,
+              0.9452743464521689
+            ]
+          },
+          "qce": {
+            "auroc": 0.8976228095374892,
+            "ci": [
+              0.8355941180695202,
+              0.9478616058603849
+            ]
+          },
+          "noimage": {
+            "auroc": 0.9046251077276646,
+            "ci": [
+              0.8469315570238437,
+              0.9529661016949152
+            ]
+          }
+        },
+        "full_at_youden": {
+          "threshold": 0.6823018789291382,
+          "n_fn_missed_hallucination": 24,
+          "n_fp_rejected_grounded": 17
+        },
+        "delta_image": {
+          "diff": -0.011203677104280385,
+          "ci": [
+            -0.054231901752369964,
+            0.03383007756391838
+          ]
+        }
+      },
+      "other": {
+        "n_rows": 2024,
+        "n_pairs": 1012,
+        "share_yn": 0.466403162055336,
+        "share_opposite_polarity_yn": 0.466403162055336,
+        "auroc": {
+          "full": {
+            "auroc": 0.9098574028652221,
+            "ci": [
+              0.895643154185349,
+              0.9240532947515193
+            ]
+          },
+          "qce": {
+            "auroc": 0.9072400951428705,
+            "ci": [
+              0.8922396166945273,
+              0.92020182220469
+            ]
+          },
+          "noimage": {
+            "auroc": 0.8403720570544767,
+            "ci": [
+              0.8192160355379713,
+              0.8584022852255152
+            ]
+          }
+        },
+        "full_at_youden": {
+          "threshold": 0.8079851269721985,
+          "n_fn_missed_hallucination": 211,
+          "n_fp_rejected_grounded": 141
+        },
+        "delta_image": {
+          "diff": 0.06948534581074539,
+          "ci": [
+            0.05325350976034625,
+            0.08666518087300223
+          ]
+        }
+      }
+    },
+    "audit": {
+      "negation": [
+        {
+          "question": "how is hyperplasia without atypia characterized?",
+          "answer": "by nests of closely packed glands",
+          "label": 0,
+          "keywords": [
+            "without"
+          ]
+        },
+        {
+          "question": "how is hyperplasia without atypia characterized?",
+          "answer": "recurrent hepatitis c virus",
+          "label": 1,
+          "keywords": [
+            "without"
+          ]
+        },
+        {
+          "question": "is hyperplasia without atypia characterized by nests of closely packed glands?",
+          "answer": "yes",
+          "label": 0,
+          "keywords": [
+            "without"
+          ]
+        },
+        {
+          "question": "is hyperplasia without atypia characterized by nests of closely packed glands?",
+          "answer": "no",
+          "label": 1,
+          "keywords": [
+            "without"
+          ]
+        },
+        {
+          "question": "does plaque rupture without show marked synovial hypertrophy with formation of villi?",
+          "answer": "no",
+          "label": 0,
+          "keywords": [
+            "without"
+          ]
+        },
+        {
+          "question": "does plaque rupture without show marked synovial hypertrophy with formation of villi?",
+          "answer": "yes",
+          "label": 1,
+          "keywords": [
+            "without"
+          ]
+        },
+        {
+          "question": "what are well shown though exposure is not the best?",
+          "answer": "red perifollicular amyloid deposits",
+          "label": 0,
+          "keywords": [
+            "not"
+          ]
+        },
+        {
+          "question": "what are well shown though exposure is not the best?",
+          "answer": "a possible precursor lesion",
+          "label": 1,
+          "keywords": [
+            "not"
+          ]
+        },
+        {
+          "question": "what are red perifollicular amyloid deposits is not the best?",
+          "answer": "well shown though exposure",
+          "label": 0,
+          "keywords": [
+            "not"
+          ]
+        },
+        {
+          "question": "what are red perifollicular amyloid deposits is not the best?",
+          "answer": "excellentremote infarct with yellow centers",
+          "label": 1,
+          "keywords": [
+            "not"
+          ]
+        },
+        {
+          "question": "are red perifollicular amyloid deposits well shown though exposure is not the best?",
+          "answer": "yes",
+          "label": 0,
+          "keywords": [
+            "not"
+          ]
+        },
+        {
+          "question": "are red perifollicular amyloid deposits well shown though exposure is not the best?",
+          "answer": "no",
+          "label": 1,
+          "keywords": [
+            "not"
+          ]
+        }
+      ],
+      "laterality": [
+        {
+          "question": "is anencephaly and bilateral cleft palate present?",
+          "answer": "yes",
+          "label": 0,
+          "keywords": [
+            "bilateral"
+          ]
+        },
+        {
+          "question": "is anencephaly and bilateral cleft palate present?",
+          "answer": "no",
+          "label": 1,
+          "keywords": [
+            "bilateral"
+          ]
+        },
+        {
+          "question": "is bilateral cleft palate present?",
+          "answer": "yes",
+          "label": 0,
+          "keywords": [
+            "bilateral"
+          ]
+        },
+        {
+          "question": "is bilateral cleft palate present?",
+          "answer": "no",
+          "label": 1,
+          "keywords": [
+            "bilateral"
+          ]
+        },
+        {
+          "question": "what demonstrates diffuse granular transformation of the surface and marked thinning of the cortex (right)?",
+          "answer": "the bisected kidney",
+          "label": 0,
+          "keywords": [
+            "right"
+          ]
+        },
+        {
+          "question": "what demonstrates diffuse granular transformation of the surface and marked thinning of the cortex (right)?",
+          "answer": "basal skull fracture",
+          "label": 1,
+          "keywords": [
+            "right"
+          ]
+        },
+        {
+          "question": "does the bisected kidney demonstrate diffuse granular transformation of the surface and marked thinning of the cortex (right)?",
+          "answer": "yes",
+          "label": 0,
+          "keywords": [
+            "right"
+          ]
+        },
+        {
+          "question": "does the bisected kidney demonstrate diffuse granular transformation of the surface and marked thinning of the cortex (right)?",
+          "answer": "no",
+          "label": 1,
+          "keywords": [
+            "right"
+          ]
+        },
+        {
+          "question": "does ischemic injury showing surface blebs demonstrate diffuse granular transformation of the surface and marked thinning of the cortex (right)?",
+          "answer": "no",
+          "label": 0,
+          "keywords": [
+            "right"
+          ]
+        },
+        {
+          "question": "does ischemic injury showing surface blebs demonstrate diffuse granular transformation of the surface and marked thinning of the cortex (right)?",
+          "answer": "yes",
+          "label": 1,
+          "keywords": [
+            "right"
+          ]
+        },
+        {
+          "question": "what include some irregular depressions, the result of pyelonephritis, and an incidental cortical cyst far (right)?",
+          "answer": "additional features",
+          "label": 0,
+          "keywords": [
+            "right"
+          ]
+        },
+        {
+          "question": "what include some irregular depressions, the result of pyelonephritis, and an incidental cortical cyst far (right)?",
+          "answer": "brain abscess",
+          "label": 1,
+          "keywords": [
+            "right"
+          ]
+        }
+      ],
+      "size_comparison": [
+        {
+          "question": "does this image show severe body burns 24 hours anasarca?",
+          "answer": "yes",
+          "label": 0,
+          "keywords": [
+            "severe"
+          ]
+        },
+        {
+          "question": "does this image show severe body burns 24 hours anasarca?",
+          "answer": "no",
+          "label": 1,
+          "keywords": [
+            "severe"
+          ]
+        },
+        {
+          "question": "is focal hemorrhagic infarction well shown present?",
+          "answer": "no",
+          "label": 0,
+          "keywords": [
+            "focal"
+          ]
+        },
+        {
+          "question": "is focal hemorrhagic infarction well shown present?",
+          "answer": "yes",
+          "label": 1,
+          "keywords": [
+            "focal"
+          ]
+        },
+        {
+          "question": "does this image show view of head with huge ulcerated mass where tumor grew to outside?",
+          "answer": "yes",
+          "label": 0,
+          "keywords": [
+            "huge"
+          ]
+        },
+        {
+          "question": "does this image show view of head with huge ulcerated mass where tumor grew to outside?",
+          "answer": "no",
+          "label": 1,
+          "keywords": [
+            "huge"
+          ]
+        },
+        {
+          "question": "does cephalohematoma show view of head with huge ulcerated mass where tumor grew to outside?",
+          "answer": "no",
+          "label": 0,
+          "keywords": [
+            "huge"
+          ]
+        },
+        {
+          "question": "does cephalohematoma show view of head with huge ulcerated mass where tumor grew to outside?",
+          "answer": "yes",
+          "label": 1,
+          "keywords": [
+            "huge"
+          ]
+        },
+        {
+          "question": "does this image show extensive lesions?",
+          "answer": "yes",
+          "label": 0,
+          "keywords": [
+            "extensive"
+          ]
+        },
+        {
+          "question": "does this image show extensive lesions?",
+          "answer": "no",
+          "label": 1,
+          "keywords": [
+            "extensive"
+          ]
+        },
+        {
+          "question": "does papillary adenoma show extensive lesions?",
+          "answer": "no",
+          "label": 0,
+          "keywords": [
+            "extensive"
+          ]
+        },
+        {
+          "question": "does papillary adenoma show extensive lesions?",
+          "answer": "yes",
+          "label": 1,
+          "keywords": [
+            "extensive"
+          ]
+        }
+      ],
+      "lesion_presence": [
+        {
+          "question": "is embolus derived from a lower-extremity deep venous thrombus lodged in a pulmonary artery branch?",
+          "answer": "yes",
+          "label": 0,
+          "keywords": [
+            "thrombus"
+          ]
+        },
+        {
+          "question": "is embolus derived from a lower-extremity deep venous thrombus lodged in a pulmonary artery branch?",
+          "answer": "no",
+          "label": 1,
+          "keywords": [
+            "thrombus"
+          ]
+        },
+        {
+          "question": "is mucoepidermoid carcinoma present?",
+          "answer": "no",
+          "label": 0,
+          "keywords": [
+            "carcinoma"
+          ]
+        },
+        {
+          "question": "is mucoepidermoid carcinoma present?",
+          "answer": "yes",
+          "label": 1,
+          "keywords": [
+            "carcinoma"
+          ]
+        },
+        {
+          "question": "is edema present?",
+          "answer": "no",
+          "label": 0,
+          "keywords": [
+            "edema"
+          ]
+        },
+        {
+          "question": "is edema present?",
+          "answer": "yes",
+          "label": 1,
+          "keywords": [
+            "edema"
+          ]
+        },
+        {
+          "question": "is edema lodged in a pulmonary artery branch?",
+          "answer": "no",
+          "label": 0,
+          "keywords": [
+            "edema"
+          ]
+        },
+        {
+          "question": "is edema lodged in a pulmonary artery branch?",
+          "answer": "yes",
+          "label": 1,
+          "keywords": [
+            "edema"
+          ]
+        },
+        {
+          "question": "does hemorrhage associated with placental abruption show source of granulomatous colitis?",
+          "answer": "no",
+          "label": 0,
+          "keywords": [
+            "hemorrhage"
+          ]
+        },
+        {
+          "question": "does hemorrhage associated with placental abruption show source of granulomatous colitis?",
+          "answer": "yes",
+          "label": 1,
+          "keywords": [
+            "hemorrhage"
+          ]
+        },
+        {
+          "question": "is heel ulcer present?",
+          "answer": "no",
+          "label": 0,
+          "keywords": [
+            "ulcer"
+          ]
+        },
+        {
+          "question": "is heel ulcer present?",
+          "answer": "yes",
+          "label": 1,
+          "keywords": [
+            "ulcer"
+          ]
+        }
+      ]
+    }
+  },
+  "omni": {
+    "ds": "omni",
+    "level": "L4_fair",
+    "n_rows": 802,
+    "n_pairs": 401,
+    "share_opposite_polarity_yn": 0.032418952618453865,
+    "types": {
+      "ALL": {
+        "n_rows": 802,
+        "n_pairs": 401,
+        "share_yn": 0.11970074812967581,
+        "share_opposite_polarity_yn": 0.032418952618453865,
+        "auroc": {
+          "full": {
+            "auroc": 0.9658397646780803,
+            "ci": [
+              0.9511206397970161,
+              0.9776453504642384
+            ],
+            "pair_acc": 0.9476309226932669,
+            "pair_acc_ci": [
+              0.9212709411853732,
+              0.9654956361624092
+            ]
+          },
+          "qce": {
+            "auroc": 0.9578049887749454,
+            "ci": [
+              0.9420813614343194,
+              0.9725040578105857
+            ],
+            "pair_acc": 0.9551122194513716,
+            "pair_acc_ci": [
+              0.9301664929167291,
+              0.9714206957516289
+            ]
+          },
+          "noimage": {
+            "auroc": 0.9263064284426092,
+            "ci": [
+              0.9078341397130615,
+              0.946469704790393
+            ],
+            "pair_acc": 0.8952618453865336,
+            "pair_acc_ci": [
+              0.8614471103956945,
+              0.9215751877080576
+            ]
+          }
+        },
+        "full_at_youden": {
+          "threshold": 0.6465443968772888,
+          "n_fn_missed_hallucination": 41,
+          "n_fp_rejected_grounded": 7
+        },
+        "delta_image": {
+          "diff": 0.03953333623547106,
+          "ci": [
+            0.022484779323511728,
+            0.0579133525289022
+          ]
+        }
+      },
+      "lesion_presence": {
+        "n_rows": 186,
+        "n_pairs": 93,
+        "share_yn": 0.16129032258064516,
+        "share_opposite_polarity_yn": 0.053763440860215055,
+        "auroc": {
+          "full": {
+            "auroc": 0.9620765406405365,
+            "ci": [
+              0.9311972482367903,
+              0.9844086021505376
+            ]
+          },
+          "qce": {
+            "auroc": 0.9498207885304659,
+            "ci": [
+              0.9181090299456585,
+              0.9844114926581107
+            ]
+          },
+          "noimage": {
+            "auroc": 0.8991790958492311,
+            "ci": [
+              0.8528110186148687,
+              0.9396013990056653
+            ]
+          }
+        },
+        "full_at_youden": {
+          "threshold": 0.6600706577301025,
+          "n_fn_missed_hallucination": 12,
+          "n_fp_rejected_grounded": 2
+        },
+        "delta_image": {
+          "diff": 0.06289744479130543,
+          "ci": [
+            0.022852352873164537,
+            0.10978581338883106
+          ]
+        }
+      },
+      "other": {
+        "n_rows": 616,
+        "n_pairs": 308,
+        "share_yn": 0.10714285714285714,
+        "share_opposite_polarity_yn": 0.025974025974025976,
+        "auroc": {
+          "full": {
+            "auroc": 0.9665626581210996,
+            "ci": [
+              0.9490673490470568,
+              0.9803231468207118
+            ]
+          },
+          "qce": {
+            "auroc": 0.9598688649013324,
+            "ci": [
+              0.9408590192275257,
+              0.9761977673300726
+            ]
+          },
+          "noimage": {
+            "auroc": 0.9336313037611739,
+            "ci": [
+              0.9120908616545791,
+              0.9524287400910778
+            ]
+          }
+        },
+        "full_at_youden": {
+          "threshold": 0.45011210441589355,
+          "n_fn_missed_hallucination": 26,
+          "n_fp_rejected_grounded": 7
+        },
+        "delta_image": {
+          "diff": 0.03293135435992578,
+          "ci": [
+            0.01724350122280317,
+            0.0515765991313881
+          ]
+        }
+      }
+    },
+    "audit": {
+      "negation": [],
+      "laterality": [],
+      "size_comparison": [],
+      "lesion_presence": [
+        {
+          "question": "What is the abnormality present in the image?",
+          "answer": "Airspace opacity",
+          "label": 0,
+          "keywords": [
+            "abnormality"
+          ]
+        },
+        {
+          "question": "What is the abnormality present in the image?",
+          "answer": "thyroid nodule",
+          "label": 1,
+          "keywords": [
+            "abnormality"
+          ]
+        },
+        {
+          "question": "What is the abnormality present in the image?",
+          "answer": "Airspace opacity",
+          "label": 0,
+          "keywords": [
+            "abnormality"
+          ]
+        },
+        {
+          "question": "What is the abnormality present in the image?",
+          "answer": "Bowel abnormality",
+          "label": 1,
+          "keywords": [
+            "abnormality"
+          ]
+        },
+        {
+          "question": "Is there any sign of abnormality seen in this image?",
+          "answer": "No",
+          "label": 0,
+          "keywords": [
+            "abnormality"
+          ]
+        },
+        {
+          "question": "Is there any sign of abnormality seen in this image?",
+          "answer": "Yes",
+          "label": 1,
+          "keywords": [
+            "abnormality"
+          ]
+        },
+        {
+          "question": "What type of abnormality is present in this image?",
+          "answer": "Ovarian pathology",
+          "label": 0,
+          "keywords": [
+            "abnormality"
+          ]
+        },
+        {
+          "question": "What type of abnormality is present in this image?",
+          "answer": "Actinic keratosis",
+          "label": 1,
+          "keywords": [
+            "abnormality"
+          ]
+        },
+        {
+          "question": "What does the imaging study reveal as abnormal?",
+          "answer": "Bowel abnormality",
+          "label": 0,
+          "keywords": [
+            "abnormal"
+          ]
+        },
+        {
+          "question": "What does the imaging study reveal as abnormal?",
+          "answer": "Vertical eye axis.",
+          "label": 1,
+          "keywords": [
+            "abnormal"
+          ]
+        },
+        {
+          "question": "What type of abnormality is present in this image?",
+          "answer": "Bowel mass",
+          "label": 0,
+          "keywords": [
+            "abnormality"
+          ]
+        },
+        {
+          "question": "What type of abnormality is present in this image?",
+          "answer": "Severe diabetic retinopathy.",
+          "label": 1,
+          "keywords": [
+            "abnormality"
+          ]
+        }
+      ]
+    }
+  }
+}

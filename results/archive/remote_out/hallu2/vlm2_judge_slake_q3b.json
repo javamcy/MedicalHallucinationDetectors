@@ -1,0 +1,29 @@
+{
+  "L0_leaky": {
+    "ds": "slake",
+    "level": "L0_leaky",
+    "tag": "q3b",
+    "n_test": 2004,
+    "judge": 0.7225939353823856,
+    "judge_raw": 0.27740606461761447,
+    "answer_nll": 0.7846970033783144
+  },
+  "L1_imgsplit": {
+    "ds": "slake",
+    "level": "L1_imgsplit",
+    "tag": "q3b",
+    "n_test": 2008,
+    "judge": 0.7086742670751258,
+    "judge_raw": 0.2913257329248742,
+    "answer_nll": 0.7977323772638529
+  },
+  "L4_fair": {
+    "ds": "slake",
+    "level": "L4_fair",
+    "tag": "q3b",
+    "n_test": 2008,
+    "judge": 0.7348434945477056,
+    "judge_raw": 0.2651565054522944,
+    "answer_nll": 0.7329586038316853
+  }
+}

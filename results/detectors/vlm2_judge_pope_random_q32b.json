@@ -1,0 +1,11 @@
+{
+  "L4_fair": {
+    "ds": "pope_random",
+    "level": "L4_fair",
+    "tag": "q32b",
+    "n_test": 1200,
+    "judge": 0.7508833333333333,
+    "judge_raw": 0.24911666666666668,
+    "answer_nll": 0.823325
+  }
+}

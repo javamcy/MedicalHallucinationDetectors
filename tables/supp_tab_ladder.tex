@@ -1,0 +1,34 @@
+\small
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{lcccccc}
+\toprule
+Protocol rung & Full detector & No-image & $\Delta_{\mathrm{no\,img}}$ & Recovered & Text-only & CLIPScore (CLIP-L/14) / \\
+ & $[\mathbf{g},\mathbf{a},\mathbf{q}]$ & $[\mathbf{a},\mathbf{q}]$ & & (\%) & oracle & max patch \\
+\midrule
+\multicolumn{7}{l}{\emph{VQA-RAD} \;($n_{\mathrm{test}}$ = 898--904 rows, 449--452 pairs)} \\
+\textbf{L0} uniform negatives, pair split & 0.788 [0.761, 0.818] & 0.780 & +0.008 & 99 & 0.629 & 0.507 / 0.516 \\
+\textbf{L1} $+$ image-level split & 0.796 [0.766, 0.823] & 0.777 & +0.019 & 98 & 0.587 & 0.500 / 0.515 \\
+\textbf{L2} $+$ length match ($\pm2$) & 0.772 [0.741, 0.802] & 0.744 & +0.028 & 96 & 0.565 & 0.504 / 0.517 \\
+\textbf{L3} $+$ format match & 0.685 [0.651, 0.717] & 0.694 & -0.009 & 101 & 0.543 & 0.533 / 0.533 \\
+\textbf{L4} $+$ length \& format \;(matched) & 0.682 [0.648, 0.719] & 0.665 & +0.017 & 97 & 0.513 & 0.533 / 0.530 \\
+\textbf{L5} matched, pair split & 0.787 [0.755, 0.818] & 0.730 & +0.056 & 93 & 0.536 & 0.533 / 0.532 \\
+\addlinespace[2pt]
+\multicolumn{7}{l}{\emph{Path-VQA} \;($n_{\mathrm{test}}$ = 2380--2400 rows, 1190--1200 pairs)} \\
+\textbf{L0} uniform negatives, pair split & 0.947 [0.938, 0.955] & 0.925 & +0.022 & 98 & 0.833 & 0.501 / 0.508 \\
+\textbf{L1} $+$ image-level split & 0.954 [0.946, 0.962] & 0.923 & +0.031 & 97 & 0.832 & 0.504 / 0.512 \\
+\textbf{L2} $+$ length match ($\pm2$) & 0.941 [0.932, 0.949] & 0.909 & +0.032 & 97 & 0.818 & 0.503 / 0.512 \\
+\textbf{L3} $+$ format match & 0.914 [0.902, 0.925] & 0.849 & +0.065 & 93 & 0.687 & 0.519 / 0.522 \\
+\textbf{L4} $+$ length \& format \;(matched) & 0.906 [0.893, 0.918] & 0.847 & +0.059 & 94 & 0.697 & 0.524 / 0.527 \\
+\textbf{L5} matched, pair split & 0.915 [0.904, 0.926] & 0.842 & +0.073 & 92 & 0.680 & 0.519 / 0.521 \\
+\addlinespace[2pt]
+\multicolumn{7}{l}{\emph{OmniMed-VQA-mini} \;($n_{\mathrm{test}}$ = 800--802 rows, 400--401 pairs)} \\
+\textbf{L0} uniform negatives, pair split & 0.929 [0.907, 0.949] & 0.918 & +0.011 & 99 & 0.735 & 0.758 / 0.654 \\
+\textbf{L1} $+$ image-level split & 0.976 [0.965, 0.985] & 0.949 & +0.027 & 97 & 0.772 & 0.756 / 0.654 \\
+\textbf{L2} $+$ length match ($\pm2$) & 0.980 [0.970, 0.988] & 0.929 & +0.050 & 95 & 0.758 & 0.742 / 0.645 \\
+\textbf{L3} $+$ format match & 0.959 [0.945, 0.973] & 0.916 & +0.044 & 95 & 0.771 & 0.730 / 0.635 \\
+\textbf{L4} $+$ length \& format \;(matched) & 0.966 [0.952, 0.978] & 0.926 & +0.040 & 96 & 0.769 & 0.732 / 0.638 \\
+\textbf{L5} matched, pair split & 0.915 [0.895, 0.933] & 0.895 & +0.020 & 98 & 0.724 & 0.725 / 0.632 \\
+\textbf{L6} authored negatives & 0.970 [0.959, 0.980] & 0.970 & +0.000 & 100 & 0.987 & 0.663 / 0.600 \\
+\addlinespace[2pt]
+\bottomrule
+\end{tabular}}

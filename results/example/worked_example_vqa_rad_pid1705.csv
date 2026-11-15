@@ -1,0 +1,6 @@
+level,constraint,negative_answer,grounded_score,hallucinated_score,detector_outcome
+L0,none,one,0.318,0.983,flagged
+L1,none,subarachnoid,0.627,1.0,flagged
+L2,length +-2,axial,0.976,1.0,flagged
+L3,format,yes,0.998,0.0,missed
+L4,length + format,yes,0.963,0.009,missed

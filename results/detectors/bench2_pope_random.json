@@ -1,0 +1,68 @@
+{
+  "native": {
+    "ds": "pope_random",
+    "level": "native",
+    "n_rows": 6000,
+    "n_train": 3600,
+    "n_val": 1200,
+    "n_test": 1200,
+    "pos_test": 600,
+    "audit": {
+      "pope_native": 3000
+    },
+    "split": "gid",
+    "shortcut_gbm": 0.6556694444444445,
+    "clipscore": 0.5,
+    "maxpatch": 0.5,
+    "mlp": 0.9195833333333334,
+    "qce": 0.9251111111111111,
+    "mlp_noimage": 0.7641305555555555,
+    "phrase_fc": 0.5,
+    "cebag": 0.5,
+    "prove": 0.5
+  },
+  "native_row": {
+    "ds": "pope_random",
+    "level": "native_row",
+    "n_rows": 6000,
+    "n_train": 3600,
+    "n_val": 1200,
+    "n_test": 1200,
+    "pos_test": 578,
+    "audit": {
+      "pope_native": 3000
+    },
+    "split": "row",
+    "shortcut_gbm": 0.6638091211517706,
+    "clipscore": 0.5167210916899387,
+    "maxpatch": 0.5047605669845013,
+    "mlp": 0.9503276627465815,
+    "qce": 0.9302019937916532,
+    "mlp_noimage": 0.7833448302718098,
+    "phrase_fc": 0.4906109881062317,
+    "cebag": 0.4708816853770069,
+    "prove": 0.5124431179697149
+  },
+  "leaky": {
+    "ds": "pope_random",
+    "level": "leaky",
+    "n_rows": 6000,
+    "n_train": 3600,
+    "n_val": 1200,
+    "n_test": 1200,
+    "pos_test": 600,
+    "audit": {
+      "pope_unmatched": 3000
+    },
+    "split": "gid",
+    "shortcut_gbm": 0.6556694444444445,
+    "clipscore": 0.5,
+    "maxpatch": 0.5,
+    "mlp": 0.9195833333333334,
+    "qce": 0.9251111111111111,
+    "mlp_noimage": 0.7641305555555555,
+    "phrase_fc": 0.5,
+    "cebag": 0.5,
+    "prove": 0.5
+  }
+}

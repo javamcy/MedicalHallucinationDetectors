@@ -1,0 +1,12 @@
+{
+  "ds": "path_vqa",
+  "mode": "pixelshuffle",
+  "variant": "partial",
+  "seed": 0,
+  "best_epoch": 1,
+  "best_val_auroc": 0.9119509299564701,
+  "n": 1676,
+  "auroc_full": 0.9065388953127403,
+  "auroc_zeroed": 0.7529220612778464,
+  "auroc_shuffle": 0.7567341265998713
+}

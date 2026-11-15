@@ -1,0 +1,7 @@
+{
+  "ds": "vqa_rad",
+  "level": "L4_fair",
+  "n_test": 904,
+  "clipscore_official": 0.5337022280523143,
+  "biomedclip_official": null
+}

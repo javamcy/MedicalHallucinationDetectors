@@ -1,0 +1,2328 @@
+{
+  "vqa_rad|L4_fair": {
+    "by_qtype": {
+      "other": {
+        "n": 58,
+        "pos": 29,
+        "mlp": 0.7931034482758621,
+        "qce": 0.7395957193816884,
+        "clipscore": 0.6753864447086801,
+        "maxpatch": 0.5755053507728894
+      },
+      "what": {
+        "n": 218,
+        "pos": 109,
+        "mlp": 0.6905984344752126,
+        "qce": 0.6926184664590522,
+        "clipscore": 0.6411076508711387,
+        "maxpatch": 0.613416379092669
+      },
+      "where": {
+        "n": 58,
+        "pos": 29,
+        "mlp": 0.7990487514863258,
+        "qce": 0.7728894173602853,
+        "clipscore": 0.6730083234244948,
+        "maxpatch": 0.7253269916765754
+      },
+      "which": {
+        "n": 48,
+        "pos": 24,
+        "mlp": 0.7864583333333333,
+        "qce": 0.7743055555555556,
+        "clipscore": 0.484375,
+        "maxpatch": 0.46701388888888895
+      },
+      "yes_no": {
+        "n": 490,
+        "pos": 245,
+        "mlp": 0.6433402748854644,
+        "qce": 0.6398167430237401,
+        "clipscore": 0.5022740524781342,
+        "maxpatch": 0.5025072886297376
+      },
+      "ALL": {
+        "n": 904,
+        "pos": 452,
+        "mlp": 0.6817634505442869,
+        "qce": 0.6767023651029838,
+        "clipscore": 0.5392625695042681,
+        "maxpatch": 0.5473730323439581
+      }
+    },
+    "errors": {
+      "mlp": {
+        "threshold": 0.9959865212440491,
+        "n_fp": 89,
+        "n_fn": 240,
+        "yesno_share_of_fn": 0.5625,
+        "frac_yesno": 0.5420353982300885
+      },
+      "qce": {
+        "threshold": 0.78998863697052,
+        "n_fp": 143,
+        "n_fn": 185,
+        "yesno_share_of_fn": 0.6,
+        "frac_yesno": 0.5420353982300885
+      }
+    },
+    "cases": {
+      "mlp": {
+        "false_negatives_missed_hallucinations": [
+          {
+            "qt": "yes_no",
+            "question": "is there gall bladder pathology?",
+            "answer": "yes",
+            "modality": "unknown",
+            "score": 0.9959865212440491,
+            "match": "type+len2"
+          },
+          {
+            "qt": "yes_no",
+            "question": "is the cardiac silhouette enlarged?",
+            "answer": "no",
+            "modality": "unknown",
+            "score": 0.9954984188079834,
+            "match": "type+len2"
+          },
+          {
+            "qt": "yes_no",
+            "question": "is the mass in the liver regular or irregular in contour?",
+            "answer": "cardiopulmonary",
+            "modality": "unknown",
+            "score": 0.9953595995903015,
+            "match": "type+len2"
+          },
+          {
+            "qt": "yes_no",
+            "question": "is the heart shadow abnormally large?",
+            "answer": "yes",
+            "modality": "unknown",
+            "score": 0.9950662851333618,
+            "match": "type+len2"
+          },
+          {
+            "qt": "what",
+            "question": "what is the most important abnormality found in this image?",
+            "answer": "paratracheal area",
+            "modality": "unknown",
+            "score": 0.9927331209182739,
+            "match": "type+len2"
+          },
+          {
+            "qt": "what",
+            "question": "what muscle surrounds the vertebrae?",
+            "answer": "bilateral frontal lobes",
+            "modality": "unknown",
+            "score": 0.9925748109817505,
+            "match": "type+len2"
+          },
+          {
+            "qt": "yes_no",
+            "question": "is this in the lumbar vertebral level?",
+            "answer": "no",
+            "modality": "unknown",
+            "score": 0.9914731979370117,
+            "match": "type+len2"
+          },
+          {
+            "qt": "yes_no",
+            "question": "is the gall bladder enlarged?",
+            "answer": "yes",
+            "modality": "unknown",
+            "score": 0.9910948276519775,
+            "match": "type+len2"
+          }
+        ],
+        "false_positives_rejected_grounded_answers": [
+          {
+            "qt": "other",
+            "question": "name one organ that is captured by this image.",
+            "answer": "intestines",
+            "modality": "unknown",
+            "score": 0.9961223006248474,
+            "match": "type+len2"
+          },
+          {
+            "qt": "yes_no",
+            "question": "is this an image of normal physiology?",
+            "answer": "no",
+            "modality": "unknown",
+            "score": 0.9967740178108215,
+            "match": "type+len2"
+          },
+          {
+            "qt": "yes_no",
+            "question": "is the lesion ring enhancing?",
+            "answer": "yes",
+            "modality": "unknown",
+            "score": 0.9968731999397278,
+            "match": "type+len2"
+          },
+          {
+            "qt": "yes_no",
+            "question": "are the kidneys in this image abnormal?",
+            "answer": "yes",
+            "modality": "unknown",
+            "score": 0.9969878792762756,
+            "match": "type+len2"
+          },
+          {
+            "qt": "other",
+            "question": "this image is concerning for what lung pathology?",
+            "answer": "pneumonia",
+            "modality": "unknown",
+            "score": 0.9972948431968689,
+            "match": "type+len2"
+          },
+          {
+            "qt": "yes_no",
+            "question": "is the mass in the left or right side?",
+            "answer": "left",
+            "modality": "unknown",
+            "score": 0.9973747730255127,
+            "match": "type+len2"
+          },
+          {
+            "qt": "what",
+            "question": "what plane is this film",
+            "answer": "coronal",
+            "modality": "unknown",
+            "score": 0.9976502060890198,
+            "match": "type+len2"
+          },
+          {
+            "qt": "what",
+            "question": "what are the black areas at the top of the image?",
+            "answer": "maxillary sinuses",
+            "modality": "unknown",
+            "score": 0.9977080821990967,
+            "match": "type+len2"
+          }
+        ]
+      },
+      "qce": {
+        "false_negatives_missed_hallucinations": [
+          {
+            "qt": "yes_no",
+            "question": "is the gray-white matter junction altered?",
+            "answer": "no",
+            "modality": "unknown",
+            "score": 0.78998863697052,
+            "match": "type+len2"
+          },
+          {
+            "qt": "what",
+            "question": "what is the mass most likely?",
+            "answer": "in the bowels",
+            "modality": "unknown",
+            "score": 0.7674134969711304,
+            "match": "type+len2"
+          },
+          {
+            "qt": "yes_no",
+            "question": "is there bleeding present in this patient's brain?",
+            "answer": "yes",
+            "modality": "unknown",
+            "score": 0.761878490447998,
+            "match": "type+len2"
+          },
+          {
+            "qt": "yes_no",
+            "question": "is there a pneumothorax?",
+            "answer": "yes",
+            "modality": "unknown",
+            "score": 0.757107138633728,
+            "match": "type+len2"
+          },
+          {
+            "qt": "yes_no",
+            "question": "can gray-white differentiation be well assessed with this image?",
+            "answer": "yes",
+            "modality": "unknown",
+            "score": 0.7452569603919983,
+            "match": "type+len2"
+          },
+          {
+            "qt": "what",
+            "question": "what is spared in the left basal ganglia?",
+            "answer": "right side",
+            "modality": "unknown",
+            "score": 0.7315801382064819,
+            "match": "type+len2"
+          },
+          {
+            "qt": "yes_no",
+            "question": "can you see both kidneys in this image?",
+            "answer": "no",
+            "modality": "unknown",
+            "score": 0.730765700340271,
+            "match": "type+len2"
+          },
+          {
+            "qt": "yes_no",
+            "question": "is the cardiac silhouette enlarged?",
+            "answer": "yes",
+            "modality": "unknown",
+            "score": 0.6868147253990173,
+            "match": "type+len2"
+          }
+        ],
+        "false_positives_rejected_grounded_answers": [
+          {
+            "qt": "where",
+            "question": "where is the lesion located?",
+            "answer": "left occipital lobe",
+            "modality": "unknown",
+            "score": 0.8205344676971436,
+            "match": "type+len2"
+          },
+          {
+            "qt": "what",
+            "question": "what type of mri is the above image?",
+            "answer": "dwi",
+            "modality": "unknown",
+            "score": 0.8229150772094727,
+            "match": "type+len2"
+          },
+          {
+            "qt": "yes_no",
+            "question": "are the lower lung fields normal?",
+            "answer": "yes",
+            "modality": "unknown",
+            "score": 0.8332854509353638,
+            "match": "type+len2"
+          },
+          {
+            "qt": "yes_no",
+            "question": "is there bleeding present in this patient's brain?",
+            "answer": "no",
+            "modality": "unknown",
+            "score": 0.8386751413345337,
+            "match": "type+len2"
+          },
+          {
+            "qt": "yes_no",
+            "question": "can you see both kidneys in this image?",
+            "answer": "yes",
+            "modality": "unknown",
+            "score": 0.8601620197296143,
+            "match": "type+len2"
+          },
+          {
+            "qt": "yes_no",
+            "question": "is there increased airway wall thickening of the bilateral bases?",
+            "answer": "yes",
+            "modality": "unknown",
+            "score": 0.8753310441970825,
+            "match": "type+len2"
+          },
+          {
+            "qt": "yes_no",
+            "question": "can the lateral ventricles be seen?",
+            "answer": "yes",
+            "modality": "unknown",
+            "score": 0.8766106367111206,
+            "match": "type+len2"
+          },
+          {
+            "qt": "yes_no",
+            "question": "is this film properly exposed?",
+            "answer": "yes",
+            "modality": "unknown",
+            "score": 0.8810408115386963,
+            "match": "type+len2"
+          }
+        ]
+      }
+    }
+  },
+  "vqa_rad|L0_leaky": {
+    "by_qtype": {
+      "how": {
+        "n": 32,
+        "pos": 17,
+        "mlp": 0.7843137254901961,
+        "qce": 0.7176470588235294,
+        "clipscore": 0.7960784313725491,
+        "maxpatch": 0.6901960784313725
+      },
+      "other": {
+        "n": 53,
+        "pos": 25,
+        "mlp": 0.8057142857142857,
+        "qce": 0.7914285714285714,
+        "clipscore": 0.8542857142857143,
+        "maxpatch": 0.7542857142857142
+      },
+      "what": {
+        "n": 190,
+        "pos": 98,
+        "mlp": 0.7824977817213842,
+        "qce": 0.7733473824312334,
+        "clipscore": 0.813997338065661,
+        "maxpatch": 0.7019742679680567
+      },
+      "where": {
+        "n": 55,
+        "pos": 22,
+        "mlp": 0.8953168044077136,
+        "qce": 0.8498622589531681,
+        "clipscore": 0.8636363636363636,
+        "maxpatch": 0.8236914600550964
+      },
+      "which": {
+        "n": 33,
+        "pos": 13,
+        "mlp": 0.7807692307692308,
+        "qce": 0.7384615384615385,
+        "clipscore": 0.5730769230769232,
+        "maxpatch": 0.6346153846153846
+      },
+      "yes_no": {
+        "n": 532,
+        "pos": 258,
+        "mlp": 0.7803924064957847,
+        "qce": 0.7695000848752334,
+        "clipscore": 0.3212103208283823,
+        "maxpatch": 0.3837845866576133
+      },
+      "ALL": {
+        "n": 898,
+        "pos": 435,
+        "mlp": 0.7877361535215114,
+        "qce": 0.7740522827139347,
+        "clipscore": 0.5287530101040192,
+        "maxpatch": 0.5280454804994912
+      }
+    },
+    "errors": {
+      "mlp": {
+        "threshold": 0.9171250462532043,
+        "n_fp": 106,
+        "n_fn": 141,
+        "yesno_share_of_fn": 0.6382978723404256,
+        "frac_yesno": 0.5924276169265034
+      },
+      "qce": {
+        "threshold": 0.8666120767593384,
+        "n_fp": 102,
+        "n_fn": 149,
+        "yesno_share_of_fn": 0.5906040268456376,
+        "frac_yesno": 0.5924276169265034
+      }
+    },
+    "cases": {
+      "mlp": {
+        "false_negatives_missed_hallucinations": [
+          {
+            "qt": "other",
+            "question": "approximately how much time was required to obtain this image?",
+            "answer": "left",
+            "modality": "unknown",
+            "score": 0.9171250462532043,
+            "match": "unmatched"
+          },
+          {
+            "qt": "yes_no",
+            "question": "can you see the kidneys",
+            "answer": "black",
+            "modality": "unknown",
+            "score": 0.9000981450080872,
+            "match": "unmatched"
+          },
+          {
+            "qt": "yes_no",
+            "question": "are there rib fractures present?",
+            "answer": "normal",
+            "modality": "unknown",
+            "score": 0.8828492164611816,
+            "match": "unmatched"
+          },
+          {
+            "qt": "yes_no",
+            "question": "is there evidence of mesenteric lymphadenopathy?",
+            "answer": "no",
+            "modality": "unknown",
+            "score": 0.8638319373130798,
+            "match": "unmatched"
+          },
+          {
+            "qt": "yes_no",
+            "question": "is the heart enlarged?",
+            "answer": "no",
+            "modality": "unknown",
+            "score": 0.8590001463890076,
+            "match": "unmatched"
+          },
+          {
+            "qt": "what",
+            "question": "what are the hyperdense lesions noted at the edges of the aorta?",
+            "answer": "no",
+            "modality": "unknown",
+            "score": 0.8481875658035278,
+            "match": "unmatched"
+          },
+          {
+            "qt": "yes_no",
+            "question": "is this modality safe for pregnant women?",
+            "answer": "yes",
+            "modality": "unknown",
+            "score": 0.8400068879127502,
+            "match": "unmatched"
+          },
+          {
+            "qt": "yes_no",
+            "question": "was the patient positioned appropriately \twithout tilting?",
+            "answer": "l2-3",
+            "modality": "unknown",
+            "score": 0.828271210193634,
+            "match": "unmatched"
+          }
+        ],
+        "false_positives_rejected_grounded_answers": [
+          {
+            "qt": "yes_no",
+            "question": "are the branches of the superior mesenteric arteries filled with contrast?",
+            "answer": "yes",
+            "modality": "unknown",
+            "score": 0.9176898002624512,
+            "match": "unmatched"
+          },
+          {
+            "qt": "yes_no",
+            "question": "is there evidence of left lung field hyperinflation?",
+            "answer": "yes",
+            "modality": "unknown",
+            "score": 0.9341493844985962,
+            "match": "unmatched"
+          },
+          {
+            "qt": "yes_no",
+            "question": "is the mass compressing the inferior vena cava?",
+            "answer": "no",
+            "modality": "unknown",
+            "score": 0.9451022148132324,
+            "match": "unmatched"
+          },
+          {
+            "qt": "yes_no",
+            "question": "are there >8 ribs shown in this image?",
+            "answer": "yes",
+            "modality": "unknown",
+            "score": 0.9487131237983704,
+            "match": "unmatched"
+          },
+          {
+            "qt": "yes_no",
+            "question": "is this image normal or abnormal?",
+            "answer": "abnormal",
+            "modality": "unknown",
+            "score": 0.9525272250175476,
+            "match": "unmatched"
+          },
+          {
+            "qt": "where",
+            "question": "where is the mass located?",
+            "answer": "suprasellar",
+            "modality": "unknown",
+            "score": 0.9720590114593506,
+            "match": "unmatched"
+          },
+          {
+            "qt": "yes_no",
+            "question": "are calcified lesions present in the lung fields?",
+            "answer": "no",
+            "modality": "unknown",
+            "score": 0.9772936701774597,
+            "match": "unmatched"
+          },
+          {
+            "qt": "yes_no",
+            "question": "is this a solitary nodule?",
+            "answer": "yes",
+            "modality": "unknown",
+            "score": 0.9776565432548523,
+            "match": "unmatched"
+          }
+        ]
+      },
+      "qce": {
+        "false_negatives_missed_hallucinations": [
+          {
+            "qt": "what",
+            "question": "what is the bright round organ seen on the patient's left?",
+            "answer": "yes",
+            "modality": "unknown",
+            "score": 0.8666120767593384,
+            "match": "unmatched"
+          },
+          {
+            "qt": "yes_no",
+            "question": "is there swelling around the lesion?",
+            "answer": "yes",
+            "modality": "unknown",
+            "score": 0.8433226346969604,
+            "match": "unmatched"
+          },
+          {
+            "qt": "what",
+            "question": "what are the hyperdensities indicative of?",
+            "answer": "mr - t2 weighted",
+            "modality": "unknown",
+            "score": 0.8407648801803589,
+            "match": "unmatched"
+          },
+          {
+            "qt": "yes_no",
+            "question": "are the lateral ventricles viewed in this section?",
+            "answer": "no",
+            "modality": "unknown",
+            "score": 0.8219465613365173,
+            "match": "unmatched"
+          },
+          {
+            "qt": "yes_no",
+            "question": "is there evidence of intussusception on the right side?",
+            "answer": "yes",
+            "modality": "unknown",
+            "score": 0.739043653011322,
+            "match": "unmatched"
+          },
+          {
+            "qt": "where",
+            "question": "where is the large hematoma located?",
+            "answer": "no",
+            "modality": "unknown",
+            "score": 0.7269779443740845,
+            "match": "unmatched"
+          },
+          {
+            "qt": "other",
+            "question": "in which two ventricles can calcifications be seen on this ct scan?",
+            "answer": "no",
+            "modality": "unknown",
+            "score": 0.720626711845398,
+            "match": "unmatched"
+          },
+          {
+            "qt": "yes_no",
+            "question": "was the patient positioned appropriately \twithout tilting?",
+            "answer": "l2-3",
+            "modality": "unknown",
+            "score": 0.7067969441413879,
+            "match": "unmatched"
+          }
+        ],
+        "false_positives_rejected_grounded_answers": [
+          {
+            "qt": "yes_no",
+            "question": "is a mass present in this xray?",
+            "answer": "yes",
+            "modality": "unknown",
+            "score": 0.8682593703269958,
+            "match": "unmatched"
+          },
+          {
+            "qt": "how",
+            "question": "how can you tell if contrast has been utilized?",
+            "answer": "csf is brightly lit",
+            "modality": "unknown",
+            "score": 0.8757405281066895,
+            "match": "unmatched"
+          },
+          {
+            "qt": "yes_no",
+            "question": "is there evidence of inflammation?",
+            "answer": "yes",
+            "modality": "unknown",
+            "score": 0.9002878069877625,
+            "match": "unmatched"
+          },
+          {
+            "qt": "what",
+            "question": "what is on the anterior wall of the right chest?",
+            "answer": "mediport",
+            "modality": "unknown",
+            "score": 0.9024913907051086,
+            "match": "unmatched"
+          },
+          {
+            "qt": "yes_no",
+            "question": "is the mass compressing the inferior vena cava?",
+            "answer": "no",
+            "modality": "unknown",
+            "score": 0.9093173742294312,
+            "match": "unmatched"
+          },
+          {
+            "qt": "how",
+            "question": "how would you describe the abnormalities",
+            "answer": "ring-enhancing lesions",
+            "modality": "unknown",
+            "score": 0.9125498533248901,
+            "match": "unmatched"
+          },
+          {
+            "qt": "yes_no",
+            "question": "is the appendix non-enlarged?",
+            "answer": "yes",
+            "modality": "unknown",
+            "score": 0.9132612943649292,
+            "match": "unmatched"
+          },
+          {
+            "qt": "where",
+            "question": "where are the three circular opacities located?",
+            "answer": "stomach",
+            "modality": "unknown",
+            "score": 0.9160473346710205,
+            "match": "unmatched"
+          }
+        ]
+      }
+    }
+  },
+  "path_vqa|L4_fair": {
+    "by_qtype": {
+      "how": {
+        "n": 42,
+        "pos": 21,
+        "mlp": 0.671201814058957,
+        "qce": 0.6417233560090704,
+        "clipscore": 0.473922902494331,
+        "maxpatch": 0.41043083900226757
+      },
+      "what": {
+        "n": 1050,
+        "pos": 525,
+        "mlp": 0.8574222222222223,
+        "qce": 0.8525188208616781,
+        "clipscore": 0.62361179138322,
+        "maxpatch": 0.5904471655328798
+      },
+      "where": {
+        "n": 34,
+        "pos": 17,
+        "mlp": 0.9930795847750865,
+        "qce": 0.9757785467128027,
+        "clipscore": 0.8235294117647058,
+        "maxpatch": 0.7612456747404843
+      },
+      "yes_no": {
+        "n": 1240,
+        "pos": 620,
+        "mlp": 0.94528616024974,
+        "qce": 0.9438397502601457,
+        "clipscore": 0.45725546305931325,
+        "maxpatch": 0.49659989594172743
+      },
+      "ALL": {
+        "n": 2380,
+        "pos": 1190,
+        "mlp": 0.9059565002471578,
+        "qce": 0.9040742179224632,
+        "clipscore": 0.5237726855448062,
+        "maxpatch": 0.5274461549325612
+      }
+    },
+    "errors": {
+      "mlp": {
+        "threshold": 0.6738814115524292,
+        "n_fp": 197,
+        "n_fn": 222,
+        "yesno_share_of_fn": 0.43243243243243246,
+        "frac_yesno": 0.5210084033613446
+      },
+      "qce": {
+        "threshold": 0.556975781917572,
+        "n_fp": 215,
+        "n_fn": 211,
+        "yesno_share_of_fn": 0.3696682464454976,
+        "frac_yesno": 0.5210084033613446
+      }
+    },
+    "cases": {
+      "mlp": {
+        "false_negatives_missed_hallucinations": [
+          {
+            "qt": "what",
+            "question": "what is present?",
+            "answer": "hepatobiliary",
+            "modality": "unknown",
+            "score": 0.6738814115524292,
+            "match": "type+len2"
+          },
+          {
+            "qt": "what",
+            "question": "what is such interfascicular variation in axonal density often seen in?",
+            "answer": "the majority of triple-negative cancers",
+            "modality": "unknown",
+            "score": 0.6598865389823914,
+            "match": "type+len2"
+          },
+          {
+            "qt": "what",
+            "question": "what is present?",
+            "answer": "tracheotomy",
+            "modality": "unknown",
+            "score": 0.6572070717811584,
+            "match": "type+len2"
+          },
+          {
+            "qt": "yes_no",
+            "question": "is amebiasis present?",
+            "answer": "yes",
+            "modality": "unknown",
+            "score": 0.6480743288993835,
+            "match": "type+len2"
+          },
+          {
+            "qt": "what",
+            "question": "what is present?",
+            "answer": "tuberculosis",
+            "modality": "unknown",
+            "score": 0.6404651999473572,
+            "match": "type+len2"
+          },
+          {
+            "qt": "yes_no",
+            "question": "does thecoma show frontal view close-up?",
+            "answer": "yes",
+            "modality": "unknown",
+            "score": 0.6279310584068298,
+            "match": "type+len2"
+          },
+          {
+            "qt": "yes_no",
+            "question": "is mucoepidermoid carcinoma present?",
+            "answer": "yes",
+            "modality": "unknown",
+            "score": 0.6105268001556396,
+            "match": "type+len2"
+          },
+          {
+            "qt": "what",
+            "question": "what is present?",
+            "answer": "malignant lymphoma large cell type",
+            "modality": "unknown",
+            "score": 0.6052285432815552,
+            "match": "type+len2"
+          }
+        ],
+        "false_positives_rejected_grounded_answers": [
+          {
+            "qt": "what",
+            "question": "what is present?",
+            "answer": "malignant lymphoma large cell type",
+            "modality": "unknown",
+            "score": 0.6785851120948792,
+            "match": "type+len2"
+          },
+          {
+            "qt": "how",
+            "question": "how are two daughter cells formed?",
+            "answer": "on completion of division",
+            "modality": "unknown",
+            "score": 0.6840295791625977,
+            "match": "type+len2"
+          },
+          {
+            "qt": "how",
+            "question": "how does this image show enlarged spleen?",
+            "answer": "with rather obvious infiltrate",
+            "modality": "unknown",
+            "score": 0.7028357982635498,
+            "match": "type+len2"
+          },
+          {
+            "qt": "what",
+            "question": "what does this image show?",
+            "answer": "close-up view typical lesions",
+            "modality": "unknown",
+            "score": 0.7028499245643616,
+            "match": "type+len2"
+          },
+          {
+            "qt": "what",
+            "question": "what does this image show?",
+            "answer": "spleen",
+            "modality": "unknown",
+            "score": 0.7078786492347717,
+            "match": "type+len2"
+          },
+          {
+            "qt": "how",
+            "question": "how is excellent example cut surface?",
+            "answer": "nodular hyperplasia",
+            "modality": "unknown",
+            "score": 0.7157168984413147,
+            "match": "type+len2"
+          },
+          {
+            "qt": "yes_no",
+            "question": "is vasculature present?",
+            "answer": "no",
+            "modality": "unknown",
+            "score": 0.7183446288108826,
+            "match": "type+len2"
+          },
+          {
+            "qt": "what",
+            "question": "what is present?",
+            "answer": "acute myelogenous leukemia",
+            "modality": "unknown",
+            "score": 0.7311651706695557,
+            "match": "type+len2"
+          }
+        ]
+      },
+      "qce": {
+        "false_negatives_missed_hallucinations": [
+          {
+            "qt": "what",
+            "question": "what is present?",
+            "answer": "top of calvaria typical lesions source",
+            "modality": "unknown",
+            "score": 0.556975781917572,
+            "match": "type+len2"
+          },
+          {
+            "qt": "what",
+            "question": "what is present?",
+            "answer": "hepatobiliary",
+            "modality": "unknown",
+            "score": 0.5435796976089478,
+            "match": "type+len2"
+          },
+          {
+            "qt": "yes_no",
+            "question": "is subcapsular hematoma present?",
+            "answer": "yes",
+            "modality": "unknown",
+            "score": 0.532791793346405,
+            "match": "type+len2"
+          },
+          {
+            "qt": "where",
+            "question": "where is this part in?",
+            "answer": "good",
+            "modality": "unknown",
+            "score": 0.5274354219436646,
+            "match": "type+len2"
+          },
+          {
+            "qt": "what",
+            "question": "what does this image show?",
+            "answer": "regenerative myofibers",
+            "modality": "unknown",
+            "score": 0.5239287614822388,
+            "match": "type+len2"
+          },
+          {
+            "qt": "what",
+            "question": "what is present?",
+            "answer": "hepatobiliary",
+            "modality": "unknown",
+            "score": 0.5209275484085083,
+            "match": "type+len2"
+          },
+          {
+            "qt": "what",
+            "question": "what is present?",
+            "answer": "example",
+            "modality": "unknown",
+            "score": 0.5073361396789551,
+            "match": "type+len2"
+          },
+          {
+            "qt": "what",
+            "question": "what is present?",
+            "answer": "joints",
+            "modality": "unknown",
+            "score": 0.5046806931495667,
+            "match": "type+len2"
+          }
+        ],
+        "false_positives_rejected_grounded_answers": [
+          {
+            "qt": "what",
+            "question": "what does this image show?",
+            "answer": "neutrophils and basophil",
+            "modality": "unknown",
+            "score": 0.5636640787124634,
+            "match": "type+len2"
+          },
+          {
+            "qt": "yes_no",
+            "question": "is tuberculous peritonitis present?",
+            "answer": "no",
+            "modality": "unknown",
+            "score": 0.5683802962303162,
+            "match": "type+len2"
+          },
+          {
+            "qt": "what",
+            "question": "what is easily seen?",
+            "answer": "very enlarged spleen with multiple infarcts infiltrative process",
+            "modality": "unknown",
+            "score": 0.5819793343544006,
+            "match": "type+len2"
+          },
+          {
+            "qt": "yes_no",
+            "question": "is alpha smooth muscle actin immunohistochemical present?",
+            "answer": "no",
+            "modality": "unknown",
+            "score": 0.6220516562461853,
+            "match": "type+len2"
+          },
+          {
+            "qt": "what",
+            "question": "what is present?",
+            "answer": "liver",
+            "modality": "unknown",
+            "score": 0.6302470564842224,
+            "match": "type+len2"
+          },
+          {
+            "qt": "what",
+            "question": "what is present?",
+            "answer": "liver",
+            "modality": "unknown",
+            "score": 0.6302470564842224,
+            "match": "type+len2"
+          },
+          {
+            "qt": "what",
+            "question": "what does this image show?",
+            "answer": "close-up view typical lesions",
+            "modality": "unknown",
+            "score": 0.6425406336784363,
+            "match": "type+len2"
+          },
+          {
+            "qt": "yes_no",
+            "question": "is cerebrospinal fluid, smear showing gram negative cocci, neisseria meningitidis, gram stain present?",
+            "answer": "yes",
+            "modality": "unknown",
+            "score": 0.6634345054626465,
+            "match": "type+len2"
+          }
+        ]
+      }
+    }
+  },
+  "path_vqa|L0_leaky": {
+    "by_qtype": {
+      "how": {
+        "n": 58,
+        "pos": 29,
+        "mlp": 0.8085612366230678,
+        "qce": 0.8026159334126041,
+        "clipscore": 0.6611177170035673,
+        "maxpatch": 0.4149821640903686
+      },
+      "what": {
+        "n": 1072,
+        "pos": 527,
+        "mlp": 0.9276569817036018,
+        "qce": 0.9259370158243825,
+        "clipscore": 0.7905976359173441,
+        "maxpatch": 0.23373953310237972
+      },
+      "where": {
+        "n": 34,
+        "pos": 16,
+        "mlp": 0.9305555555555555,
+        "qce": 0.9479166666666667,
+        "clipscore": 0.7048611111111112,
+        "maxpatch": 0.41666666666666663
+      },
+      "yes_no": {
+        "n": 1225,
+        "pos": 602,
+        "mlp": 0.9652989233320712,
+        "qce": 0.9602182132325101,
+        "clipscore": 0.20894770241517038,
+        "maxpatch": 0.7738544071927178
+      },
+      "ALL": {
+        "n": 2400,
+        "pos": 1181,
+        "mlp": 0.9466126577565626,
+        "qce": 0.9407334060830528,
+        "clipscore": 0.4942336238459781,
+        "maxpatch": 0.5165392157339445
+      }
+    },
+    "errors": {
+      "mlp": {
+        "threshold": 0.29649651050567627,
+        "n_fp": 122,
+        "n_fn": 155,
+        "yesno_share_of_fn": 0.36129032258064514,
+        "frac_yesno": 0.5104166666666666
+      },
+      "qce": {
+        "threshold": 0.2249506562948227,
+        "n_fp": 147,
+        "n_fn": 154,
+        "yesno_share_of_fn": 0.33116883116883117,
+        "frac_yesno": 0.5104166666666666
+      }
+    },
+    "cases": {
+      "mlp": {
+        "false_negatives_missed_hallucinations": [
+          {
+            "qt": "yes_no",
+            "question": "does metastatic pancreas carcinoma show 100 % cellular marrow?",
+            "answer": "wrights",
+            "modality": "unknown",
+            "score": 0.29649651050567627,
+            "match": "unmatched"
+          },
+          {
+            "qt": "when",
+            "question": "when does this image show photos of lady before disease and?",
+            "answer": "rheumatoid arthritis",
+            "modality": "unknown",
+            "score": 0.27843618392944336,
+            "match": "unmatched"
+          },
+          {
+            "qt": "what",
+            "question": "what does the monomorphism of these cells contrast with?",
+            "answer": "yes",
+            "modality": "unknown",
+            "score": 0.26918667554855347,
+            "match": "unmatched"
+          },
+          {
+            "qt": "yes_no",
+            "question": "does esophagus show good depiction focal fiber atrophy?",
+            "answer": "yes",
+            "modality": "unknown",
+            "score": 0.22196373343467712,
+            "match": "unmatched"
+          },
+          {
+            "qt": "yes_no",
+            "question": "is liver present?",
+            "answer": "its",
+            "modality": "unknown",
+            "score": 0.20369133353233337,
+            "match": "unmatched"
+          },
+          {
+            "qt": "what",
+            "question": "what does this image show?",
+            "answer": "candida in peripheral blood",
+            "modality": "unknown",
+            "score": 0.19974863529205322,
+            "match": "unmatched"
+          },
+          {
+            "qt": "what",
+            "question": "what opened surrounded by large nodes?",
+            "answer": "joints",
+            "modality": "unknown",
+            "score": 0.19780263304710388,
+            "match": "unmatched"
+          },
+          {
+            "qt": "yes_no",
+            "question": "is this image present?",
+            "answer": "by a well differentiated adenocarcinoma",
+            "modality": "unknown",
+            "score": 0.19363285601139069,
+            "match": "unmatched"
+          }
+        ],
+        "false_positives_rejected_grounded_answers": [
+          {
+            "qt": "yes_no",
+            "question": "are early organization of intraalveolar exudates, seen in areas to be streaming through the needle shaped and negatively birefringent under polarized light?",
+            "answer": "no",
+            "modality": "unknown",
+            "score": 0.31359684467315674,
+            "match": "unmatched"
+          },
+          {
+            "qt": "what",
+            "question": "what does this image show?",
+            "answer": "typical infiltrating adenocarcinoma",
+            "modality": "unknown",
+            "score": 0.33368414640426636,
+            "match": "unmatched"
+          },
+          {
+            "qt": "yes_no",
+            "question": "is tumor grew to outside?",
+            "answer": "yes",
+            "modality": "unknown",
+            "score": 0.3440593183040619,
+            "match": "unmatched"
+          },
+          {
+            "qt": "what",
+            "question": "what stain?",
+            "answer": "apoptosis tunel",
+            "modality": "unknown",
+            "score": 0.35257142782211304,
+            "match": "unmatched"
+          },
+          {
+            "qt": "yes_no",
+            "question": "does cm contrast with the admixture of cells seen in the normal anterior pituitary gland?",
+            "answer": "no",
+            "modality": "unknown",
+            "score": 0.36331719160079956,
+            "match": "unmatched"
+          },
+          {
+            "qt": "what",
+            "question": "what is present?",
+            "answer": "infarction secondary to shock",
+            "modality": "unknown",
+            "score": 0.36731597781181335,
+            "match": "unmatched"
+          },
+          {
+            "qt": "what",
+            "question": "what is present?",
+            "answer": "infarction secondary to shock",
+            "modality": "unknown",
+            "score": 0.36731597781181335,
+            "match": "unmatched"
+          },
+          {
+            "qt": "yes_no",
+            "question": "is hypospadias present?",
+            "answer": "yes",
+            "modality": "unknown",
+            "score": 0.37941983342170715,
+            "match": "unmatched"
+          }
+        ]
+      },
+      "qce": {
+        "false_negatives_missed_hallucinations": [
+          {
+            "qt": "yes_no",
+            "question": "does metastatic pancreas carcinoma show 100 % cellular marrow?",
+            "answer": "wrights",
+            "modality": "unknown",
+            "score": 0.2249506562948227,
+            "match": "unmatched"
+          },
+          {
+            "qt": "what",
+            "question": "what is present?",
+            "answer": "epidermis",
+            "modality": "unknown",
+            "score": 0.20781868696212769,
+            "match": "unmatched"
+          },
+          {
+            "qt": "what",
+            "question": "what is present?",
+            "answer": "spleen",
+            "modality": "unknown",
+            "score": 0.18597112596035004,
+            "match": "unmatched"
+          },
+          {
+            "qt": "yes_no",
+            "question": "is multiple myeloma present?",
+            "answer": "no",
+            "modality": "unknown",
+            "score": 0.1626502126455307,
+            "match": "unmatched"
+          },
+          {
+            "qt": "yes_no",
+            "question": "is pus in test tube present?",
+            "answer": "yes",
+            "modality": "unknown",
+            "score": 0.1399509459733963,
+            "match": "unmatched"
+          },
+          {
+            "qt": "what",
+            "question": "what is present?",
+            "answer": "hepatobiliary",
+            "modality": "unknown",
+            "score": 0.1326747089624405,
+            "match": "unmatched"
+          },
+          {
+            "qt": "yes_no",
+            "question": "is malaria plasmodium vivax present?",
+            "answer": "two",
+            "modality": "unknown",
+            "score": 0.1298401951789856,
+            "match": "unmatched"
+          },
+          {
+            "qt": "what",
+            "question": "what are regenerative myofibers characterized by?",
+            "answer": "lymph node",
+            "modality": "unknown",
+            "score": 0.11604861170053482,
+            "match": "unmatched"
+          }
+        ],
+        "false_positives_rejected_grounded_answers": [
+          {
+            "qt": "what",
+            "question": "what is present?",
+            "answer": "hepatobiliary",
+            "modality": "unknown",
+            "score": 0.22820381820201874,
+            "match": "unmatched"
+          },
+          {
+            "qt": "what",
+            "question": "what is present?",
+            "answer": "brain",
+            "modality": "unknown",
+            "score": 0.2447027862071991,
+            "match": "unmatched"
+          },
+          {
+            "qt": "what",
+            "question": "what do wrights stain?",
+            "answer": "pleomorphic leukemic cells in peripheral blood prior to therapy",
+            "modality": "unknown",
+            "score": 0.2512233257293701,
+            "match": "unmatched"
+          },
+          {
+            "qt": "when",
+            "question": "when does this image show apoptosis in prostate?",
+            "answer": "after orchiectomy",
+            "modality": "unknown",
+            "score": 0.25447940826416016,
+            "match": "unmatched"
+          },
+          {
+            "qt": "yes_no",
+            "question": "is infiltrative process easily seen?",
+            "answer": "yes",
+            "modality": "unknown",
+            "score": 0.2902075946331024,
+            "match": "unmatched"
+          },
+          {
+            "qt": "yes_no",
+            "question": "is oil wrights cells present?",
+            "answer": "no",
+            "modality": "unknown",
+            "score": 0.3088088929653168,
+            "match": "unmatched"
+          },
+          {
+            "qt": "what",
+            "question": "what easily seen?",
+            "answer": "organisms",
+            "modality": "unknown",
+            "score": 0.34155982732772827,
+            "match": "unmatched"
+          },
+          {
+            "qt": "how",
+            "question": "how does this image show sections of sternum?",
+            "answer": "with metastatic lesions from breast",
+            "modality": "unknown",
+            "score": 0.3496628701686859,
+            "match": "unmatched"
+          }
+        ]
+      }
+    }
+  },
+  "omni|L4_fair": {
+    "by_qtype": {
+      "other": {
+        "n": 54,
+        "pos": 27,
+        "mlp": 1.0,
+        "qce": 1.0,
+        "clipscore": 0.7818930041152263,
+        "maxpatch": 0.6021947873799727
+      },
+      "what": {
+        "n": 602,
+        "pos": 301,
+        "mlp": 0.9623734837363824,
+        "qce": 0.9522190704296861,
+        "clipscore": 0.7875961633977551,
+        "maxpatch": 0.6828732574695644
+      },
+      "which": {
+        "n": 50,
+        "pos": 25,
+        "mlp": 0.9568,
+        "qce": 0.9648,
+        "clipscore": 0.9184,
+        "maxpatch": 0.784
+      },
+      "yes_no": {
+        "n": 96,
+        "pos": 48,
+        "mlp": 0.9670138888888888,
+        "qce": 0.9578993055555556,
+        "clipscore": 0.43098958333333326,
+        "maxpatch": 0.4574652777777778
+      },
+      "ALL": {
+        "n": 802,
+        "pos": 401,
+        "mlp": 0.9658397646780803,
+        "qce": 0.9578049887749454,
+        "clipscore": 0.7449393971430526,
+        "maxpatch": 0.6500892407385526
+      }
+    },
+    "errors": {
+      "mlp": {
+        "threshold": 0.6465443968772888,
+        "n_fp": 7,
+        "n_fn": 41,
+        "yesno_share_of_fn": 0.12195121951219512,
+        "frac_yesno": 0.11970074812967581
+      },
+      "qce": {
+        "threshold": 0.5410826802253723,
+        "n_fp": 14,
+        "n_fn": 40,
+        "yesno_share_of_fn": 0.125,
+        "frac_yesno": 0.11970074812967581
+      }
+    },
+    "cases": {
+      "mlp": {
+        "false_negatives_missed_hallucinations": [
+          {
+            "qt": "what",
+            "question": "What was the imaging technique used to obtain this picture?",
+            "answer": "X-ray",
+            "modality": "CT(Computed Tomography)",
+            "score": 0.6465443968772888,
+            "match": "type+len2"
+          },
+          {
+            "qt": "yes_no",
+            "question": "Is COVID-19 detectable on this CT scan image?",
+            "answer": "No",
+            "modality": "CT(Computed Tomography)",
+            "score": 0.6347742676734924,
+            "match": "type+len2"
+          },
+          {
+            "qt": "what",
+            "question": "What part is shown in this ultrasound image?",
+            "answer": "liver",
+            "modality": "ultrasound",
+            "score": 0.6005022525787354,
+            "match": "type+len2"
+          },
+          {
+            "qt": "which",
+            "question": "Which structure is visible in this ultrasound image?",
+            "answer": "ovary",
+            "modality": "ultrasound",
+            "score": 0.49770164489746094,
+            "match": "type+len2"
+          },
+          {
+            "qt": "what",
+            "question": "What is present in this image?",
+            "answer": "Colorectal adenocarcinoma epithelium",
+            "modality": "Microscopy Images",
+            "score": 0.45011210441589355,
+            "match": "type+len2"
+          },
+          {
+            "qt": "what",
+            "question": "What can be observed in this image?",
+            "answer": "Breast tissue",
+            "modality": "MR (Mag-netic Resonance Imaging)",
+            "score": 0.30687326192855835,
+            "match": "type+len2"
+          },
+          {
+            "qt": "what",
+            "question": "What is the specific type of abnormality shown in this image?",
+            "answer": "Age-related Macular Degeneration (AMD)",
+            "modality": "Fundus Photography",
+            "score": 0.16316816210746765,
+            "match": "type+len2"
+          },
+          {
+            "qt": "what",
+            "question": "What modality is used to capture this image?",
+            "answer": "Malignant breast histopathology.",
+            "modality": "Dermoscopy",
+            "score": 0.1448078453540802,
+            "match": "type+len2"
+          }
+        ],
+        "false_positives_rejected_grounded_answers": [
+          {
+            "qt": "what",
+            "question": "What can be observed in this image?",
+            "answer": "Bone inflammation.",
+            "modality": "MR (Mag-netic Resonance Imaging)",
+            "score": 0.7614613771438599,
+            "match": "type+len2"
+          },
+          {
+            "qt": "what",
+            "question": "What can be observed in this image?",
+            "answer": "Bone inflammation.",
+            "modality": "MR (Mag-netic Resonance Imaging)",
+            "score": 0.7645007371902466,
+            "match": "type+len2"
+          },
+          {
+            "qt": "what",
+            "question": "What specific characteristics can be observed in this image of the abnormality?",
+            "answer": "There is a small hole in the macula, which is the central part of the retina.",
+            "modality": "OCT (Optical Coherence Tomography",
+            "score": 0.8100425601005554,
+            "match": "type+len2"
+          },
+          {
+            "qt": "yes_no",
+            "question": "Does this image indicate any abnormalities?",
+            "answer": "No, this is a normal chest X-ray image.",
+            "modality": "X-Ray",
+            "score": 0.8204540610313416,
+            "match": "type+len2"
+          },
+          {
+            "qt": "yes_no",
+            "question": "Does this image show any abnormality?",
+            "answer": "No",
+            "modality": "Dermoscopy",
+            "score": 0.9971545934677124,
+            "match": "type+len2"
+          },
+          {
+            "qt": "yes_no",
+            "question": "Does the CT scan image show signs of COVID-19?",
+            "answer": "No",
+            "modality": "CT(Computed Tomography)",
+            "score": 0.9984571933746338,
+            "match": "type+len2"
+          },
+          {
+            "qt": "what",
+            "question": "What can be observed in this image?",
+            "answer": "Atfl pathology.",
+            "modality": "MR (Mag-netic Resonance Imaging)",
+            "score": 0.9999299049377441,
+            "match": "type+len2"
+          }
+        ]
+      },
+      "qce": {
+        "false_negatives_missed_hallucinations": [
+          {
+            "qt": "what",
+            "question": "What modality is used to capture this image?",
+            "answer": "x_ray.",
+            "modality": "CT(Computed Tomography)",
+            "score": 0.5410826802253723,
+            "match": "type+len2"
+          },
+          {
+            "qt": "what",
+            "question": "What is the specific diagnosis for the cancer depicted in this image?",
+            "answer": "Large cell carcinoma of the left hilum, T2 N2 M0, Stage IIIa",
+            "modality": "CT(Computed Tomography)",
+            "score": 0.48431533575057983,
+            "match": "type+len2"
+          },
+          {
+            "qt": "what",
+            "question": "What is the particular classification of the irregularity seen in this image?",
+            "answer": "lymphocytes",
+            "modality": "Dermoscopy",
+            "score": 0.2641065716743469,
+            "match": "type+len2"
+          },
+          {
+            "qt": "what",
+            "question": "What can be observed in this image?",
+            "answer": "Breast tissue",
+            "modality": "MR (Mag-netic Resonance Imaging)",
+            "score": 0.16361680626869202,
+            "match": "type+len2"
+          },
+          {
+            "qt": "yes_no",
+            "question": "Does this image indicate any abnormalities?",
+            "answer": "No, the tail appears to be normal.",
+            "modality": "X-Ray",
+            "score": 0.13187280297279358,
+            "match": "type+len2"
+          },
+          {
+            "qt": "which",
+            "question": "Which diagnostic tool was employed to obtain this visualization?",
+            "answer": "Nodule",
+            "modality": "Microscopy Images",
+            "score": 0.08443070203065872,
+            "match": "type+len2"
+          },
+          {
+            "qt": "yes_no",
+            "question": "Is there any abnormal finding observed in this image?",
+            "answer": "Smooth muscle",
+            "modality": "MR (Mag-netic Resonance Imaging)",
+            "score": 0.07165221869945526,
+            "match": "type+len2"
+          },
+          {
+            "qt": "what",
+            "question": "What is the specific skin condition visible in this picture?",
+            "answer": "Phase-contrast microscopy",
+            "modality": "Dermoscopy",
+            "score": 0.049066539853811264,
+            "match": "type+len2"
+          }
+        ],
+        "false_positives_rejected_grounded_answers": [
+          {
+            "qt": "what",
+            "question": "What is the cancer stage indicated in the image?",
+            "answer": "Stage IIIa of Squamous cell carcinoma of the left hilum.",
+            "modality": "CT(Computed Tomography)",
+            "score": 0.6144816279411316,
+            "match": "type+len2"
+          },
+          {
+            "qt": "what",
+            "question": "What is the anatomical location represented in this image?",
+            "answer": "Chest region.",
+            "modality": "CT(Computed Tomography)",
+            "score": 0.6456318497657776,
+            "match": "type+len2"
+          },
+          {
+            "qt": "what",
+            "question": "What part is shown in this ultrasound image?",
+            "answer": "gallbladder",
+            "modality": "ultrasound",
+            "score": 0.6716426610946655,
+            "match": "type+len2"
+          },
+          {
+            "qt": "what",
+            "question": "What can you tell me about the characteristics of the abnormality visible in this image?",
+            "answer": "The image displays swelling and fluid accumulation in the macula due to Diabetic Macular Edema (DME).",
+            "modality": "OCT (Optical Coherence Tomography",
+            "score": 0.8152955770492554,
+            "match": "type+len2"
+          },
+          {
+            "qt": "what",
+            "question": "What is the specific type of abnormality shown in this image?",
+            "answer": "Age-related Macular degeneration (AMD).",
+            "modality": "Fundus Photography",
+            "score": 0.9160162210464478,
+            "match": "type+len2"
+          },
+          {
+            "qt": "what",
+            "question": "What condition is present in the image provided?",
+            "answer": "Pneumonia",
+            "modality": "X-Ray",
+            "score": 0.9276472330093384,
+            "match": "type+len2"
+          },
+          {
+            "qt": "yes_no",
+            "question": "Is this dermoscopic image suggestive of a malignant or benign status?",
+            "answer": "Benign condition.",
+            "modality": "Dermoscopy",
+            "score": 0.9433297514915466,
+            "match": "type+len2"
+          },
+          {
+            "qt": "what",
+            "question": "What can be observed in this image?",
+            "answer": "Bone inflammation.",
+            "modality": "MR (Mag-netic Resonance Imaging)",
+            "score": 0.9824516177177429,
+            "match": "type+len2"
+          }
+        ]
+      }
+    }
+  },
+  "omni|L6_native": {
+    "by_qtype": {
+      "other": {
+        "n": 54,
+        "pos": 27,
+        "mlp": 0.9890260631001372,
+        "qce": 0.98079561042524,
+        "clipscore": 0.7187928669410151,
+        "maxpatch": 0.5720164609053497
+      },
+      "what": {
+        "n": 602,
+        "pos": 301,
+        "mlp": 0.9706405006567256,
+        "qce": 0.9739296475756338,
+        "clipscore": 0.7051577797154557,
+        "maxpatch": 0.6187238551450868
+      },
+      "which": {
+        "n": 50,
+        "pos": 25,
+        "mlp": 0.9856,
+        "qce": 0.9856,
+        "clipscore": 0.7664,
+        "maxpatch": 0.6976
+      },
+      "yes_no": {
+        "n": 96,
+        "pos": 48,
+        "mlp": 0.9500868055555556,
+        "qce": 0.9544270833333334,
+        "clipscore": 0.4457465277777778,
+        "maxpatch": 0.5286458333333333
+      },
+      "ALL": {
+        "n": 802,
+        "pos": 401,
+        "mlp": 0.9703111299059085,
+        "qce": 0.9725499219532218,
+        "clipscore": 0.6730182026231181,
+        "maxpatch": 0.6030808266117749
+      }
+    },
+    "errors": {
+      "mlp": {
+        "threshold": 0.40088629722595215,
+        "n_fp": 16,
+        "n_fn": 47,
+        "yesno_share_of_fn": 0.1702127659574468,
+        "frac_yesno": 0.11970074812967581
+      },
+      "qce": {
+        "threshold": 0.33843186497688293,
+        "n_fp": 17,
+        "n_fn": 44,
+        "yesno_share_of_fn": 0.18181818181818182,
+        "frac_yesno": 0.11970074812967581
+      }
+    },
+    "cases": {
+      "mlp": {
+        "false_negatives_missed_hallucinations": [
+          {
+            "qt": "what",
+            "question": "What is the abnormality seen in this image?",
+            "answer": "Blocked urinary tract",
+            "modality": "CT(Computed Tomography)",
+            "score": 0.40088629722595215,
+            "match": "native_distractor"
+          },
+          {
+            "qt": "other",
+            "question": "From which joint does the bone in the image originate?",
+            "answer": "Proximal Radioulnar",
+            "modality": "X-Ray",
+            "score": 0.3323907256126404,
+            "match": "native_distractor"
+          },
+          {
+            "qt": "yes_no",
+            "question": "Is this dermoscopic image suggestive of a benign or malignant condition?",
+            "answer": "Congenital condition.",
+            "modality": "Dermoscopy",
+            "score": 0.3320092558860779,
+            "match": "native_distractor"
+          },
+          {
+            "qt": "what",
+            "question": "What is the cell type shown in the image?",
+            "answer": "Lymphocytes",
+            "modality": "Microscopy Images",
+            "score": 0.3115430772304535,
+            "match": "native_distractor"
+          },
+          {
+            "qt": "what",
+            "question": "What is visible in this image?",
+            "answer": "Enlarged lymph node",
+            "modality": "MR (Mag-netic Resonance Imaging)",
+            "score": 0.27305272221565247,
+            "match": "native_distractor"
+          },
+          {
+            "qt": "what",
+            "question": "What does this image show?",
+            "answer": "Malignant colon histopathology.",
+            "modality": "Microscopy Images",
+            "score": 0.25197285413742065,
+            "match": "native_distractor"
+          },
+          {
+            "qt": "what",
+            "question": "What part is shown in this ultrasound image?",
+            "answer": "Right kidney",
+            "modality": "ultrasound",
+            "score": 0.23924191296100616,
+            "match": "native_distractor"
+          },
+          {
+            "qt": "what",
+            "question": "What is the name of the specific abnormality displayed in the provided image?",
+            "answer": "Diabetic retinopathy",
+            "modality": "OCT (Optical Coherence Tomography",
+            "score": 0.20532479882240295,
+            "match": "native_distractor"
+          }
+        ],
+        "false_positives_rejected_grounded_answers": [
+          {
+            "qt": "what",
+            "question": "What part is shown in this ultrasound image?",
+            "answer": "gallbladder",
+            "modality": "ultrasound",
+            "score": 0.4892137050628662,
+            "match": "native_distractor"
+          },
+          {
+            "qt": "what",
+            "question": "What is the substance present in this image?",
+            "answer": "Mucus",
+            "modality": "Microscopy Images",
+            "score": 0.5987768769264221,
+            "match": "native_distractor"
+          },
+          {
+            "qt": "what",
+            "question": "What is depicted in this image, specifically referring to the tissue or anomaly?",
+            "answer": "Cancer-associated stroma",
+            "modality": "Microscopy Images",
+            "score": 0.6059402823448181,
+            "match": "native_distractor"
+          },
+          {
+            "qt": "what",
+            "question": "What is the substance depicted in this photograph?",
+            "answer": "Mucus",
+            "modality": "Microscopy Images",
+            "score": 0.8543558120727539,
+            "match": "native_distractor"
+          },
+          {
+            "qt": "other",
+            "question": "From which joint does the bone in the image originate?",
+            "answer": "First Distal Interphalangeal",
+            "modality": "X-Ray",
+            "score": 0.883489727973938,
+            "match": "native_distractor"
+          },
+          {
+            "qt": "yes_no",
+            "question": "Does the CT scan image show signs of COVID-19?",
+            "answer": "No",
+            "modality": "CT(Computed Tomography)",
+            "score": 0.9171060919761658,
+            "match": "native_distractor"
+          },
+          {
+            "qt": "what",
+            "question": "What is the name of the skin abnormality exhibited in this image?",
+            "answer": "Melanoma",
+            "modality": "Dermoscopy",
+            "score": 0.9631536602973938,
+            "match": "native_distractor"
+          },
+          {
+            "qt": "other",
+            "question": "Identify the cancer stage depicted in this picture.",
+            "answer": "Stage Ib",
+            "modality": "CT(Computed Tomography)",
+            "score": 0.9822295904159546,
+            "match": "native_distractor"
+          }
+        ]
+      },
+      "qce": {
+        "false_negatives_missed_hallucinations": [
+          {
+            "qt": "what",
+            "question": "What part is shown in this ultrasound image?",
+            "answer": "Pancreas",
+            "modality": "ultrasound",
+            "score": 0.33843186497688293,
+            "match": "native_distractor"
+          },
+          {
+            "qt": "what",
+            "question": "What part is shown in this ultrasound image?",
+            "answer": "Thyroid",
+            "modality": "ultrasound",
+            "score": 0.30104392766952515,
+            "match": "native_distractor"
+          },
+          {
+            "qt": "yes_no",
+            "question": "Does this dermoscopic image suggest a benign or malignant condition?",
+            "answer": "Suspicious condition.",
+            "modality": "Dermoscopy",
+            "score": 0.27828606963157654,
+            "match": "native_distractor"
+          },
+          {
+            "qt": "other",
+            "question": "From which joint does the bone in the image originate?",
+            "answer": "Proximal Radioulnar",
+            "modality": "X-Ray",
+            "score": 0.23198193311691284,
+            "match": "native_distractor"
+          },
+          {
+            "qt": "what",
+            "question": "What is the specific term used to describe the anomaly observed in this image?",
+            "answer": "Hepatic lesion",
+            "modality": "CT(Computed Tomography)",
+            "score": 0.14364944398403168,
+            "match": "native_distractor"
+          },
+          {
+            "qt": "what",
+            "question": "What part is shown in this ultrasound image?",
+            "answer": "Thyroid",
+            "modality": "ultrasound",
+            "score": 0.10038087517023087,
+            "match": "native_distractor"
+          },
+          {
+            "qt": "which",
+            "question": "Which skin abnormality is depicted in this image?",
+            "answer": "Impetigo",
+            "modality": "Dermoscopy",
+            "score": 0.07944131642580032,
+            "match": "native_distractor"
+          },
+          {
+            "qt": "yes_no",
+            "question": "Can you assess the eye health status depicted in this photograph, specifically regarding the presence of glaucoma?",
+            "answer": "Macular degeneration negative.",
+            "modality": "Fundus Photography",
+            "score": 0.07631850242614746,
+            "match": "native_distractor"
+          }
+        ],
+        "false_positives_rejected_grounded_answers": [
+          {
+            "qt": "what",
+            "question": "What part is shown in this ultrasound image?",
+            "answer": "pancreas",
+            "modality": "ultrasound",
+            "score": 0.45185422897338867,
+            "match": "native_distractor"
+          },
+          {
+            "qt": "what",
+            "question": "What part is shown in this ultrasound image?",
+            "answer": "gallbladder",
+            "modality": "ultrasound",
+            "score": 0.6504600644111633,
+            "match": "native_distractor"
+          },
+          {
+            "qt": "what",
+            "question": "What part is shown in this ultrasound image?",
+            "answer": "bladder",
+            "modality": "ultrasound",
+            "score": 0.7612724304199219,
+            "match": "native_distractor"
+          },
+          {
+            "qt": "what",
+            "question": "What is the specific classification of the anomaly portrayed in this image?",
+            "answer": "Malignant melanoma.",
+            "modality": "Dermoscopy",
+            "score": 0.8259340524673462,
+            "match": "native_distractor"
+          },
+          {
+            "qt": "other",
+            "question": "Retinal image quality assessment (IQA) is a crucial process for automated retinal image analysis systems to obtain an accurate and successful diagnosis of retinal diseases. if we used a three-class grading system that consists of good, bad, and outlier classes.  What specific image quality of this image?",
+            "answer": "it's a bad retinal image.",
+            "modality": "Fundus Photography",
+            "score": 0.8713914155960083,
+            "match": "native_distractor"
+          },
+          {
+            "qt": "other",
+            "question": "Under which classification does the abnormality depicted in the photograph fall?",
+            "answer": "Genodermatoses.",
+            "modality": "Dermoscopy",
+            "score": 0.9393467903137207,
+            "match": "native_distractor"
+          },
+          {
+            "qt": "yes_no",
+            "question": "Is COVID-19 detectable on this CT scan image?",
+            "answer": "Yes",
+            "modality": "CT(Computed Tomography)",
+            "score": 0.9427896738052368,
+            "match": "native_distractor"
+          },
+          {
+            "qt": "what",
+            "question": "What is the specific respiratory condition depicted in this image?",
+            "answer": "Pneumonia",
+            "modality": "X-Ray",
+            "score": 0.9897946715354919,
+            "match": "native_distractor"
+          }
+        ]
+      }
+    }
+  },
+  "omni|L0_leaky": {
+    "by_qtype": {
+      "other": {
+        "n": 35,
+        "pos": 12,
+        "mlp": 0.9565217391304348,
+        "qce": 0.9673913043478262,
+        "clipscore": 0.7644927536231885,
+        "maxpatch": 0.7173913043478262
+      },
+      "what": {
+        "n": 582,
+        "pos": 300,
+        "mlp": 0.9227423167848698,
+        "qce": 0.9223758865248226,
+        "clipscore": 0.8182033096926715,
+        "maxpatch": 0.6990543735224587
+      },
+      "which": {
+        "n": 60,
+        "pos": 30,
+        "mlp": 0.9688888888888889,
+        "qce": 0.9388888888888889,
+        "clipscore": 0.768888888888889,
+        "maxpatch": 0.5966666666666667
+      },
+      "yes_no": {
+        "n": 123,
+        "pos": 57,
+        "mlp": 0.9332801701222752,
+        "qce": 0.8854332801701222,
+        "clipscore": 0.315257841573631,
+        "maxpatch": 0.43381180223285487
+      },
+      "ALL": {
+        "n": 800,
+        "pos": 399,
+        "mlp": 0.9293933087081794,
+        "qce": 0.9191932449577811,
+        "clipscore": 0.723304520653254,
+        "maxpatch": 0.6475915474471716
+      }
+    },
+    "errors": {
+      "mlp": {
+        "threshold": 0.28443604707717896,
+        "n_fp": 31,
+        "n_fn": 53,
+        "yesno_share_of_fn": 0.1320754716981132,
+        "frac_yesno": 0.15375
+      },
+      "qce": {
+        "threshold": 0.06658241897821426,
+        "n_fp": 43,
+        "n_fn": 55,
+        "yesno_share_of_fn": 0.16363636363636364,
+        "frac_yesno": 0.15375
+      }
+    },
+    "cases": {
+      "mlp": {
+        "false_negatives_missed_hallucinations": [
+          {
+            "qt": "what",
+            "question": "What is the term for the anomaly that is apparent in this image?",
+            "answer": "thyroid nodule",
+            "modality": "CT(Computed Tomography)",
+            "score": 0.28443604707717896,
+            "match": "unmatched"
+          },
+          {
+            "qt": "what",
+            "question": "What is the term used to classify the abnormality depicted in this image?",
+            "answer": "Malignant condition.",
+            "modality": "Dermoscopy",
+            "score": 0.195550337433815,
+            "match": "unmatched"
+          },
+          {
+            "qt": "what",
+            "question": "What is the particular anomaly seen in this image?",
+            "answer": "No, It's normal.",
+            "modality": "CT(Computed Tomography)",
+            "score": 0.19093620777130127,
+            "match": "unmatched"
+          },
+          {
+            "qt": "yes_no",
+            "question": "Is anything irregular or out of the ordinary apparent in this image?",
+            "answer": "thyroid nodule",
+            "modality": "CT(Computed Tomography)",
+            "score": 0.17148861289024353,
+            "match": "unmatched"
+          },
+          {
+            "qt": "what",
+            "question": "What is the specific abnormality present in this image?",
+            "answer": "Diabetic Retinopathy (DR)",
+            "modality": "Fundus Photography",
+            "score": 0.11599664390087128,
+            "match": "unmatched"
+          },
+          {
+            "qt": "what",
+            "question": "What is depicted in this ultrasound image?",
+            "answer": "aorta",
+            "modality": "ultrasound",
+            "score": 0.07658255845308304,
+            "match": "unmatched"
+          },
+          {
+            "qt": "what",
+            "question": "What category does this abnormality belong to in the image?",
+            "answer": "Malignant breast histopathology.",
+            "modality": "Dermoscopy",
+            "score": 0.06003104895353317,
+            "match": "unmatched"
+          },
+          {
+            "qt": "yes_no",
+            "question": "Is there any presence of abnormalities in this image?",
+            "answer": "Adenocarcinoma of the left lower lobe, T2 N0 M0, Stage Ib",
+            "modality": "X-Ray",
+            "score": 0.05722871050238609,
+            "match": "unmatched"
+          }
+        ],
+        "false_positives_rejected_grounded_answers": [
+          {
+            "qt": "what",
+            "question": "What type of substance is shown in this image?",
+            "answer": "Mucus",
+            "modality": "Microscopy Images",
+            "score": 0.32839861512184143,
+            "match": "unmatched"
+          },
+          {
+            "qt": "what",
+            "question": "What is the particular classification of the anomaly observed in this image?",
+            "answer": "Malignant cutaneous lymphoma.",
+            "modality": "Dermoscopy",
+            "score": 0.37324851751327515,
+            "match": "unmatched"
+          },
+          {
+            "qt": "what",
+            "question": "What is the term for the condition illustrated in the image?",
+            "answer": "Ascites",
+            "modality": "CT(Computed Tomography)",
+            "score": 0.3844327926635742,
+            "match": "unmatched"
+          },
+          {
+            "qt": "what",
+            "question": "What content appears in this image?",
+            "answer": "Breast tissue",
+            "modality": "X-Ray",
+            "score": 0.39905276894569397,
+            "match": "unmatched"
+          },
+          {
+            "qt": "what",
+            "question": "What can be said about the characteristics of the anomaly shown in this picture?",
+            "answer": "The condition is characterized by the accumulation of fluid in the central retina.",
+            "modality": "OCT (Optical Coherence Tomography",
+            "score": 0.44009584188461304,
+            "match": "unmatched"
+          },
+          {
+            "qt": "what",
+            "question": "What imaging technique was employed for the acquisition of this picture?",
+            "answer": "Dermoscopy",
+            "modality": "Dermoscopy",
+            "score": 0.44588321447372437,
+            "match": "unmatched"
+          },
+          {
+            "qt": "what",
+            "question": "What is the specific diagnosis for the cancer cells captured in this picture?",
+            "answer": "Follicular Lymphoma",
+            "modality": "Microscopy Images",
+            "score": 0.4609679579734802,
+            "match": "unmatched"
+          },
+          {
+            "qt": "what",
+            "question": "What can be observed in this image?",
+            "answer": "Bil dil.",
+            "modality": "MR (Mag-netic Resonance Imaging)",
+            "score": 0.46857547760009766,
+            "match": "unmatched"
+          }
+        ]
+      },
+      "qce": {
+        "false_negatives_missed_hallucinations": [
+          {
+            "qt": "what",
+            "question": "What can be observed in this image?",
+            "answer": "Fat-containing tumor",
+            "modality": "MR (Mag-netic Resonance Imaging)",
+            "score": 0.06658241897821426,
+            "match": "unmatched"
+          },
+          {
+            "qt": "which",
+            "question": "Which imaging technique was utilized to obtain this image?",
+            "answer": "Pneumonia",
+            "modality": "X-Ray",
+            "score": 0.04215604439377785,
+            "match": "unmatched"
+          },
+          {
+            "qt": "what",
+            "question": "What can be observed in this image?",
+            "answer": "Abnormality present",
+            "modality": "MR (Mag-netic Resonance Imaging)",
+            "score": 0.037654343992471695,
+            "match": "unmatched"
+          },
+          {
+            "qt": "what",
+            "question": "What is the diagnosis of the abnormality depicted in this image?",
+            "answer": "No abnormality detected (normal)",
+            "modality": "OCT (Optical Coherence Tomography",
+            "score": 0.03726077824831009,
+            "match": "unmatched"
+          },
+          {
+            "qt": "what",
+            "question": "What is the specific abnormality shown in this oct image?",
+            "answer": "Fat-containing tumor",
+            "modality": "OCT (Optical Coherence Tomography",
+            "score": 0.025545800104737282,
+            "match": "unmatched"
+          },
+          {
+            "qt": "what",
+            "question": "What is depicted in this image?",
+            "answer": "Stage Ib",
+            "modality": "X-Ray",
+            "score": 0.02469550259411335,
+            "match": "unmatched"
+          },
+          {
+            "qt": "which",
+            "question": "Which specific cells can be seen in this image?",
+            "answer": "Malignant breast histopathology.",
+            "modality": "Microscopy Images",
+            "score": 0.021673716604709625,
+            "match": "unmatched"
+          },
+          {
+            "qt": "what",
+            "question": "What cell type can be observed in the provided image?",
+            "answer": "Background of histological image.",
+            "modality": "Microscopy Images",
+            "score": 0.020967548713088036,
+            "match": "unmatched"
+          }
+        ],
+        "false_positives_rejected_grounded_answers": [
+          {
+            "qt": "what",
+            "question": "What abnormalities can be observed in this image?",
+            "answer": "pathologic myopia.",
+            "modality": "Fundus Photography",
+            "score": 0.07285992056131363,
+            "match": "unmatched"
+          },
+          {
+            "qt": "what",
+            "question": "What is the specific abnormality present in this image?",
+            "answer": "Severe diabetic retinopathy.",
+            "modality": "Fundus Photography",
+            "score": 0.09161487966775894,
+            "match": "unmatched"
+          },
+          {
+            "qt": "what",
+            "question": "What is the specific abnormality shown in this image?",
+            "answer": "Drusen",
+            "modality": "OCT (Optical Coherence Tomography",
+            "score": 0.10951964557170868,
+            "match": "unmatched"
+          },
+          {
+            "qt": "what",
+            "question": "What can be observed in this image?",
+            "answer": "Bil dil.",
+            "modality": "MR (Mag-netic Resonance Imaging)",
+            "score": 0.1348615288734436,
+            "match": "unmatched"
+          },
+          {
+            "qt": "what",
+            "question": "What type of abnormality is present in this image?",
+            "answer": "Fat-containing tumor",
+            "modality": "CT(Computed Tomography)",
+            "score": 0.19807517528533936,
+            "match": "unmatched"
+          },
+          {
+            "qt": "what",
+            "question": "What is the organ depicted in this ultrasound image?",
+            "answer": "thyroid",
+            "modality": "ultrasound",
+            "score": 0.21540722250938416,
+            "match": "unmatched"
+          },
+          {
+            "qt": "yes_no",
+            "question": "Could any abnormalities be observed in this image?",
+            "answer": "No",
+            "modality": "CT(Computed Tomography)",
+            "score": 0.25620338320732117,
+            "match": "unmatched"
+          },
+          {
+            "qt": "what",
+            "question": "What is the specific diagnosis for the cancer cells captured in this picture?",
+            "answer": "Follicular Lymphoma",
+            "modality": "Microscopy Images",
+            "score": 0.2603047788143158,
+            "match": "unmatched"
+          }
+        ]
+      }
+    }
+  }
+}

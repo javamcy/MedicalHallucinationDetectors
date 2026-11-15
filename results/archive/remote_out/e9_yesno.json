@@ -1,0 +1,53 @@
+{
+  "vqa_rad": {
+    "yes_no": {
+      "n_pairs": 231,
+      "pair_acc_full": 0.5887445887445888,
+      "pair_acc_no_image": 0.6753246753246753,
+      "question_prior": {
+        "auroc": 0.63573418146619,
+        "n_train": 741,
+        "n_test": 450,
+        "base_rate": 0.4955555555555556
+      },
+      "n_all_pairs": 1191
+    },
+    "open": {
+      "n_pairs": 221,
+      "pair_acc_full": 0.7285067873303168,
+      "pair_acc_no_image": 0.5701357466063348,
+      "question_prior": null,
+      "n_all_pairs": 1053
+    }
+  },
+  "path_vqa": {
+    "yes_no": {
+      "n_pairs": 620,
+      "pair_acc_full": 0.8677419354838709,
+      "pair_acc_no_image": 0.8709677419354839,
+      "question_prior": {
+        "auroc": 0.9368272828980363,
+        "n_train": 1843,
+        "n_test": 1215,
+        "base_rate": 0.5646090534979424
+      },
+      "n_all_pairs": 3058
+    },
+    "open": {
+      "n_pairs": 570,
+      "pair_acc_full": 0.8298245614035088,
+      "pair_acc_no_image": 0.6385964912280702,
+      "question_prior": null,
+      "n_all_pairs": 2942
+    }
+  },
+  "omni": {
+    "open": {
+      "n_pairs": 388,
+      "pair_acc_full": 0.9510309278350515,
+      "pair_acc_no_image": 0.8943298969072165,
+      "question_prior": null,
+      "n_all_pairs": 1924
+    }
+  }
+}

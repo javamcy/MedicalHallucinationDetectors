@@ -1,0 +1,21 @@
+{
+  "ds": "path_vqa",
+  "mode": "pixelshuffle",
+  "variant": "lora_shuffle_test",
+  "seed": 0,
+  "n": 1676,
+  "test_auroc": 0.7567341265998713,
+  "best_epoch": 1,
+  "best_val_auroc": 0.9119509299564701,
+  "delta_full_minus_shuffle": 0.14980476871286907,
+  "delta_ci95": [
+    0.12910460476881355,
+    0.1706906681528847
+  ],
+  "delta_full_minus_zeroed": 0.1536168340348939,
+  "delta_zeroed_ci95": [
+    0.13320105242291472,
+    0.17565442813782553
+  ],
+  "note": "SAME adapter as lora_full; pixels permuted at test time"
+}

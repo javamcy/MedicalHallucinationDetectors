@@ -1,0 +1,44 @@
+{
+  "rows": [
+    {
+      "benchmark": "VizWiz",
+      "predicted": 0.0023,
+      "observed": -0.0381,
+      "error": 0.0404,
+      "oracle_drop": -0.1005,
+      "interval": {
+        "lo": -0.061685549558415216,
+        "hi": 0.0663144504415848
+      }
+    },
+    {
+      "benchmark": "TextVQA",
+      "predicted": 0.0179,
+      "observed": 0.0717,
+      "error": 0.0538,
+      "oracle_drop": -0.0577,
+      "interval": {
+        "lo": -0.04607759319941062,
+        "hi": 0.08192240680058938
+      }
+    },
+    {
+      "benchmark": "OK-VQA",
+      "predicted": 0.0327,
+      "observed": 0.0125,
+      "error": 0.0202,
+      "oracle_drop": -0.0174,
+      "interval": {
+        "lo": -0.031345239294464367,
+        "hi": 0.09665476070553564
+      }
+    }
+  ],
+  "pairwise_concordant": 2,
+  "pairwise_discordant": 1,
+  "kendall_tau": 0.333,
+  "n_within_0_03": 1,
+  "n_within_0_06": 3,
+  "mean_abs_error": 0.0381,
+  "verdict": "Of three held-out benchmarks, one met the 0.03 target, all three met the 0.06 bound, and two of three pairwise orderings were correct (tau = 0.33). The screen is a coarse ranking device with wide error bars, not a precise estimator."
+}

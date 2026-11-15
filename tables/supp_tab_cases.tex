@@ -1,0 +1,45 @@
+\small
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{p{7.0cm}llcc}
+\toprule
+Question & Grounded answer & Matched hallucinated answer & Score (grounded) & Score (hallucinated) \\
+\midrule
+
+\multicolumn{5}{l}{\emph{VQA-RAD} (matched protocol, 452 test pairs)} \\
+\midrule
+\multicolumn{5}{l}{\emph{Missed hallucinations --- the detector rates the unsupported answer as grounded}} \\
+\quad which image modality is this? & mr flair & psoas major muscle & 0.01 & \textbf{1.00} \\
+\quad which lobe is the lesion in? & left parietal lobe & chest x-ray & 0.00 & \textbf{1.00} \\
+\quad what imaging modality was used? & ct & infarct & 0.00 & \textbf{1.00} \\
+\quad what part of the posterior brain contains the lesions? & temporal and lateral occ & small subdural hematoma  & \textbf{0.00} & 0.00 \\
+\quad in what plane is this image oriented? & axial & abscess & \textbf{0.00} & 0.00 \\
+\addlinespace[2pt]
+\multicolumn{5}{l}{\emph{False alarms --- the detector rejects the grounded answer}} \\
+\quad does this patient have a skull fracture? & no & yes & \textbf{0.00} & 1.00 \\
+\addlinespace[3pt]
+\multicolumn{5}{l}{\emph{Path-VQA} (matched protocol, 1190 test pairs)} \\
+\midrule
+\multicolumn{5}{l}{\emph{Missed hallucinations --- the detector rates the unsupported answer as grounded}} \\
+\quad what is present? & hematologic & face & 0.06 & \textbf{1.00} \\
+\quad where is this part in? & spleen & joints & 0.03 & \textbf{1.00} \\
+\quad what does this image show? & brain & hepatobiliary & 0.02 & \textbf{1.00} \\
+\addlinespace[2pt]
+\multicolumn{5}{l}{\emph{False alarms --- the detector rejects the grounded answer}} \\
+\quad is adrenal of premature 30 week gestation gram infant lesion present? & no & yes & \textbf{0.00} & 1.00 \\
+\quad does this image show stenosis of foramen magnum due to subluxation of atla & yes & no & \textbf{0.00} & 1.00 \\
+\quad is nervous present? & yes & no & \textbf{0.00} & 1.00 \\
+\addlinespace[3pt]
+\multicolumn{5}{l}{\emph{OmniMed} (matched protocol, 401 test pairs)} \\
+\midrule
+\multicolumn{5}{l}{\emph{Missed hallucinations --- the detector rates the unsupported answer as grounded}} \\
+\quad Which technique was employed to obtain the skin image? & Dermoscopy. & thyroid & 0.01 & \textbf{1.00} \\
+\quad What type of imaging was utilized to obtain this image? & Dermoscopic imaging & common bile duct & 0.00 & \textbf{1.00} \\
+\quad What is the specific category of the abnormality in this image? & Inflammatory. & gallbladder & 0.01 & \textbf{1.00} \\
+\quad What is the skin condition depicted in this image? & Dermatofibroma & Melanoma & \textbf{0.00} & 0.00 \\
+\quad What is the medical condition depicted in this image? & Gallstone & gallbladder & \textbf{0.00} & 0.00 \\
+\addlinespace[2pt]
+\multicolumn{5}{l}{\emph{False alarms --- the detector rejects the grounded answer}} \\
+\quad What is the indicated anomaly depicted in this picture? & Diabetic Macular Edema ( & Optical Coherence Tomogr & \textbf{0.00} & 1.00 \\
+\addlinespace[3pt]
+\bottomrule
+\end{tabular}}

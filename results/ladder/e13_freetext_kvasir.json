@@ -1,0 +1,55 @@
+{
+  "ds": "kvasir",
+  "level": "L4_fair",
+  "n_rows": 68092,
+  "strata": [
+    {
+      "lo": 1,
+      "hi": 6,
+      "n_rows": 4987,
+      "n_pairs": 2493,
+      "full": 0.9756241774436962,
+      "qce": 0.9740771280275704,
+      "noimage": 0.9778772979286866,
+      "oracle_gbm": 0.9073734027525269,
+      "top_lexical_feature": "qa_jaccard",
+      "top_lexical_auroc": 0.653720287416055
+    },
+    {
+      "lo": 7,
+      "hi": 9,
+      "n_rows": 2216,
+      "n_pairs": 1108,
+      "full": 0.9871882637797169,
+      "qce": 0.983263775642013,
+      "noimage": 0.9843925091215521,
+      "oracle_gbm": 0.8247659609841251,
+      "top_lexical_feature": "qa_jaccard",
+      "top_lexical_auroc": 0.7155371589656074
+    },
+    {
+      "lo": 10,
+      "hi": 12,
+      "n_rows": 2085,
+      "n_pairs": 1042,
+      "full": 0.9900610565338959,
+      "qce": 0.9883459698453982,
+      "noimage": 0.9917973114509073,
+      "oracle_gbm": 0.8102406367403137,
+      "top_lexical_feature": "qa_jaccard",
+      "top_lexical_auroc": 0.7444925791553693
+    },
+    {
+      "lo": 13,
+      "hi": 99,
+      "n_rows": 4388,
+      "n_pairs": 2194,
+      "full": 0.9921023946471786,
+      "qce": 0.9904658893292373,
+      "noimage": 0.9916360088091872,
+      "oracle_gbm": 0.8286075671673513,
+      "top_lexical_feature": "qa_jaccard",
+      "top_lexical_auroc": 0.7859910158922272
+    }
+  ]
+}

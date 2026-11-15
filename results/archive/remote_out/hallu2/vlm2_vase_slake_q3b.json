@@ -1,0 +1,22 @@
+{
+  "L0_leaky": {
+    "ds": "slake",
+    "level": "L0_leaky",
+    "tag": "q3b",
+    "n_test": 2004,
+    "semantic_entropy": 0.5163806878842222,
+    "radflag": 0.5164469782079283,
+    "answer_consistency": 0.5125218932516451,
+    "vase_visual": 0.6325622057432341
+  },
+  "L4_fair": {
+    "ds": "slake",
+    "level": "L4_fair",
+    "tag": "q3b",
+    "n_test": 2008,
+    "semantic_entropy": 0.5000000000000001,
+    "radflag": 0.5,
+    "answer_consistency": 0.5,
+    "vase_visual": 0.6325415469595721
+  }
+}

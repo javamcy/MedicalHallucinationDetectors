@@ -1,0 +1,34 @@
+benchmark,gid,question,expert_answer,borrowed_negative,rule_canonical,rule_overlap
+Path-VQA,path_vqa_415,what does this image show?,lymph nodes,lymph node,1,1
+OmniMed,omni_Images/Adam Challenge/AMD/A0006.jpg,What is the specific type of abnormality shown in this image?,Age-related Macular degeneration (AMD).,Age-related Macular Degeneration (AMD),0,1
+SLAKE,slake_source_xmlab516,What disease is/are shown on the right of brain?,"Brain Edema, Brain Enhancing Tumor, Brain Non-enhancing Tumor","Brain Enhancing Tumor, Brain Edema, Brain Non-enhancing Tumor",0,1
+SLAKE,slake_source_xmlab521,What disease is/are shown on the right of brain?,"Brain Edema, Brain Enhancing Tumor, Brain Non-enhancing Tumor","Brain Enhancing Tumor, Brain Edema, Brain Non-enhancing Tumor",0,1
+SLAKE,slake_source_xmlab192,Where is/are the abnormality located?,"Left Lung, Right",Right Lung,0,1
+SLAKE,slake_source_xmlab65,What diseases are included in the picture?,"Brain Tumor, Brain Edema","Brain Edema, Brain Non-enhancing Tumor",0,1
+SLAKE,slake_source_xmlab369,Where is the effusion?,Left Lung,Lower Left Lung,0,1
+SLAKE,slake_source_xmlab183,Where is/are the abnormality located?,"Left Lung, Right","Right Lung, Left",0,1
+Kvasir-VQA-x1,kvasir_cl8k2u1qf1etn08323g2b7s2t,How many polyps are visible in the image?,one polyp identified,One polyp identified,1,1
+Kvasir-VQA-x1,kvasir_cl8k2u1rn1gf708326j5r4wu2,What is the size of the observed polyp?,polyp measuring 11 to 20 millimeters,polyp measuring between 11 to 20 millimeters,0,1
+Kvasir-VQA-x1,kvasir_cl8k2u1s21gqj08320iqi6pe0,Which anatomical landmarks are visible in the image?,No anatomical landmarks identified,No significant anatomical landmarks identified,0,1
+Kvasir-VQA-x1,kvasir_cl8k2u1s41gsv0832gp096j7w,What is the measured size of the polyp?,polyp measuring 5 to 10 millimeters,adenomatous polyp measuring 5 to 10 millimeters,0,1
+Kvasir-VQA-x1,kvasir_cla820gmqs65z071uaj197630,What type of polyp is observed in the colon?,no polyp detected,No polyp detected,1,1
+Kvasir-VQA-x1,kvasir_clb0kvxvd90ik074ygxuw4k0e,Is there any text visible on the image?,no text observed,No text observed,1,1
+Kvasir-VQA-x1,kvasir_clb0kvxwm92fk074yh5vrcfyh,Are there any medical instruments visible in the image?,no instruments observed,No instruments observed,1,1
+Kvasir-VQA-x1,kvasir_clb0kvxwq92lk074yepfmerxu,"Are there any polyps, anatomical landmarks, or instruments visible in the image?","No polyps, anatomical landmarks, or instruments are visible in the image.",No instruments or polyps are visible in the image.,0,1
+Kvasir-VQA-x1,kvasir_clb0lbwzjdp8w086ue5vqhp8a,Is any text visible on the image?,text present on the image,text is present on the image,0,1
+Kvasir-VQA-x1,kvasir_clbnxtofebm0y074cbmft062j,Is there any abnormality present in the image?,no significant findings observed,No significant findings observed,1,1
+Kvasir-VQA-x1,kvasir_clbnxtofgbm4u074c4zj3hw2a,Is there any abnormality visible in this image?,no significant findings noted,No significant findings noted,1,1
+Kvasir-VQA-x1,kvasir_clbnxtog6bmym074c7oj24lmi,Is there any abnormality visible in this gastrointestinal image?,no significant findings observed,No significant findings observed,1,1
+Kvasir-VQA-x1,kvasir_clbnxtog7bn0i074cc46u9nxw,Is there any abnormality visible in this image?,No significant findings noted,no significant findings noted,1,1
+Kvasir-VQA-x1,kvasir_clbnxtog8bn1y074cbyxteszg,Is there any abnormality visible in this image?,No significant findings observed,No significant findings or instruments observed,0,1
+Kvasir-VQA-x1,kvasir_clbnxtogcbnbe074cfqpaaah8,Is there any abnormality visible in this gastrointestinal image?,No significant abnormalities identified,no significant abnormalities identified,1,1
+Kvasir-VQA-x1,kvasir_clbnxtondardp0755213ifsux,Is there any abnormality visible in the image?,No significant findings observed,no significant findings observed,1,1
+Kvasir-VQA-x1,kvasir_clbnxtonjarmx075525ov4wyp,Is there any abnormality visible in this image?,No significant abnormalities identified,no significant abnormalities identified,1,1
+Kvasir-VQA-x1,kvasir_clbnxtowr6uea079o8qumfebs,Is there any abnormality present in this gastrointestinal image?,no significant findings noted,No significant findings noted,1,1
+Kvasir-VQA-x1,kvasir_clbnxtowu6uly079ogopb542p,Is there any abnormality visible in the image?,No significant findings noted,no significant findings noted,1,1
+Kvasir-VQA-x1,kvasir_clbnxtowx6uue079o8faldf18,Is there any abnormality visible in this image?,no significant abnormalities identified,No significant abnormalities identified,1,1
+Kvasir-VQA-x1,kvasir_clbnxtox16v4i079o7fac30x8,Is there any abnormality visible in this image?,No significant findings noted,no significant findings noted,1,1
+Kvasir-VQA-x1,kvasir_clbnxtox36v7a079o953316ip,Is there any abnormality visible in this image?,no significant findings noted,No significant findings noted,1,1
+Kvasir-VQA-x1,kvasir_clbnxtoxf6vli079ogd5bf7uz,Is there any abnormality visible in this gastrointestinal image?,no significant findings noted,No significant findings noted,1,1
+Kvasir-VQA-x1,kvasir_clbnxtoxh6vrm079obwkqczgp,Is there any abnormality present in the image?,No significant findings noted,no significant findings noted,1,1
+Kvasir-VQA-x1,kvasir_clbnxtoxq6w7e079o2mv28fyl,Is there any abnormality visible in this image?,No significant findings noted,no significant findings noted,1,1

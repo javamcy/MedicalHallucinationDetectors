@@ -1,0 +1,81 @@
+{
+ "flagged_total": 33,
+ "pairs_total": 9885,
+ "share": 0.00334,
+ "wilson95": [
+  0.00238,
+  0.00468
+ ],
+ "benchmarks": {
+  "vqa_rad": {
+   "label": "VQA-RAD",
+   "n_pairs": 452,
+   "flagged": 0,
+   "auroc_full": 0.6818,
+   "auroc_noimage": 0.6645,
+   "image_delta": 0.0172,
+   "stress": {
+    "frac": 0.0,
+    "max_abs_dAUROC": 0.0,
+    "p95_abs_dAUROC": 0.0,
+    "max_abs_change_image_delta": 0.0
+   }
+  },
+  "path_vqa": {
+   "label": "Path-VQA",
+   "n_pairs": 1190,
+   "flagged": 1,
+   "auroc_full": 0.906,
+   "auroc_noimage": 0.8474,
+   "image_delta": 0.0586,
+   "stress": {
+    "frac": 0.0084,
+    "max_abs_dAUROC": 0.0028,
+    "p95_abs_dAUROC": 0.0013,
+    "max_abs_change_image_delta": 0.002
+   }
+  },
+  "omni": {
+   "label": "OmniMed",
+   "n_pairs": 401,
+   "flagged": 1,
+   "auroc_full": 0.9658,
+   "auroc_noimage": 0.9263,
+   "image_delta": 0.0395,
+   "stress": {
+    "frac": 0.0249,
+    "max_abs_dAUROC": 0.0035,
+    "p95_abs_dAUROC": 0.0018,
+    "max_abs_change_image_delta": 0.0038
+   }
+  },
+  "slake": {
+   "label": "SLAKE",
+   "n_pairs": 1004,
+   "flagged": 6,
+   "auroc_full": 0.9824,
+   "auroc_noimage": 0.9043,
+   "image_delta": 0.0781,
+   "stress": {
+    "frac": 0.0598,
+    "max_abs_dAUROC": 0.0024,
+    "p95_abs_dAUROC": 0.0015,
+    "max_abs_change_image_delta": 0.0052
+   }
+  },
+  "kvasir": {
+   "label": "Kvasir-VQA-x1",
+   "n_pairs": 6838,
+   "flagged": 25,
+   "auroc_full": 0.9862,
+   "auroc_noimage": 0.9853,
+   "image_delta": 0.0009,
+   "stress": {
+    "frac": 0.0366,
+    "max_abs_dAUROC": 0.0006,
+    "p95_abs_dAUROC": 0.0003,
+    "max_abs_change_image_delta": 0.0004
+   }
+  }
+ }
+}

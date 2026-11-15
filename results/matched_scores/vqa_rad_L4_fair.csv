@@ -1,0 +1,905 @@
+pid,gid,question,answer,label,question_type,match,split,score_full,score_qce,score_noimage
+2,vqa_rad_2,which organ system is abnormal in this image?,cardiovascular,0,which,type+len2,test,0.783032655716,0.00955994054675,0.998857021332
+2,vqa_rad_2,which organ system is abnormal in this image?,right,1,which,type+len2,test,0.00445885537192,0.00148429826368,0.97566640377
+15,vqa_rad_9,what type of image is this?,mri-dwi,0,what,type+len2,test,0.00909126363695,0.012538259849,0.995647370815
+15,vqa_rad_9,what type of image is this?,cerebellum,1,what,type+len2,test,0.00207196711563,5.1590919611e-05,0.999974131584
+19,vqa_rad_11,what plane is seen?,pa,0,what,type+len2,test,0.000584022782277,0.000121406243125,0.904758691788
+19,vqa_rad_11,what plane is seen?,midline,1,what,type+len2,test,0.000935035233852,0.000151725427713,0.0117013603449
+22,vqa_rad_13,which plane is this image taken in?,pa,0,which,type+len2,test,0.00100240542088,0.00225767097436,0.000141738724778
+22,vqa_rad_13,which plane is this image taken in?,axial,1,which,type+len2,test,0.000517691252753,0.000727817299776,4.04326419812e-06
+26,vqa_rad_15,what allows for the bright areas seen in this image?,iv contrast,0,what,type+len2,test,0.244974642992,0.216875806451,0.982775390148
+26,vqa_rad_15,what allows for the bright areas seen in this image?,double arch,1,what,type+len2,test,0.0570572204888,0.131063878536,0.0763805508614
+27,vqa_rad_11,is this an mri?,no,0,yes_no,type+len2,test,0.0270649008453,0.00135461380705,0.000292283453746
+27,vqa_rad_11,is this an mri?,yes,1,yes_no,type+len2,test,0.996236145496,0.997929930687,0.999812543392
+28,vqa_rad_15,is the mass heterogenous?,yes,0,yes_no,type+len2,test,0.99287378788,0.664774775505,0.000688801635988
+28,vqa_rad_15,is the mass heterogenous?,no,1,yes_no,type+len2,test,0.68291413784,0.918548464775,0.999597847462
+29,vqa_rad_15,is the mass heterogenous in consistency?,yes,0,yes_no,type+len2,test,0.962173759937,0.398031502962,0.00274329562671
+29,vqa_rad_15,is the mass heterogenous in consistency?,no,1,yes_no,type+len2,test,0.822096347809,0.985362172127,0.994936466217
+30,vqa_rad_9,are there abnormalities with in the contrast between white and grey matter?,yes,0,yes_no,type+len2,test,0.00311005208641,0.00701124733314,0.0127716269344
+30,vqa_rad_9,are there abnormalities with in the contrast between white and grey matter?,no,1,yes_no,type+len2,test,0.997908830643,0.840730428696,0.98337328434
+31,vqa_rad_9,is the gray-white matter junction altered?,yes,0,yes_no,type+len2,test,0.00346688297577,0.0674280822277,0.332031756639
+31,vqa_rad_9,is the gray-white matter junction altered?,no,1,yes_no,type+len2,test,0.998222053051,0.789988636971,0.954300403595
+34,vqa_rad_9,is the image in the axial plane?,yes,0,yes_no,type+len2,test,2.83283643512e-05,8.98442158359e-06,2.85708865704e-05
+34,vqa_rad_9,is the image in the axial plane?,no,1,yes_no,type+len2,test,0.999991893768,0.999979019165,0.99996316433
+35,vqa_rad_11,how can the distribution in this image be described?,micronodular,0,how,type+len2,test,0.0170495118946,0.024182388559,0.00184380589053
+35,vqa_rad_11,how can the distribution in this image be described?,infarct,1,how,type+len2,test,0.999998450279,0.999996066093,0.997674643993
+37,vqa_rad_11,what type of distributions is seen on this image?,micronodular,0,what,type+len2,test,0.121716290712,0.0970811992884,0.00031939172186
+37,vqa_rad_11,what type of distributions is seen on this image?,subarachnoid,1,what,type+len2,test,0.999989151955,0.99996137619,0.100052639842
+38,vqa_rad_15,what is the location of the mass?,left rectus abdominus,0,what,type+len2,test,0.749797046185,0.0150894150138,0.999962925911
+38,vqa_rad_15,what is the location of the mass?,left hepatic lobe,1,what,type+len2,test,0.973524451256,0.998608767986,0.999990463257
+39,vqa_rad_15,where is the mass?,left rectus abdominus,0,where,type+len2,test,0.469905167818,0.00395381264389,0.999991178513
+39,vqa_rad_15,where is the mass?,kidney cyst,1,where,type+len2,test,0.99984896183,0.996400952339,0.999999403954
+43,vqa_rad_17,are the kidneys visible in this image?,yes,0,yes_no,type+len2,test,0.993429481983,0.986748874187,0.999622225761
+43,vqa_rad_17,are the kidneys visible in this image?,no,1,yes_no,type+len2,test,0.00261983438395,0.0610605217516,0.000325590983266
+44,vqa_rad_18,is air visible in the bowels?,yes,0,yes_no,type+len2,test,0.427240610123,0.0636436864734,0.00802601315081
+44,vqa_rad_18,is air visible in the bowels?,no,1,yes_no,type+len2,test,0.13771250844,0.986520051956,0.764670491219
+45,vqa_rad_18,is there air in the bowel?,yes,0,yes_no,type+len2,test,0.99816930294,0.931157529354,0.158565849066
+45,vqa_rad_18,is there air in the bowel?,no,1,yes_no,type+len2,test,0.000398276490159,0.112255126238,0.825569272041
+46,vqa_rad_19,what do the two bright dots represent?,nipple location,0,what,type+len2,test,0.994142353535,0.439528167248,0.999997019768
+46,vqa_rad_19,what do the two bright dots represent?,ureteral obstruction,1,what,type+len2,test,0.921235978603,0.190094798803,0.970544040203
+48,vqa_rad_19,what are the two hyperlucent inferior dots?,nipple location,0,what,type+len2,test,0.999552190304,0.997548997402,0.999999523163
+48,vqa_rad_19,what are the two hyperlucent inferior dots?,plain film,1,what,type+len2,test,0.0295818727463,0.476401984692,0.215289250016
+51,vqa_rad_22,are the kidneys visualized?,yes,0,yes_no,type+len2,test,0.0668321400881,0.219579726458,0.0188406258821
+51,vqa_rad_22,are the kidneys visualized?,no,1,yes_no,type+len2,test,0.964018762112,0.981872260571,0.990132689476
+52,vqa_rad_22,can you see the kidneys,yes,0,yes_no,type+len2,test,0.400152355433,0.959988057613,4.33396562585e-05
+52,vqa_rad_22,can you see the kidneys,no,1,yes_no,type+len2,test,0.537303507328,0.576186656952,0.999990820885
+64,vqa_rad_17,is this an axial cut?,yes,0,yes_no,type+len2,test,0.000474971515359,0.0001194110082,0.00174725835677
+64,vqa_rad_17,is this an axial cut?,no,1,yes_no,type+len2,test,0.999130189419,0.999925374985,0.998043298721
+65,vqa_rad_19,is the trachea deviated?,yes,0,yes_no,type+len2,test,0.999862194061,0.999232769012,0.999952793121
+65,vqa_rad_19,is the trachea deviated?,no,1,yes_no,type+len2,test,0.00114099006169,0.0112899420783,9.0140138127e-06
+66,vqa_rad_19,is tracheal deviation present?,yes,0,yes_no,type+len2,test,0.999962687492,0.999592602253,0.999970674515
+66,vqa_rad_19,is tracheal deviation present?,no,1,yes_no,type+len2,test,0.000612007803284,0.00175196223427,1.26206841742e-05
+75,vqa_rad_31,is there intrahepatic ductal dilatation?,yes,0,yes_no,type+len2,test,0.000565321766771,0.000798769469839,8.99665392353e-05
+75,vqa_rad_31,is there intrahepatic ductal dilatation?,no,1,yes_no,type+len2,test,0.999865889549,0.998462080956,0.999941706657
+76,vqa_rad_31,is intrahepatic ductal dilatation present?,yes,0,yes_no,type+len2,test,0.00317640835419,0.0118016917259,0.00578010687605
+76,vqa_rad_31,is intrahepatic ductal dilatation present?,no,1,yes_no,type+len2,test,0.998620033264,0.990432739258,0.997808039188
+84,vqa_rad_17,is there air in the bowel?,yes,0,yes_no,type+len2,test,0.998318791389,0.997086584568,0.158565849066
+84,vqa_rad_17,is there air in the bowel?,no,1,yes_no,type+len2,test,0.000287525443127,0.0198030974716,0.825569272041
+85,vqa_rad_17,is air present in the bowel?,yes,0,yes_no,type+len2,test,0.984976530075,0.995782732964,0.00107242329977
+85,vqa_rad_17,is air present in the bowel?,no,1,yes_no,type+len2,test,0.00319620897062,0.0438322760165,0.991254031658
+112,vqa_rad_17,what is wrong with the pancreas?,fatty infiltration,0,what,type+len2,test,0.867892205715,0.996684730053,0.999423384666
+112,vqa_rad_17,what is wrong with the pancreas?,right lenticular nucleus,1,what,type+len2,test,0.988277494907,0.990776240826,0.701012551785
+115,vqa_rad_17,what pathology does the pancreas deominstrate?,fatty infiltration,0,what,type+len2,test,0.945641160011,0.988898694515,0.996517777443
+115,vqa_rad_17,what pathology does the pancreas deominstrate?,left side,1,what,type+len2,test,0.999976754189,0.999001204967,0.99977773428
+117,vqa_rad_22,what organ exhibits pathology,jejunum,0,what,type+len2,test,0.291693478823,0.936643183231,0.776591539383
+117,vqa_rad_22,what organ exhibits pathology,diverticuli,1,what,type+len2,test,0.119225755334,0.000427115854109,0.000243020520429
+118,vqa_rad_22,which part of the bowel is involved by the mass?,jejunum,0,which,type+len2,test,0.0150593528524,0.0576368942857,0.999580204487
+118,vqa_rad_22,which part of the bowel is involved by the mass?,right,1,which,type+len2,test,0.00772709166631,0.51250654459,0.355863749981
+124,vqa_rad_19,is this a pa film?,yes,0,yes_no,type+len2,test,3.64181614714e-05,7.33778215363e-05,0.000339583144523
+124,vqa_rad_19,is this a pa film?,no,1,yes_no,type+len2,test,0.999959111214,0.999929785728,0.999727904797
+126,vqa_rad_19,what image modality is this?,x-ray,0,what,type+len2,test,0.000266723684035,0.000713701476343,0.0316413529217
+126,vqa_rad_19,what image modality is this?,air?,1,what,type+len2,test,0.000256956700468,0.0398364961147,0.0108957113698
+139,vqa_rad_17,is there contrast in this image?,yes,0,yes_no,type+len2,test,0.000444769626483,0.00173085974529,0.000274305028142
+139,vqa_rad_17,is there contrast in this image?,no,1,yes_no,type+len2,test,0.99992108345,0.999850511551,0.999943256378
+140,vqa_rad_31,is there evidence of mesenteric lymphadenopathy?,yes,0,yes_no,type+len2,test,0.00102907372639,0.000436054979218,0.100685015321
+140,vqa_rad_31,is there evidence of mesenteric lymphadenopathy?,no,1,yes_no,type+len2,test,0.999491930008,0.999556839466,0.992409944534
+141,vqa_rad_31,is mesenteric lymphadenopathy present?,yes,0,yes_no,type+len2,test,0.00165031175129,0.000565500697121,0.0771649181843
+141,vqa_rad_31,is mesenteric lymphadenopathy present?,no,1,yes_no,type+len2,test,0.999566257,0.999685883522,0.996345937252
+162,vqa_rad_31,what imaging modality was used?,ct,0,what,type+len2,test,0.000201007627766,8.19447159301e-05,2.4150189347e-05
+162,vqa_rad_31,what imaging modality was used?,hypointense,1,what,type+len2,test,0.577370584011,0.241129174829,0.0298674348742
+163,vqa_rad_49,is the trachea midline?,yes,0,yes_no,type+len2,test,0.999839425087,0.658726096153,0.946228682995
+163,vqa_rad_49,is the trachea midline?,no,1,yes_no,type+len2,test,0.000184356729733,0.0442311018705,0.00780768413097
+176,vqa_rad_59,what part of the posterior brain contains the lesions?,temporal and lateral occipital lobes,0,what,type+len2,test,8.73460635376e-07,4.77817184219e-06,5.37435653314e-06
+176,vqa_rad_59,what part of the posterior brain contains the lesions?,small subdural hematoma with cerebral edema,1,what,type+len2,test,0.00011395666661,7.31653062758e-06,0.999985694885
+187,vqa_rad_67,what would be the most probably diagnosis for this patient?,acute stroke,0,what,type+len2,test,0.0415424332023,0.163246572018,0.993713915348
+187,vqa_rad_67,what would be the most probably diagnosis for this patient?,plain film xray,1,what,type+len2,test,0.999957561493,0.999932765961,0.99950158596
+188,vqa_rad_68,why is the left hemithorax more lucent?,decreased muscle bulk,0,why,type+len2,test,0.998064815998,0.991341412067,0.901221632957
+188,vqa_rad_68,why is the left hemithorax more lucent?,oral and iv,1,why,type+len2,test,0.559450745583,0.243024423718,0.00670842081308
+194,vqa_rad_72,what is the term for the sign in this image?,right vertebral artery sign,0,what,type+len2,test,0.99929022789,0.631895244122,0.642792582512
+194,vqa_rad_72,what is the term for the sign in this image?,underneath the right hemidiaphragm,1,what,type+len2,test,0.999995470047,0.999999642372,0.999983310699
+196,vqa_rad_15,is the mass in the left or right side?,left,0,yes_no,type+len2,test,0.997374773026,0.999979376793,0.869398355484
+196,vqa_rad_15,is the mass in the left or right side?,cardiopulmonary,1,yes_no,type+len2,test,0.998563468456,0.999946594238,0.969210863113
+198,vqa_rad_75,which side is the diaphragm more depressed?,left,0,which,type+len2,test,0.000146546110045,0.000335060292855,0.00703044841066
+198,vqa_rad_75,which side is the diaphragm more depressed?,mri-dwi,1,which,type+len2,test,0.99999833107,0.999970436096,0.999995827675
+200,vqa_rad_77,how large is the mass?,5cm,0,how,type+len2,test,0.0239105671644,0.99576061964,2.79465602944e-05
+200,vqa_rad_77,how large is the mass?,12,1,how,type+len2,test,0.771388292313,0.955185353756,0.0922513827682
+211,vqa_rad_85,is there a fracture in the vertebrae seen?,no,0,yes_no,type+len2,test,1.9619210434e-05,5.71564305574e-06,1.66583163264e-06
+211,vqa_rad_85,is there a fracture in the vertebrae seen?,yes,1,yes_no,type+len2,test,0.999990344048,0.999980211258,0.999998688698
+212,vqa_rad_22,is the aorta visualized?,yes,0,yes_no,type+len2,test,0.999960303307,0.999012470245,0.999851346016
+212,vqa_rad_22,is the aorta visualized?,no,1,yes_no,type+len2,test,0.000102710589999,0.0025251628831,0.000111674278742
+214,vqa_rad_87,what is the size of the lesion,almost entire right side,0,what,type+len2,test,0.999966144562,0.99288213253,0.999965548515
+214,vqa_rad_87,what is the size of the lesion,the left occipital lobe,1,what,type+len2,test,0.0220418330282,0.995917141438,0.634396731853
+216,vqa_rad_89,is this an abnormal film?,yes,0,yes_no,type+len2,test,0.969439804554,0.662093400955,0.00497264135629
+216,vqa_rad_89,is this an abnormal film?,no,1,yes_no,type+len2,test,0.0305598191917,0.429941087961,0.998304724693
+217,vqa_rad_89,is there a cavitary lesion?,yes,0,yes_no,type+len2,test,0.999987483025,0.999916911125,0.972662627697
+217,vqa_rad_89,is there a cavitary lesion?,no,1,yes_no,type+len2,test,1.20440336104e-05,2.89473009616e-05,0.00788408797234
+220,vqa_rad_92,is there a pneumothorax present?,no,0,yes_no,type+len2,test,0.0810154378414,0.00173476606142,0.000738305738196
+220,vqa_rad_92,is there a pneumothorax present?,yes,1,yes_no,type+len2,test,0.999053537846,0.990812122822,0.999174296856
+221,vqa_rad_93,is the contrast in the bowels or the vasculature?,in the vasculature,0,yes_no,type+len2,test,0.836343646049,0.115151509643,0.0482399761677
+221,vqa_rad_93,is the contrast in the bowels or the vasculature?,basilar artery,1,yes_no,type+len2,test,0.999943614006,0.999698996544,0.884624183178
+224,vqa_rad_2,is there a pneumothorax?,no,0,yes_no,type+len2,test,0.935857772827,0.00278197904117,0.000319856713759
+224,vqa_rad_2,is there a pneumothorax?,yes,1,yes_no,type+len2,test,0.777787208557,0.757107138634,0.999720752239
+232,vqa_rad_100,are the lateral ventricles viewed in this section?,yes,0,yes_no,type+len2,test,0.000724894460291,0.00119508802891,2.00609338208e-05
+232,vqa_rad_100,are the lateral ventricles viewed in this section?,no,1,yes_no,type+len2,test,0.99875330925,0.99879360199,0.999994397163
+241,vqa_rad_109,what organ is superimposed on the lung fields?,breasts,0,what,type+len2,test,0.0040381886065,0.000363448518328,0.132453560829
+241,vqa_rad_109,what organ is superimposed on the lung fields?,calcification,1,what,type+len2,test,0.70576941967,0.997630953789,0.773536205292
+243,vqa_rad_111,is the left renal cyst uniform?,yes,0,yes_no,type+len2,test,0.000488867983222,0.000247474148637,0.228293672204
+243,vqa_rad_111,is the left renal cyst uniform?,no,1,yes_no,type+len2,test,0.999933362007,0.999705612659,0.631130814552
+244,vqa_rad_112,which side is the abnormality on?,right,0,which,type+len2,test,0.0304335132241,0.00497973430902,0.369003713131
+244,vqa_rad_112,which side is the abnormality on?,intestine,1,which,type+len2,test,0.999999523163,0.999999880791,0.999674320221
+251,vqa_rad_118,what modality is used in this image?,ct,0,what,type+len2,test,0.0123361228034,0.657680988312,0.47767406702
+251,vqa_rad_118,what modality is used in this image?,multilobulated,1,what,type+len2,test,0.544808804989,0.812673270702,0.999997138977
+252,vqa_rad_119,is this image abnormal?,yes,0,yes_no,type+len2,test,0.0460370332003,0.00546904886141,0.000576886639465
+252,vqa_rad_119,is this image abnormal?,no,1,yes_no,type+len2,test,0.953282535076,0.998927652836,0.999632000923
+263,vqa_rad_9,are the ventricles smaller than normal?,yes,0,yes_no,type+len2,test,0.00125736743212,0.00102591188625,0.0351656526327
+263,vqa_rad_9,are the ventricles smaller than normal?,no,1,yes_no,type+len2,test,0.999587476254,0.996514618397,0.92567127943
+272,vqa_rad_134,is there consolidation in the lungs?,no,0,yes_no,type+len2,test,0.00938408821821,0.00227295886725,0.000388423650293
+272,vqa_rad_134,is there consolidation in the lungs?,yes,1,yes_no,type+len2,test,0.996240973473,0.997607588768,0.999583184719
+273,vqa_rad_135,which orientation is the image acquired?,pa,0,which,type+len2,test,0.991125881672,0.667812466621,0.990400612354
+273,vqa_rad_135,which orientation is the image acquired?,midline,1,which,type+len2,test,2.78304978565e-05,0.000407107931096,6.14276577835e-05
+277,vqa_rad_138,is the liver normal?,yes,0,yes_no,type+len2,test,0.999602019787,0.997476279736,0.999953389168
+277,vqa_rad_138,is the liver normal?,no,1,yes_no,type+len2,test,0.000290885160211,0.00155989069026,8.44308087835e-05
+279,vqa_rad_13,is there a nodule in the left lung?,no,0,yes_no,type+len2,test,0.870819687843,0.997808635235,0.863437175751
+279,vqa_rad_13,is there a nodule in the left lung?,yes,1,yes_no,type+len2,test,0.664934039116,0.000108863685455,0.0419469512999
+281,vqa_rad_140,what is the hyperdensity in the image?,infarct,0,what,type+len2,test,0.0015787956072,0.00137774902396,0.997578442097
+281,vqa_rad_140,what is the hyperdensity in the image?,right,1,what,type+len2,test,0.919180631638,0.420970737934,0.999490022659
+283,vqa_rad_142,was this patient given iv contrast?,yes,0,yes_no,type+len2,test,2.40760982706e-05,0.000522835995071,0.000574679928832
+283,vqa_rad_142,was this patient given iv contrast?,no,1,yes_no,type+len2,test,0.999939322472,0.999954462051,0.999889016151
+285,vqa_rad_144,is there a pneumothorax present?,yes,0,yes_no,type+len2,test,0.999808013439,0.997747123241,0.999174296856
+285,vqa_rad_144,is there a pneumothorax present?,no,1,yes_no,type+len2,test,0.00241859001108,0.000936333206482,0.000738305738196
+286,vqa_rad_145,is the stomach visualized here?,no,0,yes_no,type+len2,test,0.999295592308,0.911270260811,0.923753678799
+286,vqa_rad_145,is the stomach visualized here?,yes,1,yes_no,type+len2,test,0.003196983831,0.00812863744795,0.112719006836
+287,vqa_rad_146,is the lesion uniform in density?,no,0,yes_no,type+len2,test,0.510107755661,0.998160302639,0.00127596838865
+287,vqa_rad_146,is the lesion uniform in density?,yes,1,yes_no,type+len2,test,0.94854581356,0.195009887218,0.99946898222
+298,vqa_rad_155,is the lesion ring enhancing?,yes,0,yes_no,type+len2,test,0.99687319994,0.969152927399,0.967332541943
+298,vqa_rad_155,is the lesion ring enhancing?,no,1,yes_no,type+len2,test,0.00753811048344,0.829723536968,0.0241171419621
+307,vqa_rad_162,is the image normal?,no,0,yes_no,type+len2,test,0.000361403945135,0.0442270822823,0.000117762225273
+307,vqa_rad_162,is the image normal?,yes,1,yes_no,type+len2,test,0.99905449152,0.829539597034,0.999801576138
+318,vqa_rad_171,how would you describe the r vertebral artery shape?,short section irregular contour,0,how,type+len2,test,0.982807636261,0.998954057693,0.162093043327
+318,vqa_rad_171,how would you describe the r vertebral artery shape?,superficial to the patient's skin,1,how,type+len2,test,0.419582873583,0.61185324192,0.201696321368
+331,vqa_rad_183,are the kidneys in this image abnormal?,yes,0,yes_no,type+len2,test,0.996987879276,0.999421358109,0.991613388062
+331,vqa_rad_183,are the kidneys in this image abnormal?,no,1,yes_no,type+len2,test,0.00228441762738,0.00103571556974,0.0035290075466
+338,vqa_rad_187,does the l sided lesion enhance?,yes,0,yes_no,type+len2,test,0.000281451706542,0.000233682178077,0.637606263161
+338,vqa_rad_187,does the l sided lesion enhance?,no,1,yes_no,type+len2,test,0.999823272228,0.999933123589,0.391719102859
+350,vqa_rad_198,is there contrast present in the bowel?,in the bowel,0,yes_no,type+len2,test,0.999817669392,0.998712539673,0.999830365181
+350,vqa_rad_198,is there contrast present in the bowel?,the diaphragm,1,yes_no,type+len2,test,0.00262176385149,0.00146514701191,0.000318844395224
+351,vqa_rad_199,is there cardiomegaly?,no,0,yes_no,type+len2,test,0.416548013687,0.450229674578,0.541970551014
+351,vqa_rad_199,is there cardiomegaly?,yes,1,yes_no,type+len2,test,0.903453111649,0.264380425215,0.473468661308
+352,vqa_rad_200,how many masses are there?,one,0,how,type+len2,test,0.00122564740013,0.0520792193711,2.70120544883e-05
+352,vqa_rad_200,how many masses are there?,jejunum,1,how,type+len2,test,2.20168058149e-05,0.962950885296,0.996964871883
+354,vqa_rad_202,is the gall bladder enlarged?,no,0,yes_no,type+len2,test,0.00187756563537,0.000267844938207,0.721821129322
+354,vqa_rad_202,is the gall bladder enlarged?,yes,1,yes_no,type+len2,test,0.991094827652,0.999745547771,0.508309066296
+357,vqa_rad_205,is there restricted diffusion?,no,0,yes_no,type+len2,test,0.982991874218,0.309757471085,0.000139276366099
+357,vqa_rad_205,is there restricted diffusion?,yes,1,yes_no,type+len2,test,0.135314941406,0.987526476383,0.999889850616
+366,vqa_rad_18,what imaging modality was used?,ct,0,what,type+len2,test,0.000203565519769,8.47385235829e-05,2.4150189347e-05
+366,vqa_rad_18,what imaging modality was used?,infarct,1,what,type+len2,test,0.999999642372,0.999982476234,0.99430334568
+368,vqa_rad_210,are there rib fractures present?,no,0,yes_no,type+len2,test,0.000976160692517,0.024755788967,4.0648268623e-05
+368,vqa_rad_210,are there rib fractures present?,yes,1,yes_no,type+len2,test,0.999974489212,0.998112797737,0.999856829643
+390,vqa_rad_111,is the transverse colon in view?,yes,0,yes_no,type+len2,test,5.18895358255e-05,0.000225862764637,3.57829703717e-05
+390,vqa_rad_111,is the transverse colon in view?,no,1,yes_no,type+len2,test,0.999938488007,0.999597132206,0.99993622303
+403,vqa_rad_100,"is this a t1 weighted, t2 weighted, or flair image?",flair,0,yes_no,type+len2,test,0.00596924265847,0.284530878067,0.000176247005584
+403,vqa_rad_100,"is this a t1 weighted, t2 weighted, or flair image?",splenule,1,yes_no,type+len2,test,0.999962449074,0.999777019024,0.998798847198
+404,vqa_rad_100,is this mri taken with flair protocol?,yes,0,yes_no,type+len2,test,0.999888896942,0.999869942665,0.999961137772
+404,vqa_rad_100,is this mri taken with flair protocol?,no,1,yes_no,type+len2,test,9.08443907974e-05,0.00015102638281,5.59785330552e-05
+413,vqa_rad_109,is the lung parenchyma well visualized?,yes,0,yes_no,type+len2,test,0.932009279728,0.00554923294112,0.00443527661264
+413,vqa_rad_109,is the lung parenchyma well visualized?,no,1,yes_no,type+len2,test,0.480942904949,0.970535933971,0.996564209461
+434,vqa_rad_202,are both kidneys in view?,yes,0,yes_no,type+len2,test,0.999499082565,0.999871730804,0.993930220604
+434,vqa_rad_202,are both kidneys in view?,no,1,yes_no,type+len2,test,7.60662733228e-05,0.000108051208372,0.0168417394161
+436,vqa_rad_202,are both kidneys visible?,yes,0,yes_no,type+len2,test,0.999782145023,0.99985909462,0.999766290188
+436,vqa_rad_202,are both kidneys visible?,no,1,yes_no,type+len2,test,2.56873881881e-05,4.13194356952e-05,0.000234093182371
+439,vqa_rad_111,what plane of the abdomen is this image?,axial,0,what,type+len2,test,7.53201384214e-05,0.00187385280151,0.000875342171639
+439,vqa_rad_111,what plane of the abdomen is this image?,right,1,what,type+len2,test,0.998931348324,0.999701201916,0.999884128571
+457,vqa_rad_100,what brain region demonstrates edema?,basal ganglia,0,what,type+len2,test,0.0449220910668,0.000411799206631,0.636332571507
+457,vqa_rad_100,what brain region demonstrates edema?,stomach bubble,1,what,type+len2,test,0.999857544899,0.999972581863,0.384493887424
+458,vqa_rad_89,any abnormal findings in the lower lung fields?,no,0,other,type+len2,test,0.000695710943546,0.0107191568241,7.88692414062e-05
+458,vqa_rad_89,any abnormal findings in the lower lung fields?,yes,1,other,type+len2,test,0.999899029732,0.993786454201,0.999938368797
+459,vqa_rad_100,what area of the brain is edematous?,basal ganglia,0,what,type+len2,test,0.0379051528871,0.000831116281915,0.293489813805
+459,vqa_rad_100,what area of the brain is edematous?,prior surgery,1,what,type+len2,test,0.747823596001,0.999076724052,0.758878469467
+462,vqa_rad_202,what is the muscle adjacent to the vertebrae?,psoas major muscle,0,what,type+len2,test,0.995337367058,0.985471785069,0.98918646574
+462,vqa_rad_202,what is the muscle adjacent to the vertebrae?,exophytic cyst,1,what,type+len2,test,0.99837911129,0.999829888344,0.999974250793
+463,vqa_rad_202,what muscle surrounds the vertebrae?,psoas major muscle,0,what,type+len2,test,0.992722332478,0.988160610199,0.999637722969
+463,vqa_rad_202,what muscle surrounds the vertebrae?,bilateral frontal lobes,1,what,type+len2,test,0.992574810982,0.99995970726,0.000648876128253
+466,vqa_rad_202,is there oral contrast located in the colon?,yes,0,yes_no,type+len2,test,0.985866248608,0.999326944351,0.0203233417124
+466,vqa_rad_202,is there oral contrast located in the colon?,no,1,yes_no,type+len2,test,0.00748715456575,0.00322703481652,0.943740785122
+467,vqa_rad_202,is there oral contrast in the colon?,yes,0,yes_no,type+len2,test,0.985167860985,0.999191462994,0.187507435679
+467,vqa_rad_202,is there oral contrast in the colon?,no,1,yes_no,type+len2,test,0.00518230302259,0.00262967101298,0.643438100815
+469,vqa_rad_89,are the lower lung fields normal?,yes,0,yes_no,type+len2,test,0.991927742958,0.833285450935,0.0766839906573
+469,vqa_rad_89,are the lower lung fields normal?,no,1,yes_no,type+len2,test,0.0414927788079,0.320612609386,0.961968660355
+471,vqa_rad_111,did this patient receive iv contrast?,yes,0,yes_no,type+len2,test,2.33588179981e-05,3.91568173654e-05,0.000408470252296
+471,vqa_rad_111,did this patient receive iv contrast?,no,1,yes_no,type+len2,test,0.99999165535,0.999971628189,0.999933958054
+472,vqa_rad_111,was iv contrast given to the patient?,yes,0,yes_no,type+len2,test,2.33065275097e-05,1.9176844944e-05,3.94619601138e-05
+472,vqa_rad_111,was iv contrast given to the patient?,no,1,yes_no,type+len2,test,0.99999666214,0.999925136566,0.999995231628
+512,vqa_rad_118,in what organ do you see swelling?,appendix,0,other,type+len2,test,0.0916728302836,0.99899917841,0.989626646042
+512,vqa_rad_118,in what organ do you see swelling?,right,1,other,type+len2,test,0.0345778129995,0.000672613386996,0.732559919357
+514,vqa_rad_118,what organ is edematous in this image?,appendix,0,what,type+len2,test,0.00711619434878,0.996327698231,0.996164321899
+514,vqa_rad_118,what organ is edematous in this image?,right,1,what,type+len2,test,0.200466752052,0.00604600924999,0.0862235799432
+566,vqa_rad_224,what structure in the left basal ganglia is spared?,left thalamus,0,what,type+len2,test,0.69656676054,0.13114105165,0.999739825726
+566,vqa_rad_224,what structure in the left basal ganglia is spared?,anterior mediastinum,1,what,type+len2,test,0.999976754189,0.999186933041,0.864789366722
+567,vqa_rad_224,what is spared in the left basal ganglia?,left thalamus,0,what,type+len2,test,0.5851110816,0.203993469477,0.999765813351
+567,vqa_rad_224,what is spared in the left basal ganglia?,right side,1,what,type+len2,test,0.998371422291,0.731580138206,0.990621447563
+576,vqa_rad_224,the infarction is likely caused by what vessel?,left mca,0,other,type+len2,test,0.0510588437319,0.371846735477,0.993839204311
+576,vqa_rad_224,the infarction is likely caused by what vessel?,right parietal,1,other,type+len2,test,0.0225575175136,0.959344029427,0.00221265899017
+577,vqa_rad_224,what vessel is likely the cause of this infarction?,left mca,0,what,type+len2,test,0.00351741327904,0.0191211346537,0.994164168835
+577,vqa_rad_224,what vessel is likely the cause of this infarction?,iv contrast,1,what,type+len2,test,0.41987529397,0.951030135155,0.999946475029
+579,vqa_rad_85,are there any abnormalities in the kidneys?,no,0,yes_no,type+len2,test,0.616440355778,0.00720647815615,0.734787523746
+579,vqa_rad_85,are there any abnormalities in the kidneys?,yes,1,yes_no,type+len2,test,0.611291944981,0.996637225151,0.0118453204632
+581,vqa_rad_85,notice any abnormality in the kidneys?,no,0,other,type+len2,test,0.182317733765,0.00183939887211,0.000879308732692
+581,vqa_rad_85,notice any abnormality in the kidneys?,yes,1,other,type+len2,test,0.550678789616,0.997300446033,0.982098162174
+605,vqa_rad_226,this image is concerning for what lung pathology?,pneumonia,0,other,type+len2,test,0.997294843197,0.997526705265,0.694157958031
+605,vqa_rad_226,this image is concerning for what lung pathology?,ct,1,other,type+len2,test,0.998092472553,0.129986688495,0.991395413876
+606,vqa_rad_226,what lung pathology is this image concerning for?,pneumonia,0,what,type+len2,test,0.994764924049,0.996904551983,0.929174184799
+606,vqa_rad_226,what lung pathology is this image concerning for?,retrocardiac,1,what,type+len2,test,0.978739619255,0.982846200466,0.213349416852
+610,vqa_rad_118,from what do you see stranding?,fat,0,other,type+len2,test,0.999849319458,0.99946385622,0.997887790203
+610,vqa_rad_118,from what do you see stranding?,pa,1,other,type+len2,test,0.974000573158,0.936287939548,0.990975558758
+611,vqa_rad_118,what is stranding in this image?,fat,0,what,type+len2,test,0.999896645546,0.999314188957,0.999817073345
+611,vqa_rad_118,what is stranding in this image?,pacemaker,1,what,type+len2,test,0.999851584435,0.999514222145,0.999680399895
+612,vqa_rad_67,the image above shows an abnormality where?,hyperintensity of the left basal ganglia,0,other,type+len2,test,0.0178338065743,0.246369287372,0.995060861111
+612,vqa_rad_67,the image above shows an abnormality where?,bowel contents light up on image,1,other,type+len2,test,0.999867081642,0.999138116837,0.0246712807566
+614,vqa_rad_67,where is the abnormality in this image?,hyperintensity of the left basal ganglia,0,where,type+len2,test,0.00888647325337,0.0204897280782,0.911945581436
+614,vqa_rad_67,where is the abnormality in this image?,lateral and third ventricular hydrocephalus,1,where,type+len2,test,1.055924713e-05,5.48650459677e-05,7.5165015005e-05
+650,vqa_rad_49,which lung are more markings present in?,right lung,0,which,type+len2,test,0.000166003315826,0.00691694999114,0.000208504032344
+650,vqa_rad_49,which lung are more markings present in?,mixed intensity,1,which,type+len2,test,0.191269263625,0.270598232746,0.170127943158
+651,vqa_rad_49,where are the most lung markings?,right lung,0,where,type+len2,test,0.00283332169056,0.399797022343,0.270545005798
+651,vqa_rad_49,where are the most lung markings?,right hemisphere,1,where,type+len2,test,0.999999523163,0.999996185303,0.999458730221
+652,vqa_rad_93,are both kidneys visualized?,yes,0,yes_no,type+len2,test,0.000404129823437,0.000557478517294,0.00979647692293
+652,vqa_rad_93,are both kidneys visualized?,no,1,yes_no,type+len2,test,0.999712526798,0.999956607819,0.982118010521
+653,vqa_rad_93,can you see both kidneys in this image?,yes,0,yes_no,type+len2,test,0.0157345980406,0.86016201973,0.544958055019
+653,vqa_rad_93,can you see both kidneys in this image?,no,1,yes_no,type+len2,test,0.814372003078,0.73076570034,0.769681632519
+654,vqa_rad_93,is there evidence of calcification in the pancreas?,no,0,yes_no,type+len2,test,0.97211009264,0.996912956238,0.0375585369766
+654,vqa_rad_93,is there evidence of calcification in the pancreas?,yes,1,yes_no,type+len2,test,0.021723318845,0.0594034008682,0.976813673973
+655,vqa_rad_93,is the pancreas calcified?,no,0,yes_no,type+len2,test,0.98869562149,0.998596608639,0.00457229046151
+655,vqa_rad_93,is the pancreas calcified?,yes,1,yes_no,type+len2,test,0.0119919572026,0.0136297373101,0.9942278862
+659,vqa_rad_231,what is your differential diagnoses?,"metastases, infection/abcess, glioblastoma",0,what,type+len2,test,0.000290407449938,0.0047785048373,0.992208600044
+659,vqa_rad_231,what is your differential diagnoses?,sternal wires,1,what,type+len2,test,0.999992132187,0.999586760998,0.99999833107
+660,vqa_rad_231,what are the possible diagnoses?,"toxoplasma, lymphoma, abscesses, other brain tumors",0,what,type+len2,test,0.0036886150483,0.316114455462,0.835930883884
+660,vqa_rad_231,what are the possible diagnoses?,periappendiceal fluid and fat stranding,1,what,type+len2,test,0.999964237213,0.995476663113,0.887310147285
+668,vqa_rad_233,is there swelling of the grey matter?,yes,0,yes_no,type+len2,test,0.952946841717,0.968840420246,0.00392316095531
+668,vqa_rad_233,is there swelling of the grey matter?,no,1,yes_no,type+len2,test,0.0260002873838,0.16758851707,0.993279755116
+717,vqa_rad_205,is this a vascular lesion,yes,0,yes_no,type+len2,test,0.0010616381187,0.740100741386,0.0460839122534
+717,vqa_rad_205,is this a vascular lesion,no,1,yes_no,type+len2,test,0.999594390392,0.985343456268,0.969473302364
+718,vqa_rad_205,does this lesion involve the vascular system?,yes,0,yes_no,type+len2,test,0.000470141152618,0.0661205649376,0.00264351791702
+718,vqa_rad_205,does this lesion involve the vascular system?,no,1,yes_no,type+len2,test,0.999710023403,0.999598920345,0.999417543411
+721,vqa_rad_138,is there wall enhancement of the gb?,yes,0,yes_no,type+len2,test,0.869127452374,0.0128328558058,0.104997880757
+721,vqa_rad_138,is there wall enhancement of the gb?,no,1,yes_no,type+len2,test,0.948263347149,0.998570084572,0.770509958267
+722,vqa_rad_138,is the gallbladder wall enhanced by contrast?,yes,0,yes_no,type+len2,test,0.568831861019,0.0314213559031,0.029488844797
+722,vqa_rad_138,is the gallbladder wall enhanced by contrast?,no,1,yes_no,type+len2,test,0.169673621655,0.630049884319,0.976683676243
+723,vqa_rad_199,are the lymph nodes enlarged,yes,0,yes_no,type+len2,test,0.211872950196,0.294181287289,1.41250275192e-05
+723,vqa_rad_199,are the lymph nodes enlarged,no,1,yes_no,type+len2,test,0.965557694435,0.234114855528,0.999925732613
+725,vqa_rad_199,is there hilar lymphadenopathy?,yes,0,yes_no,type+len2,test,0.998948633671,0.947436690331,0.999524116516
+725,vqa_rad_199,is there hilar lymphadenopathy?,no,1,yes_no,type+len2,test,0.0016474184813,0.0542947538197,0.000423945777584
+730,vqa_rad_205,what is the most likely etiology,viral/inflammatory,0,what,type+len2,test,0.282269567251,0.951619505882,0.999818861485
+730,vqa_rad_205,what is the most likely etiology,enlarged,1,what,type+len2,test,0.999879598618,0.999997138977,0.999954342842
+731,vqa_rad_205,what is most likely causing these lesions?,cva,0,what,type+len2,test,0.272334098816,0.553445637226,0.999991774559
+731,vqa_rad_205,what is most likely causing these lesions?,gallstones,1,what,type+len2,test,0.999567568302,0.999898672104,0.0802691802382
+735,vqa_rad_89,where is the cavitary lesion?,right upper lobe,0,where,type+len2,test,0.000611294293776,0.000269440119155,0.999876976013
+735,vqa_rad_89,where is the cavitary lesion?,chest radiograph,1,where,type+len2,test,5.81628883083e-05,6.98408848621e-06,0.998652279377
+746,vqa_rad_89,where is the abnormality?,right upper lobe,0,where,type+len2,test,0.0224572643638,0.000749822589569,0.999351322651
+746,vqa_rad_89,where is the abnormality?,pineal region,1,where,type+len2,test,0.999998927116,0.99998819828,0.0774756744504
+774,vqa_rad_187,why does less enhancement mean less acute?,more acute means more inflammation-leading to enhancement?,0,why,type+len2,test,0.00188163958956,0.116987042129,0.496892511845
+774,vqa_rad_187,why does less enhancement mean less acute?,on top of the patient,1,why,type+len2,test,0.0593838877976,0.0146503495052,0.00105864764191
+775,vqa_rad_187,what makes a lesion less acute?,less enhancement,0,what,type+len2,test,0.0524813495576,0.0922958031297,0.0504034422338
+775,vqa_rad_187,what makes a lesion less acute?,a bullous lesion,1,what,type+len2,test,0.990261018276,0.999860167503,0.99431437254
+776,vqa_rad_119,how do you know this is a t2 weighted image?,csf is white.,0,how,type+len2,test,0.000123488265672,0.0709946900606,0.000578842998948
+776,vqa_rad_119,how do you know this is a t2 weighted image?,csf is white,1,how,type+len2,test,7.73473511799e-05,0.0912484526634,0.00026035119663
+777,vqa_rad_119,what tells you that the image is t2?,white versus grey matter brightness,0,what,type+len2,test,0.0797376483679,0.000646962493192,0.737088859081
+777,vqa_rad_119,what tells you that the image is t2?,on the patient's left,1,what,type+len2,test,0.999955773354,0.999852538109,6.57456694171e-05
+782,vqa_rad_187,is this an infectious process?,maybe,0,yes_no,type+len2,test,0.997784435749,0.999855041504,0.999199330807
+782,vqa_rad_187,is this an infectious process?,mri-flair,1,yes_no,type+len2,test,0.0208076313138,0.000992727582343,0.910046756268
+783,vqa_rad_187,does this represent infectious process?,yes,0,yes_no,type+len2,test,6.55424737488e-05,3.63647523045e-05,0.99703514576
+783,vqa_rad_187,does this represent infectious process?,no,1,yes_no,type+len2,test,0.999860167503,0.99998831749,0.000303543813061
+795,vqa_rad_72,is there any bleeding in this patient's brain?,no,0,yes_no,type+len2,test,0.000615343160462,0.373989224434,3.38434692821e-05
+795,vqa_rad_72,is there any bleeding in this patient's brain?,yes,1,yes_no,type+len2,test,0.999782621861,0.965791285038,0.999989390373
+796,vqa_rad_72,is there bleeding present in this patient's brain?,no,0,yes_no,type+len2,test,0.00605737557635,0.838675141335,0.074170216918
+796,vqa_rad_72,is there bleeding present in this patient's brain?,yes,1,yes_no,type+len2,test,0.998988211155,0.761878490448,0.999235272408
+797,vqa_rad_59,what brain structures would be affected by the lesion in the right frontal area of the brain?,basal ganglia (caudate and putamen),0,what,type+len2,test,0.00090193178039,0.000393165537389,0.0735462978482
+797,vqa_rad_59,what brain structures would be affected by the lesion in the right frontal area of the brain?,proximal aspect of the appendix,1,what,type+len2,test,0.999993562698,0.99995303154,0.999943256378
+798,vqa_rad_59,which brain structures could be affected by the lesion located in the right frontal brain area?,basal ganglia (caudate and putamen),0,which,type+len2,test,0.000463630829472,0.0003893506655,0.000831383571494
+798,vqa_rad_59,which brain structures could be affected by the lesion located in the right frontal brain area?,increased opacity in the left retrocardiac region,1,which,type+len2,test,0.999971151352,0.99304407835,0.99999666214
+801,vqa_rad_68,what organ system is shown in the above image?,cardiopulmonary,0,what,type+len2,test,0.563889920712,0.987707436085,0.982154011726
+801,vqa_rad_68,what organ system is shown in the above image?,pa,1,what,type+len2,test,0.989861965179,0.00134896778036,0.999548017979
+803,vqa_rad_68,the image shows what organ system?,cardiopulmonary,0,other,type+len2,test,0.117370098829,0.4622207582,0.992004454136
+803,vqa_rad_68,the image shows what organ system?,abscess,1,other,type+len2,test,0.355725944042,0.369601666927,0.73370975256
+806,vqa_rad_68,in what position was the patient in when this image was taken?,semi-upright position,0,other,type+len2,test,0.0292848367244,0.0584792755544,0.263562142849
+806,vqa_rad_68,in what position was the patient in when this image was taken?,frontal and occipital,1,other,type+len2,test,0.999041497707,0.976881086826,0.184085562825
+807,vqa_rad_68,what position is the patient in for this image?,semi-upright position,0,what,type+len2,test,0.0315732881427,0.350604057312,0.867283582687
+807,vqa_rad_68,what position is the patient in for this image?,right colon,1,what,type+len2,test,0.19634577632,0.967576086521,0.0236786343157
+808,vqa_rad_87,can gray-white differentiation be well assessed with this image?,no,0,yes_no,type+len2,test,0.999723255634,0.547757446766,0.999986886978
+808,vqa_rad_87,can gray-white differentiation be well assessed with this image?,yes,1,yes_no,type+len2,test,6.35057804175e-05,0.745256960392,0.000137337992783
+809,vqa_rad_87,is there significant difference between gray and white matter here?,yes,0,yes_no,type+len2,test,0.0024059319403,0.99727076292,0.0408731177449
+809,vqa_rad_87,is there significant difference between gray and white matter here?,no,1,yes_no,type+len2,test,0.999537348747,0.0171473920345,0.99966108799
+817,vqa_rad_140,what lobe is the infarct in?,right parietal,0,what,type+len2,test,0.00437170779333,0.00647688470781,0.0286207627505
+817,vqa_rad_140,what lobe is the infarct in?,abdominal pain,1,what,type+len2,test,0.999481141567,0.999802410603,0.999696850777
+818,vqa_rad_140,which lobe is infarcted,right parietal,0,which,type+len2,test,0.000931206974201,0.00651272106916,0.129631221294
+818,vqa_rad_140,which lobe is infarcted,distal basilar artery,1,which,type+len2,test,0.000308403919917,8.22207948659e-06,0.01870328933
+819,vqa_rad_183,what is the organ pictured superior to the aorta?,horsehoe kidney,0,what,type+len2,test,0.488287180662,0.65651679039,0.00342479953542
+819,vqa_rad_183,what is the organ pictured superior to the aorta?,left kidney,1,what,type+len2,test,0.648366332054,0.972970843315,0.0193616058677
+820,vqa_rad_183,what is above the aorta in this image?,horsehoe kidney,0,what,type+len2,test,0.579328417778,0.661685705185,0.0832465440035
+820,vqa_rad_183,what is above the aorta in this image?,right upper lobe,1,what,type+len2,test,0.999895572662,0.999974608421,0.999970555305
+828,vqa_rad_75,is the hyperinflation unilateral or bilateral?,bilateral,0,yes_no,type+len2,test,0.99868708849,0.998596608639,0.000881657761056
+828,vqa_rad_75,is the hyperinflation unilateral or bilateral?,pneumonia,1,yes_no,type+len2,test,0.473188489676,0.413922816515,0.99999320507
+829,vqa_rad_75,is the lung hyperinflated on one or both sides?,both sides,0,yes_no,type+len2,test,0.0284731220454,0.00777742639184,0.000247166870395
+829,vqa_rad_75,is the lung hyperinflated on one or both sides?,right colon,1,yes_no,type+len2,test,0.997638344765,0.997899770737,0.298976451159
+830,vqa_rad_145,are the lines seen on the exterior or interior of the patient?,exterior,0,yes_no,type+len2,test,3.54709736712e-05,0.00484001589939,0.00352331623435
+830,vqa_rad_145,are the lines seen on the exterior or interior of the patient?,cerebellum,1,yes_no,type+len2,test,0.999918460846,0.999929785728,0.000802901515272
+831,vqa_rad_145,are the lines in the image inside or outside of the patient?,outside,0,yes_no,type+len2,test,0.000102709898783,0.00179236149415,0.956543803215
+831,vqa_rad_145,are the lines in the image inside or outside of the patient?,brain,1,yes_no,type+len2,test,0.999883174896,0.999969601631,0.157457560301
+832,vqa_rad_145,what indicates there is a consolidation in the right lung?,"blunting of the costophrenic angle, loss of the right hemidiaphragm and right heart border",0,what,type+len2,test,0.00230693747289,6.24064923613e-05,0.898269176483
+832,vqa_rad_145,what indicates there is a consolidation in the right lung?,imagine the patient is laying down and you are looking from the feet,1,what,type+len2,test,3.91873036278e-05,0.000414818205172,0.412310540676
+833,vqa_rad_145,what is the observed sign of pulmonary consolidation on the right side?,"blunting of the costophrenic angle, loss of the right hemidiaphragm and right heart border",0,what,type+len2,test,0.0403282158077,0.00180576799903,0.997809708118
+833,vqa_rad_145,what is the observed sign of pulmonary consolidation on the right side?,soft tissue mass in the region of the terminal ileum with mesenteric lymphadenopathy,1,what,type+len2,test,0.487153291702,0.998080968857,0.980797410011
+834,vqa_rad_134,name one abnormality in the radiograph.,increased opacity in the left retrocardiac region,0,other,type+len2,test,0.846551060677,0.0126560330391,0.998198449612
+834,vqa_rad_134,name one abnormality in the radiograph.,white versus grey matter brightness,1,other,type+len2,test,0.999995946884,0.999995589256,0.990391969681
+836,vqa_rad_134,what is one abnormality that can be seen in the image?,increased opacity in the left retrocardiac region,0,what,type+len2,test,0.126937806606,0.00248724757694,0.99987578392
+836,vqa_rad_134,what is one abnormality that can be seen in the image?,"thalami, left occipital lobe, brainstem and left cerebellum",1,what,type+len2,test,0.999852776527,0.999994397163,0.000108617619844
+850,vqa_rad_18,how would you describe the mass on the left kidney?,well-circumscribed,0,how,type+len2,test,0.112366512418,0.101648926735,0.00921480171382
+850,vqa_rad_18,how would you describe the mass on the left kidney?,diffuse,1,how,type+len2,test,0.00177388126031,0.00209973705932,3.02796206597e-06
+851,vqa_rad_18,what is the left kidney mass?,exophytic cyst,0,what,type+len2,test,0.998072624207,0.998586177826,0.999778449535
+851,vqa_rad_18,what is the left kidney mass?,the extremities,1,what,type+len2,test,0.538829267025,0.910811662674,0.961769759655
+859,vqa_rad_19,is the cardiac silhouette enlarged?,yes,0,yes_no,type+len2,test,0.0545006357133,0.00491109024733,0.962455272675
+859,vqa_rad_19,is the cardiac silhouette enlarged?,no,1,yes_no,type+len2,test,0.995498418808,0.9956138134,0.00892018619925
+860,vqa_rad_19,is cardiomegaly present?,yes,0,yes_no,type+len2,test,0.0877434909344,0.0210924111307,0.130621552467
+860,vqa_rad_19,is cardiomegaly present?,no,1,yes_no,type+len2,test,0.989200949669,0.987946212292,0.905848562717
+865,vqa_rad_31,is the mass in the liver regular or irregular in contour?,irregular,0,yes_no,type+len2,test,0.0705251768231,0.0175034627318,0.00246863695793
+865,vqa_rad_31,is the mass in the liver regular or irregular in contour?,cardiopulmonary,1,yes_no,type+len2,test,0.99535959959,0.98854804039,0.853326201439
+866,vqa_rad_31,what is the shape of the liver mass?,infiltrative,0,what,type+len2,test,0.0162483882159,0.0330284386873,0.0755399242043
+866,vqa_rad_31,what is the shape of the liver mass?,coronal,1,what,type+len2,test,0.990388333797,0.930368065834,0.999726593494
+883,vqa_rad_233,is this the brain?,yes,0,yes_no,type+len2,test,0.999229073524,0.999623894691,0.0702334567904
+883,vqa_rad_233,is this the brain?,no,1,yes_no,type+len2,test,0.00161308504175,0.000773865554947,0.979396224022
+886,vqa_rad_89,which organ system is imaged?,chest,0,which,type+len2,test,0.049646537751,0.00788512919098,0.00019793586398
+886,vqa_rad_89,which organ system is imaged?,gastrointestinal,1,which,type+len2,test,0.999791443348,0.994732260704,0.975954174995
+906,vqa_rad_2,what type of image is this?,chest x-ray,0,what,type+len2,test,0.00743232946843,0.00046573128202,2.89656090899e-05
+906,vqa_rad_2,what type of image is this?,right lung,1,what,type+len2,test,0.976852655411,0.0542157739401,0.999999761581
+915,vqa_rad_253,is there a pelvic fracture?,no,0,yes_no,type+len2,test,2.03371200769e-05,1.01810692286e-05,2.62142862084e-06
+915,vqa_rad_253,is there a pelvic fracture?,yes,1,yes_no,type+len2,test,0.999967813492,0.999987006187,0.999994277954
+917,vqa_rad_233,is this a ct image?,no,0,yes_no,type+len2,test,0.000221529990085,0.000463173666503,0.529115974903
+917,vqa_rad_233,is this a ct image?,yes,1,yes_no,type+len2,test,0.999566018581,0.999377429485,0.512649595737
+928,vqa_rad_2,is this an anterior-posterior image,no,0,yes_no,type+len2,test,0.994412839413,0.379104763269,0.000320441817166
+928,vqa_rad_2,is this an anterior-posterior image,yes,1,yes_no,type+len2,test,0.00428925268352,0.00290259462781,0.999841332436
+939,vqa_rad_233,in what plane is this image oriented?,axial,0,other,type+len2,test,4.24177915193e-06,3.17869962601e-05,2.20735491894e-05
+939,vqa_rad_233,in what plane is this image oriented?,abscess,1,other,type+len2,test,0.00120034266729,0.00148190092295,0.999942660332
+945,vqa_rad_253,is the small bowel filled with contrast?,yes,0,yes_no,type+len2,test,0.0538582466543,0.165341943502,0.000449898478109
+945,vqa_rad_253,is the small bowel filled with contrast?,no,1,yes_no,type+len2,test,0.782011032104,0.50096988678,0.999529123306
+946,vqa_rad_253,is the cecum dilated,yes,0,yes_no,type+len2,test,0.000698916730471,0.980491161346,2.98101913359e-05
+946,vqa_rad_253,is the cecum dilated,no,1,yes_no,type+len2,test,0.999656677246,0.376580089331,0.99999666214
+950,vqa_rad_233,is there a skull fracture pictured?,no,0,yes_no,type+len2,test,7.81488961366e-06,4.58252652606e-05,1.60518557095e-05
+950,vqa_rad_233,is there a skull fracture pictured?,yes,1,yes_no,type+len2,test,0.999988555908,0.999968886375,0.999967336655
+958,vqa_rad_144,which ribs are located near the abnormality seen in this image?,4th and 5th,0,which,type+len2,test,0.992494940758,0.124879747629,0.999237775803
+958,vqa_rad_144,which ribs are located near the abnormality seen in this image?,mri - t2 weighted,1,which,type+len2,test,0.999999642372,0.999829649925,0.995899260044
+959,vqa_rad_144,what level is the abnormality located at?,t5,0,what,type+len2,test,0.969922780991,0.99568593502,0.212297022343
+959,vqa_rad_144,what level is the abnormality located at?,5 cm,1,what,type+len2,test,0.345475375652,0.00143239262979,0.00424194568768
+960,vqa_rad_49,do the lung markings extend to the periphery?,yes,0,yes_no,type+len2,test,0.000166486002854,3.43935571436e-05,8.51622753544e-05
+960,vqa_rad_49,do the lung markings extend to the periphery?,no,1,yes_no,type+len2,test,0.999686837196,0.999923229218,0.999891877174
+962,vqa_rad_49,is a pneumothorax present in this image?,no,0,yes_no,type+len2,test,0.000929282745346,0.027675088495,0.000330789451255
+962,vqa_rad_49,is a pneumothorax present in this image?,yes,1,yes_no,type+len2,test,0.999753773212,0.660674095154,0.999704539776
+963,vqa_rad_255,does the width of the heart exceed more than half of the thorax?,no,0,yes_no,type+len2,test,0.924925804138,0.994643807411,0.00467699859291
+963,vqa_rad_255,does the width of the heart exceed more than half of the thorax?,yes,1,yes_no,type+len2,test,0.195900127292,0.00158985925373,0.99505096674
+964,vqa_rad_255,how wide is the cardiac shadow?,less than half the thorax,0,how,type+len2,test,0.000440507166786,0.00107011327054,0.644300460815
+964,vqa_rad_255,how wide is the cardiac shadow?,chronic sinusitis vs. hemorrhage,1,how,type+len2,test,0.999968409538,0.999778687954,0.00400788476691
+977,vqa_rad_257,where is the lung lesion located?,right lung,0,where,type+len2,test,0.0146358534694,0.345854371786,0.748975396156
+977,vqa_rad_257,where is the lung lesion located?,sharp costophrenic angles,1,where,type+len2,test,0.0162348803133,0.00104560644832,0.202274948359
+978,vqa_rad_257,which lobe of the lung is the lesion located in?,right upper lobe,0,which,type+len2,test,0.000202277718927,0.00140827824362,0.813440084457
+978,vqa_rad_257,which lobe of the lung is the lesion located in?,left apical pneumothorax,1,which,type+len2,test,6.48403001833e-05,0.000130094456836,0.999908804893
+983,vqa_rad_109,was this taken with good x ray penetration,yes,0,yes_no,type+len2,test,0.999970316887,0.9998524189,0.999812304974
+983,vqa_rad_109,was this taken with good x ray penetration,no,1,yes_no,type+len2,test,0.000110296467028,0.000689995184075,0.000232287595281
+989,vqa_rad_198,is a cystic cavity present in the left kidney on this image?,no,0,yes_no,type+len2,test,0.90429776907,0.00206238823012,5.20841167599e-05
+989,vqa_rad_198,is a cystic cavity present in the left kidney on this image?,yes,1,yes_no,type+len2,test,0.116072453558,0.998532772064,0.999889135361
+990,vqa_rad_198,is there a cyst in the left kidney?,no,0,yes_no,type+len2,test,0.998141169548,0.33001640439,0.000162357449881
+990,vqa_rad_198,is there a cyst in the left kidney?,yes,1,yes_no,type+len2,test,0.00224351603538,0.588658392429,0.999954938889
+991,vqa_rad_93,is this in the lumbar vertebral level?,yes,0,yes_no,type+len2,test,0.0146488426253,0.00156551913824,0.461976706982
+991,vqa_rad_93,is this in the lumbar vertebral level?,no,1,yes_no,type+len2,test,0.991473197937,0.999585807323,0.278536766768
+1007,vqa_rad_93,was oral or iv contrast used?,both,0,yes_no,type+len2,test,0.999639391899,0.999767243862,0.998610496521
+1007,vqa_rad_93,was oral or iv contrast used?,left,1,yes_no,type+len2,test,0.999821722507,0.999993681908,0.999973297119
+1026,vqa_rad_255,where is the aneurysm located?,in the thorasic aorta,0,where,type+len2,test,0.999539017677,0.999608099461,0.999993085861
+1026,vqa_rad_255,where is the aneurysm located?,sigmoid flexture of the colon,1,where,type+len2,test,0.99995803833,0.99996984005,0.999997854233
+1027,vqa_rad_255,what is the most important abnormality found in this image?,width of aorta,0,what,type+len2,test,0.980910897255,0.0493225976825,0.999997377396
+1027,vqa_rad_255,what is the most important abnormality found in this image?,paratracheal area,1,what,type+len2,test,0.992733120918,0.987751364708,0.999467432499
+1029,vqa_rad_257,at which rib is the lesion located?,7th rib,0,other,type+len2,test,0.166452184319,0.138358965516,0.937652945518
+1029,vqa_rad_257,at which rib is the lesion located?,2,1,other,type+len2,test,0.997898340225,0.513099133968,0.999982476234
+1030,vqa_rad_257,what rib is the lesion located inferior to?,7th rib,0,what,type+len2,test,0.181562498212,0.477790981531,0.120095953345
+1030,vqa_rad_257,what rib is the lesion located inferior to?,"5.6cm focal, predominantly hypodense",1,what,type+len2,test,0.0336968824267,0.000131110777147,0.849086582661
+1031,vqa_rad_144,on which side is the cardiac border more obscured?,right,0,other,type+len2,test,1.91574326891e-05,0.000280864129309,1.6538251657e-05
+1031,vqa_rad_144,on which side is the cardiac border more obscured?,ct,1,other,type+len2,test,0.999487161636,0.198030531406,0.999971747398
+1032,vqa_rad_144,where is the cardiac border more obscured?,right,0,where,type+len2,test,9.44640560192e-05,0.000410437292885,0.00109359191265
+1032,vqa_rad_144,where is the cardiac border more obscured?,mass,1,where,type+len2,test,0.983429789543,0.916453838348,0.999966859818
+1033,vqa_rad_93,what organ system is primarily present in this image?,gastrointestinal,0,what,type+len2,test,8.78344962985e-06,7.82645020081e-06,0.999501943588
+1033,vqa_rad_93,what organ system is primarily present in this image?,hypointense,1,what,type+len2,test,0.0012785930885,0.969619989395,0.419143795967
+1034,vqa_rad_257,which side of the cardiac border is more prominent?,left,0,which,type+len2,test,6.06682951911e-05,0.000501424481627,4.62785246782e-05
+1034,vqa_rad_257,which side of the cardiac border is more prominent?,female,1,which,type+len2,test,0.104312203825,0.105616308749,0.981060266495
+1035,vqa_rad_257,which cardiac border is more prominently visualized?,left,0,which,type+len2,test,0.000484659860376,0.00508171971887,8.87701462489e-05
+1035,vqa_rad_257,which cardiac border is more prominently visualized?,biopsy,1,which,type+len2,test,0.761655986309,0.0313154868782,0.999359190464
+1042,vqa_rad_93,how would you describe the duodenum?,edematous,0,how,type+len2,test,0.0790673941374,0.442150115967,0.173344925046
+1042,vqa_rad_93,how would you describe the duodenum?,hyperintense,1,how,type+len2,test,0.968789160252,0.951902031898,0.998471438885
+1043,vqa_rad_93,is the duodenum edematous?,yes,0,yes_no,type+len2,test,0.000205799296964,0.000138185947435,0.000577766739298
+1043,vqa_rad_93,is the duodenum edematous?,no,1,yes_no,type+len2,test,0.999664783478,0.999982357025,0.999624848366
+1054,vqa_rad_198,is there an intussusception present?,no,0,yes_no,type+len2,test,0.00154221674893,2.70242417173e-05,2.7365378628e-05
+1054,vqa_rad_198,is there an intussusception present?,yes,1,yes_no,type+len2,test,0.999045312405,0.999975085258,0.999906182289
+1055,vqa_rad_198,is there evidence of intussusception on the right side?,no,0,yes_no,type+len2,test,0.00120295479428,1.87036330317e-05,3.54097319359e-05
+1055,vqa_rad_198,is there evidence of intussusception on the right side?,yes,1,yes_no,type+len2,test,0.999493598938,0.999983787537,0.999920845032
+1056,vqa_rad_255,is there a mass in the right hilum?,no,0,yes_no,type+len2,test,0.00890664663166,0.00228101946414,0.920779705048
+1056,vqa_rad_255,is there a mass in the right hilum?,yes,1,yes_no,type+len2,test,0.997456133366,0.997568190098,0.491630762815
+1057,vqa_rad_255,is there evidence of a mass lesion at the right hilum?,no,0,yes_no,type+len2,test,8.6850450316e-06,1.34714064188e-05,0.00055229361169
+1057,vqa_rad_255,is there evidence of a mass lesion at the right hilum?,yes,1,yes_no,type+len2,test,0.999964475632,0.999990701675,0.999682545662
+1079,vqa_rad_263,is the cerebellum visible?,no,0,yes_no,type+len2,test,0.000183103809832,0.00241968897171,0.010285015218
+1079,vqa_rad_263,is the cerebellum visible?,yes,1,yes_no,type+len2,test,0.999965548515,0.99967110157,0.996758759022
+1082,vqa_rad_265,is this film properly exposed?,yes,0,yes_no,type+len2,test,0.983029663563,0.881040811539,0.168917536736
+1082,vqa_rad_265,is this film properly exposed?,no,1,yes_no,type+len2,test,0.0587787441909,0.57626003027,0.984629809856
+1084,vqa_rad_266,is it possible to see the cerebellum in this image?,no,0,yes_no,type+len2,test,0.000160813171533,0.000148314007674,0.000132548215333
+1084,vqa_rad_266,is it possible to see the cerebellum in this image?,yes,1,yes_no,type+len2,test,0.999956607819,0.999955058098,0.999924182892
+1090,vqa_rad_266,is there swelling of the choroid fissure?,no,0,yes_no,type+len2,test,0.978374004364,0.00311130448245,0.999737679958
+1090,vqa_rad_266,is there swelling of the choroid fissure?,yes,1,yes_no,type+len2,test,0.0338761247694,0.994470357895,0.000108827458462
+1091,vqa_rad_263,is this a mri image?,yes,0,yes_no,type+len2,test,0.999927043915,0.991771638393,0.999868512154
+1091,vqa_rad_263,is this a mri image?,no,1,yes_no,type+len2,test,0.000250582786975,0.0256178900599,0.000236776308157
+1095,vqa_rad_272,are the basal ganglia enlarged?,no,0,yes_no,type+len2,test,0.994962692261,0.88954937458,0.999764859676
+1095,vqa_rad_272,are the basal ganglia enlarged?,yes,1,yes_no,type+len2,test,0.00590618746355,0.0550538375974,0.00020949820464
+1096,vqa_rad_273,is there any other alteration in the image?,no,0,yes_no,type+len2,test,0.0178921055049,0.935068786144,0.00118146417663
+1096,vqa_rad_273,is there any other alteration in the image?,yes,1,yes_no,type+len2,test,0.990469157696,0.799171626568,0.999083995819
+1097,vqa_rad_266,what are those lines in the posterior brain?,imaging artifacts,0,what,type+len2,test,0.027314633131,0.136136189103,0.88849645853
+1097,vqa_rad_266,what are those lines in the posterior brain?,right subdural hematoma,1,what,type+len2,test,4.87307479489e-05,8.51859840623e-06,0.0227283444256
+1100,vqa_rad_265,what is the name of this image's plane?,posteroanterior,0,what,type+len2,test,0.862999737263,0.00353326951154,0.999027848244
+1100,vqa_rad_265,what is the name of this image's plane?,cystic,1,what,type+len2,test,0.331674844027,0.0015144078061,0.999998688698
+1104,vqa_rad_263,in which lobe is the enhancement?,right frontal lobe,0,other,type+len2,test,0.174794837832,0.000292491691653,0.553638875484
+1104,vqa_rad_263,in which lobe is the enhancement?,hypodense lesion,1,other,type+len2,test,0.999992489815,0.999989032745,0.99998819828
+1108,vqa_rad_272,is there any hemorrhage?,no,0,yes_no,type+len2,test,0.000853116391227,0.0314257107675,0.000103726240923
+1108,vqa_rad_272,is there any hemorrhage?,yes,1,yes_no,type+len2,test,0.997226297855,0.996127665043,0.999860525131
+1109,vqa_rad_265,is the right lung normal in size?,no,0,yes_no,type+len2,test,0.16058178246,0.529100060463,0.355486124754
+1109,vqa_rad_265,is the right lung normal in size?,yes,1,yes_no,type+len2,test,0.985014975071,0.293137818575,0.456446290016
+1111,vqa_rad_266,what is the plane of this image?,axial,0,what,type+len2,test,2.08244728128e-05,0.000366971187759,2.72103875432e-06
+1111,vqa_rad_266,what is the plane of this image?,asymmetric,1,what,type+len2,test,0.113200977445,0.404827296734,0.994644880295
+1112,vqa_rad_272,is there involvement of the temporal lobes?,no,0,yes_no,type+len2,test,0.9983741045,0.998693525791,0.999984622002
+1112,vqa_rad_272,is there involvement of the temporal lobes?,yes,1,yes_no,type+len2,test,0.00222043856047,0.00317562348209,5.71315067646e-05
+1118,vqa_rad_265,what is happening with the path of the trachea?,it is shifted to the right,0,what,type+len2,test,0.000402173231123,0.00222128583118,0.559670746326
+1118,vqa_rad_265,what is happening with the path of the trachea?,short section irregular contour,1,what,type+len2,test,0.112466134131,0.00168726302218,0.208815976977
+1119,vqa_rad_265,is the stomach dilated?,no,0,yes_no,type+len2,test,0.00150328944437,0.00144584651571,0.206107214093
+1119,vqa_rad_265,is the stomach dilated?,yes,1,yes_no,type+len2,test,0.999788463116,0.995658040047,0.68258023262
+1120,vqa_rad_273,where are the enlarged feeding arteries located?,occipital lobe,0,where,type+len2,test,0.00445717945695,0.749594628811,0.99960154295
+1120,vqa_rad_273,where are the enlarged feeding arteries located?,with contrast,1,where,type+len2,test,0.999889612198,0.999514102936,0.00864687468857
+1122,vqa_rad_266,is this an infiltrating mass?,yes,0,yes_no,type+len2,test,0.838927268982,0.998880326748,0.827630341053
+1122,vqa_rad_266,is this an infiltrating mass?,no,1,yes_no,type+len2,test,0.501852035522,0.00593312177807,0.0410800203681
+1140,vqa_rad_265,how do we call these wide undulations along the vertebral column?,scoliosis,0,how,type+len2,test,0.999762117863,0.0992760136724,0.999435007572
+1140,vqa_rad_265,how do we call these wide undulations along the vertebral column?,right,1,how,type+len2,test,0.000507906195708,0.00336122326553,0.639718472958
+1144,vqa_rad_263,are there fractures on the skull?,no,0,yes_no,type+len2,test,8.50216292747e-06,4.41058327851e-05,2.75250058621e-05
+1144,vqa_rad_263,are there fractures on the skull?,yes,1,yes_no,type+len2,test,0.99998486042,0.999913692474,0.999984264374
+1218,vqa_rad_231,did the problem originate in the brain?,no,0,yes_no,type+len2,test,0.011855835095,2.53696871368e-05,0.000240715860855
+1218,vqa_rad_231,did the problem originate in the brain?,yes,1,yes_no,type+len2,test,0.771426141262,0.999895691872,0.999707400799
+1219,vqa_rad_231,do you suspect a primary brain process?,no,0,yes_no,type+len2,test,0.00302106700838,1.97696535906e-05,7.21730830264e-05
+1219,vqa_rad_231,do you suspect a primary brain process?,yes,1,yes_no,type+len2,test,0.996016323566,0.999977946281,0.999936103821
+1248,vqa_rad_200,what is the location of the mass,anterior to the transverse colon,0,what,type+len2,test,0.00146564526949,6.41539081698e-05,0.030666988343
+1248,vqa_rad_200,what is the location of the mass,right sided pleural effusion,1,what,type+len2,test,0.999999165535,0.999998807907,0.99999165535
+1249,vqa_rad_200,where is the mass located?,anterior to the transverse colon,0,where,type+len2,test,0.000107274041511,7.60306647862e-05,0.0711720958352
+1249,vqa_rad_200,where is the mass located?,in the cortex and basal ganglia bilaterally,1,where,type+len2,test,0.997565507889,0.999966979027,0.0050276289694
+1260,vqa_rad_200,is the peritoneum thickened?,yes,0,yes_no,type+len2,test,0.177342310548,0.999805152416,0.618428766727
+1260,vqa_rad_200,is the peritoneum thickened?,no,1,yes_no,type+len2,test,0.535666286945,0.000465955090476,0.197145566344
+1262,vqa_rad_200,is there thickening of the peritoneum?,yes,0,yes_no,type+len2,test,0.90775847435,0.99995136261,0.421538680792
+1262,vqa_rad_200,is there thickening of the peritoneum?,no,1,yes_no,type+len2,test,0.0481818169355,0.000246190116741,0.568700611591
+1265,vqa_rad_205,the pathology is located in which lobes of the brain?,parietal and occipital lobes,0,other,type+len2,test,3.6035587982e-05,0.000123447782244,9.95878963295e-06
+1265,vqa_rad_205,the pathology is located in which lobes of the brain?,bleeding in the right posteroinferior cerebellum,1,other,type+len2,test,0.900709629059,0.937092125416,0.778081417084
+1266,vqa_rad_205,which lobes demonstrate pathology,parietal and occipital lobes,0,which,type+len2,test,8.67941198521e-05,0.00014002219541,8.85434837983e-06
+1266,vqa_rad_205,which lobes demonstrate pathology,mid left subclavian vein,1,which,type+len2,test,0.151626527309,0.99948656559,2.8206168281e-06
+1272,vqa_rad_109,was this taken in pa position?,yes,0,yes_no,type+len2,test,0.517991244793,0.00316291046329,0.00316541781649
+1272,vqa_rad_109,was this taken in pa position?,no,1,yes_no,type+len2,test,0.865358352661,0.995102405548,0.998325765133
+1282,vqa_rad_199,what it causing the widening?,mass,0,what,type+len2,test,0.999920725822,0.999682426453,0.99998986721
+1282,vqa_rad_199,what it causing the widening?,ischemia,1,what,type+len2,test,0.999998092651,0.999998211861,0.00030548198265
+1284,vqa_rad_199,what is the widened mediastinum caused by?,mass,0,what,type+len2,test,0.999741256237,0.998658418655,0.999966025352
+1284,vqa_rad_199,what is the widened mediastinum caused by?,cystic,1,what,type+len2,test,0.999271810055,0.999903082848,0.64551204443
+1296,vqa_rad_199,is the mediastinum widened?,yes,0,yes_no,type+len2,test,0.999990224838,0.999872326851,0.999951720238
+1296,vqa_rad_199,is the mediastinum widened?,no,1,yes_no,type+len2,test,5.1460468967e-05,0.000255209277384,1.70246185007e-05
+1297,vqa_rad_199,is there a widened mediastium?,yes,0,yes_no,type+len2,test,0.99977260828,0.999111115932,0.0976345986128
+1297,vqa_rad_199,is there a widened mediastium?,no,1,yes_no,type+len2,test,0.00202808761969,0.00282317376696,0.805205285549
+1319,vqa_rad_199,is this a pa film?,yes,0,yes_no,type+len2,test,0.000148620078107,9.1093366791e-05,0.000339583144523
+1319,vqa_rad_199,is this a pa film?,no,1,yes_no,type+len2,test,0.99992954731,0.9998062253,0.999727904797
+1320,vqa_rad_199,does the pathology involve the cv system,yes,0,yes_no,type+len2,test,0.959242045879,0.770428299904,0.630923807621
+1320,vqa_rad_199,does the pathology involve the cv system,no,1,yes_no,type+len2,test,0.294460535049,0.161121815443,0.0713945552707
+1321,vqa_rad_138,does this image show a normal gallbladder?,yes,0,yes_no,type+len2,test,0.999254047871,0.996048629284,0.999848723412
+1321,vqa_rad_138,does this image show a normal gallbladder?,no,1,yes_no,type+len2,test,0.000179649563506,0.0021543148905,0.000118560630654
+1322,vqa_rad_138,is the gb normal?,yes,0,yes_no,type+len2,test,0.99992620945,0.998806238174,0.96402078867
+1322,vqa_rad_138,is the gb normal?,no,1,yes_no,type+len2,test,0.000261550652795,0.00546902278438,0.0268028136343
+1323,vqa_rad_200,what is the composition of the mass?,fat,0,what,type+len2,test,0.995500147343,0.999706447124,0.453678548336
+1323,vqa_rad_200,what is the composition of the mass?,pa,1,what,type+len2,test,0.99977427721,0.997198939323,0.970948219299
+1324,vqa_rad_200,what is this mass primarily made of?,fat,0,what,type+len2,test,0.99978274107,0.999643921852,0.997990012169
+1324,vqa_rad_200,what is this mass primarily made of?,pa,1,what,type+len2,test,0.999897956848,0.990306615829,0.999833464622
+1325,vqa_rad_138,is there gall bladder pathology?,no,0,yes_no,type+len2,test,0.00274875783361,0.0317237861454,0.000794365885668
+1325,vqa_rad_138,is there gall bladder pathology?,yes,1,yes_no,type+len2,test,0.995986521244,0.915906608105,0.999380946159
+1326,vqa_rad_138,is there pathology of the gallbladder?,no,0,yes_no,type+len2,test,0.00295523903333,0.0102359084412,0.000707371917088
+1326,vqa_rad_138,is there pathology of the gallbladder?,yes,1,yes_no,type+len2,test,0.973352611065,0.983664572239,0.998016119003
+1353,vqa_rad_291,in what ventricle is the enhancing intraventricular mass seen?,4th ventricle,0,other,type+len2,test,0.537655949593,0.201750263572,0.000908086425625
+1353,vqa_rad_291,in what ventricle is the enhancing intraventricular mass seen?,12,1,other,type+len2,test,0.999869465828,0.975250124931,0.413008332253
+1355,vqa_rad_293,does this radiograph contain parts of the cardiovascular system?,yes,0,yes_no,type+len2,test,0.172698676586,0.700370490551,0.000485772878164
+1355,vqa_rad_293,does this radiograph contain parts of the cardiovascular system?,no,1,yes_no,type+len2,test,0.989919424057,0.394803255796,0.999658823013
+1356,vqa_rad_291,does this patient have a skull fracture?,no,0,yes_no,type+len2,test,3.19390369441e-06,4.71280100101e-06,0.0126406447962
+1356,vqa_rad_291,does this patient have a skull fracture?,yes,1,yes_no,type+len2,test,0.999976634979,0.999953389168,0.999038696289
+1359,vqa_rad_293,is the heart enlarged?,no,0,yes_no,type+len2,test,0.000421523262048,0.00146556005348,0.470408946276
+1359,vqa_rad_293,is the heart enlarged?,yes,1,yes_no,type+len2,test,0.999827206135,0.998828113079,0.534499824047
+1364,vqa_rad_293,was this image taken in the ap or pa plane?,pa,0,yes_no,type+len2,test,0.00206974009052,0.000251947814832,0.000345822103554
+1364,vqa_rad_293,was this image taken in the ap or pa plane?,axial,1,yes_no,type+len2,test,0.944027304649,0.999129116535,0.000325072091073
+1369,vqa_rad_291,does this image display the cns?,yes,0,yes_no,type+len2,test,0.999431550503,0.311314851046,0.00185606395826
+1369,vqa_rad_291,does this image display the cns?,no,1,yes_no,type+len2,test,0.000702787656337,0.128738805652,0.994456648827
+1374,vqa_rad_291,does this image display hydrocephalus?,yes,0,yes_no,type+len2,test,0.999986052513,0.999909162521,0.193478792906
+1374,vqa_rad_291,does this image display hydrocephalus?,no,1,yes_no,type+len2,test,1.98239486053e-05,3.05437097268e-05,0.361449927092
+1375,vqa_rad_293,which rib is fractured?,3rd rib,0,which,type+len2,test,0.0127428360283,0.0222863517702,0.386362761259
+1375,vqa_rad_293,which rib is fractured?,7th rib,1,which,type+len2,test,0.0275203790516,0.066262178123,0.00122259662021
+1376,vqa_rad_291,in what plane is this mri taken?,axial,0,other,type+len2,test,3.21153711411e-05,0.013504226692,6.41461292616e-06
+1376,vqa_rad_291,in what plane is this mri taken?,maybe,1,other,type+len2,test,0.996604800224,0.903508365154,0.999928236008
+1379,vqa_rad_293,is this a ct scan?,no,0,yes_no,type+len2,test,0.000181869108928,0.000180270188139,0.191515311599
+1379,vqa_rad_293,is this a ct scan?,yes,1,yes_no,type+len2,test,0.999925732613,0.999740540981,0.846994042397
+1390,vqa_rad_291,is this an mri?,yes,0,yes_no,type+len2,test,0.999990820885,0.998984634876,0.999812543392
+1390,vqa_rad_291,is this an mri?,no,1,yes_no,type+len2,test,0.000111923625809,0.000130394633743,0.000292283453746
+1400,vqa_rad_293,what is the difference between the left and right costophrenic angles?,the left costophrenic angle is blunted,0,what,type+len2,test,0.98992317915,0.986900985241,0.999902009964
+1400,vqa_rad_293,what is the difference between the left and right costophrenic angles?,bilateral frontal lobes and body of corpus callosum,1,what,type+len2,test,0.999996185303,0.999991774559,0.366288274527
+1406,vqa_rad_304,does this patient have an endotracheal tube placed?,no,0,yes_no,type+len2,test,0.00119010161143,0.000774537737016,0.996467113495
+1406,vqa_rad_304,does this patient have an endotracheal tube placed?,yes,1,yes_no,type+len2,test,0.998452305794,0.999225735664,0.0179192759097
+1408,vqa_rad_304,does this cxr display pneumoperitoneum?,no,0,yes_no,type+len2,test,0.868529856205,0.0256207287312,0.936644077301
+1408,vqa_rad_304,does this cxr display pneumoperitoneum?,yes,1,yes_no,type+len2,test,0.393859833479,0.877395570278,0.14657241106
+1418,vqa_rad_304,which side of the image is the thoracic mass located on?,left side,0,which,type+len2,test,0.00431772274897,0.000628763926215,0.881984293461
+1418,vqa_rad_304,which side of the image is the thoracic mass located on?,suprasellar cistern,1,which,type+len2,test,0.105381958187,0.0821869447827,0.0853228420019
+1432,vqa_rad_162,what side are the infarcts located?,bilateral,0,what,type+len2,test,0.416389852762,0.784671127796,0.00198176898994
+1432,vqa_rad_162,what side are the infarcts located?,mri-flair,1,what,type+len2,test,0.886220812798,0.00437894044444,0.999999761581
+1433,vqa_rad_162,where are the infarcts seen?,bilateral,0,where,type+len2,test,0.98481965065,0.985570669174,0.00704399356619
+1433,vqa_rad_162,where are the infarcts seen?,axial,1,where,type+len2,test,0.999438107014,0.999812304974,0.999799668789
+1436,vqa_rad_187,is this an mri?,yes,0,yes_no,type+len2,test,0.0193827804178,0.00143798266072,0.999812543392
+1436,vqa_rad_187,is this an mri?,no,1,yes_no,type+len2,test,0.998008787632,0.999736607075,0.000292283453746
+1440,vqa_rad_187,are the lesions in the cerebellum?,yes,0,yes_no,type+len2,test,0.000406440783991,0.000180148374056,0.463521182537
+1440,vqa_rad_187,are the lesions in the cerebellum?,no,1,yes_no,type+len2,test,0.99913752079,0.999863743782,0.585147857666
+1448,vqa_rad_119,does the lesion demonstrate ring enhancement?,yes,0,yes_no,type+len2,test,0.998942553997,0.984885454178,0.998232543468
+1448,vqa_rad_119,does the lesion demonstrate ring enhancement?,no,1,yes_no,type+len2,test,0.00150202936493,0.578260779381,0.00845195073634
+1450,vqa_rad_119,is this lesion ring enhancing?,yes,0,yes_no,type+len2,test,0.954065859318,0.0133791128173,0.999805390835
+1450,vqa_rad_119,is this lesion ring enhancing?,no,1,yes_no,type+len2,test,0.159887701273,0.999141454697,0.000235025334405
+1458,vqa_rad_135,the air fluid level is in which location?,cardiac region,0,other,type+len2,test,0.999897241592,0.980259597301,0.999992489815
+1458,vqa_rad_135,the air fluid level is in which location?,"metastases, infection/abcess, glioblastoma",1,other,type+len2,test,0.999582827091,0.96628934145,0.999313354492
+1459,vqa_rad_135,where is there an air fluid level?,cardiac region,0,where,type+len2,test,0.99992108345,0.973068535328,0.999997973442
+1459,vqa_rad_135,where is there an air fluid level?,right lenticular nucleus,1,where,type+len2,test,0.999240636826,0.978034734726,0.522551000118
+1464,vqa_rad_162,what do the hyperdensities represent?,infarct,0,what,type+len2,test,0.0783101469278,0.576561450958,0.999840259552
+1464,vqa_rad_162,what do the hyperdensities represent?,axial,1,what,type+len2,test,0.999848484993,0.999973773956,0.999911904335
+1465,vqa_rad_162,what are the hyperdensities indicative of?,infarct,0,what,type+len2,test,0.0163521803916,0.152582705021,0.999755680561
+1465,vqa_rad_162,what are the hyperdensities indicative of?,both,1,what,type+len2,test,0.99875497818,0.327054917812,0.999842524529
+1467,vqa_rad_171,what type of image modality is this?,mr flair,0,what,type+len2,test,0.00910012610257,0.00190380925778,0.912960827351
+1467,vqa_rad_171,what type of image modality is this?,kidney cyst,1,what,type+len2,test,0.999998569489,0.99911314249,0.999999880791
+1468,vqa_rad_171,which image modality is this?,mr flair,0,which,type+len2,test,0.00764520512894,0.00384391867556,0.993159234524
+1468,vqa_rad_171,which image modality is this?,psoas major muscle,1,which,type+len2,test,0.999999880791,0.999877333641,0.999999642372
+1480,vqa_rad_171,in which area of the brain are the infarcts found?,right cerebellum,0,other,type+len2,test,0.00813849270344,0.00850727129728,0.0520407781005
+1480,vqa_rad_171,in which area of the brain are the infarcts found?,upper left,1,other,type+len2,test,0.990517675877,0.994667172432,0.00558243459091
+1481,vqa_rad_171,where are the infarcts located?,right cerebellum,0,where,type+len2,test,0.00500580947846,0.00588929792866,0.000117235176731
+1481,vqa_rad_171,where are the infarcts located?,ct with contrast,1,where,type+len2,test,0.999959945679,0.999782025814,0.999999403954
+1496,vqa_rad_171,does the r vertebral artery appear normal?,no,0,yes_no,type+len2,test,0.0213388241827,0.0010386928916,0.185602575541
+1496,vqa_rad_171,does the r vertebral artery appear normal?,yes,1,yes_no,type+len2,test,0.997211992741,0.999649763107,0.957882285118
+1497,vqa_rad_171,is the right vertebral artery normal?,no,0,yes_no,type+len2,test,0.00373493367806,0.000350789428921,0.00150456035044
+1497,vqa_rad_171,is the right vertebral artery normal?,yes,1,yes_no,type+len2,test,0.998196899891,0.999729573727,0.999810755253
+1500,vqa_rad_187,where are the lesions located?,bilateral cerebellum,0,where,type+len2,test,0.000910761707928,0.000366309541278,3.15156785291e-06
+1500,vqa_rad_187,where are the lesions located?,psoas muscles,1,where,type+len2,test,0.979098677635,0.642763614655,0.880658090115
+1503,vqa_rad_119,where is the lesion located?,left parietal lobe,0,where,type+len2,test,0.0350376293063,0.0113507928327,6.20351784164e-05
+1503,vqa_rad_119,where is the lesion located?,aorta is bright,1,where,type+len2,test,0.997716665268,0.999381780624,0.999895215034
+1504,vqa_rad_119,which lobe is the lesion in?,left parietal lobe,0,which,type+len2,test,0.00463885720819,0.0348802469671,0.0276285279542
+1504,vqa_rad_119,which lobe is the lesion in?,chest x-ray,1,which,type+len2,test,0.999999880791,1,1
+1510,vqa_rad_135,what are the hyperdense findings in the mediastinum?,sternal wires,0,what,type+len2,test,0.994544625282,0.999480426311,0.999807298183
+1510,vqa_rad_135,what are the hyperdense findings in the mediastinum?,"metastases, infection/abcess, glioblastoma",1,what,type+len2,test,0.999921560287,0.999961137772,0.999576032162
+1511,vqa_rad_135,what are seen as hyperdense in the mediastinum of this image?,sternal wires,0,what,type+len2,test,0.985136210918,0.997960925102,0.999962091446
+1511,vqa_rad_135,what are seen as hyperdense in the mediastinum of this image?,plain film,1,what,type+len2,test,0.00016061977658,0.224504902959,0.000598402111791
+1519,vqa_rad_72,brain structure shown in this image?,cerebellum,0,other,type+len2,test,0.135067269206,0.0122919371352,0.332520365715
+1519,vqa_rad_72,brain structure shown in this image?,right,1,other,type+len2,test,0.96266746521,0.997896194458,0.999995350838
+1520,vqa_rad_72,what part of the brain is seen in this image?,cerebellum,0,what,type+len2,test,0.447130203247,0.0367452912033,0.223163053393
+1520,vqa_rad_72,what part of the brain is seen in this image?,right,1,what,type+len2,test,0.988948941231,0.970911562443,0.999959349632
+1528,vqa_rad_307,are there any bone fractures present?,no,0,yes_no,type+len2,test,6.49078501738e-05,0.000115272414405,1.50608857439e-05
+1528,vqa_rad_307,are there any bone fractures present?,yes,1,yes_no,type+len2,test,0.999986290932,0.999979496002,0.999931573868
+1529,vqa_rad_307,does the patient have any bone fractures?,no,0,yes_no,type+len2,test,0.00010735836986,0.000299982755678,0.000167155041709
+1529,vqa_rad_307,does the patient have any bone fractures?,yes,1,yes_no,type+len2,test,0.999929666519,0.999820291996,0.999383211136
+1530,vqa_rad_68,are the patients' ribs symmetric on both sides?,no,0,yes_no,type+len2,test,0.715674638748,0.647868275642,0.70025229454
+1530,vqa_rad_68,are the patients' ribs symmetric on both sides?,yes,1,yes_no,type+len2,test,0.324684619904,0.0254219919443,0.155310958624
+1531,vqa_rad_68,is there symmetry of the patient's ribs on both sides?,no,0,yes_no,type+len2,test,0.479161024094,0.893366515636,0.959337353706
+1531,vqa_rad_68,is there symmetry of the patient's ribs on both sides?,yes,1,yes_no,type+len2,test,0.629648685455,0.017494821921,0.0905031040311
+1567,vqa_rad_77,what ventricle is the lesion compressing?,4th ventricle,0,what,type+len2,test,0.00822077784687,0.258459687233,0.00344566511922
+1567,vqa_rad_77,what ventricle is the lesion compressing?,l2-3,1,what,type+len2,test,0.14009937644,0.0581153854728,0.811686515808
+1568,vqa_rad_77,which ventricle is compressed by the lesion?,4th ventricle,0,which,type+len2,test,0.00172564643435,0.484819352627,0.0011681758333
+1568,vqa_rad_77,which ventricle is compressed by the lesion?,mri - t1 weighted,1,which,type+len2,test,0.431496500969,0.0488546788692,0.999999642372
+1569,vqa_rad_72,is this a noncontrast ct?,yes,0,yes_no,type+len2,test,0.998638689518,0.206422194839,0.899175822735
+1569,vqa_rad_72,is this a noncontrast ct?,no,1,yes_no,type+len2,test,0.00627307035029,0.804382145405,0.157794058323
+1571,vqa_rad_233,where is the abnormality?,left temporal lobe,0,where,type+len2,test,0.0157252531499,0.00535064330325,2.60743090621e-05
+1571,vqa_rad_233,where is the abnormality?,on the left,1,where,type+len2,test,0.999648213387,0.905707359314,0.829877376556
+1572,vqa_rad_109,are lung opacities noted?,no,0,yes_no,type+len2,test,0.0153615688905,0.737199187279,0.000100511279015
+1572,vqa_rad_109,are lung opacities noted?,yes,1,yes_no,type+len2,test,0.997831285,0.0628101751208,0.999903321266
+1576,vqa_rad_59,mri imaging modality used?,dwi,0,other,type+len2,test,0.161973685026,0.789432525635,0.00177151616663
+1576,vqa_rad_59,mri imaging modality used?,hypodense,1,other,type+len2,test,0.956727087498,0.152650237083,0.99957460165
+1577,vqa_rad_59,what type of mri is the above image?,dwi,0,what,type+len2,test,0.94554901123,0.822915077209,5.84917797823e-05
+1577,vqa_rad_59,what type of mri is the above image?,cardiomegaly,1,what,type+len2,test,0.999992132187,0.999319434166,0.999196588993
+1583,vqa_rad_109,is there evidence of intraparenchymal lung nodules?,no,0,yes_no,type+len2,test,0.000181808587513,0.000553505145945,0.00154790305533
+1583,vqa_rad_109,is there evidence of intraparenchymal lung nodules?,yes,1,yes_no,type+len2,test,0.999962449074,0.998571872711,0.999369680882
+1588,vqa_rad_92,how was this image taken?,x-ray,0,how,type+len2,test,0.000134454501676,0.000311057665385,0.115917213261
+1588,vqa_rad_92,how was this image taken?,heterogeneous,1,how,type+len2,test,0.998211503029,0.159289300442,0.999976992607
+1589,vqa_rad_92,what imaging modality is seen?,x-ray,0,what,type+len2,test,0.000450461957371,0.000322531181155,0.00680370535702
+1589,vqa_rad_92,what imaging modality is seen?,axial,1,what,type+len2,test,0.999996066093,0.999999046326,0.999975085258
+1600,vqa_rad_72,in what plane is this image taken?,axial,0,other,type+len2,test,6.71474072078e-06,8.93302330951e-06,2.28935118685e-06
+1600,vqa_rad_72,in what plane is this image taken?,flair,1,other,type+len2,test,0.998678743839,0.975508451462,0.999918222427
+1603,vqa_rad_307,are there multiple lesions in the chest of the above patient?,no,0,yes_no,type+len2,test,0.00092068198137,0.00198277365416,0.0022362829186
+1603,vqa_rad_307,are there multiple lesions in the chest of the above patient?,yes,1,yes_no,type+len2,test,0.999076485634,0.976951956749,0.999259889126
+1604,vqa_rad_307,does this patient have multiple lesions in their chest?,no,0,yes_no,type+len2,test,0.000889019691385,0.00749106146395,0.00780061678961
+1604,vqa_rad_307,does this patient have multiple lesions in their chest?,yes,1,yes_no,type+len2,test,0.99903345108,0.883676528931,0.997866988182
+1606,vqa_rad_92,the azygoesophageal recess is deviated in which direction?,right,0,other,type+len2,test,6.81299425196e-05,0.000372217822587,0.000125797902001
+1606,vqa_rad_92,the azygoesophageal recess is deviated in which direction?,ivc,1,other,type+len2,test,0.999827623367,0.997638106346,0.971159875393
+1607,vqa_rad_92,which direction is the azygoesophageal recess deviated?,right,0,which,type+len2,test,5.30030520167e-05,0.000371953239664,0.00019541180518
+1607,vqa_rad_92,which direction is the azygoesophageal recess deviated?,axial,1,which,type+len2,test,0.999994754791,0.999997973442,0.999953746796
+1613,vqa_rad_77,is this mri with contrast or without contrast?,with contrast,0,yes_no,type+len2,test,0.988023638725,0.493233859539,0.000272694334853
+1613,vqa_rad_77,is this mri with contrast or without contrast?,non-contrast ct,1,yes_no,type+len2,test,0.00300027383491,0.0935152545571,8.11201289252e-07
+1614,vqa_rad_77,was this mri taken with or without contrast?,with contrast,0,yes_no,type+len2,test,0.988529980183,0.756990611553,3.17550038744e-05
+1614,vqa_rad_77,was this mri taken with or without contrast?,lower lung fields,1,yes_no,type+len2,test,0.999959588051,0.996603608131,0.999967336655
+1622,vqa_rad_146,where is the lesion located?,left cerebellum,0,where,type+len2,test,0.0850181430578,0.015917180106,6.32660612609e-06
+1622,vqa_rad_146,where is the lesion located?,multiple sclerosis,1,where,type+len2,test,0.999913096428,0.984895169735,0.999999761581
+1623,vqa_rad_146,where is the abnormality in this image?,left cerebellum,0,where,type+len2,test,0.047629814595,0.2001581043,0.000133311157697
+1623,vqa_rad_146,where is the abnormality in this image?,the brain,1,where,type+len2,test,0.0371773168445,0.304785192013,0.000426714570494
+1624,vqa_rad_155,is the cortex atrophied?,no,0,yes_no,type+len2,test,0.00015680238721,0.000378924043616,0.00014966262097
+1624,vqa_rad_155,is the cortex atrophied?,yes,1,yes_no,type+len2,test,0.999923348427,0.999933481216,0.999927163124
+1625,vqa_rad_155,is there cortical atrophy?,no,0,yes_no,type+len2,test,0.000227872675168,0.000313812633976,0.000562556553632
+1625,vqa_rad_155,is there cortical atrophy?,yes,1,yes_no,type+len2,test,0.999924778938,0.99994468689,0.999343931675
+1629,vqa_rad_75,is this a mid-sagittal film?,no,0,yes_no,type+len2,test,6.1720602389e-05,0.46841403842,0.00022167620773
+1629,vqa_rad_75,is this a mid-sagittal film?,yes,1,yes_no,type+len2,test,0.99945217371,0.0615321919322,0.999903678894
+1632,vqa_rad_112,is this an axial image?,no,0,yes_no,type+len2,test,0.982994318008,0.996143937111,0.999953269958
+1632,vqa_rad_112,is this an axial image?,yes,1,yes_no,type+len2,test,0.00936784781516,0.000144589270349,6.49000576232e-05
+1646,vqa_rad_75,why are the chostrochondral junctions not seen on this film?,cartilage is not well viewed by x rays,0,why,type+len2,test,0.931697070599,0.366137742996,0.997367560863
+1646,vqa_rad_75,why are the chostrochondral junctions not seen on this film?,"thalami, left occipital lobe, brainstem and left cerebellum",1,why,type+len2,test,0.677801847458,0.985732734203,0.000213026025449
+1647,vqa_rad_75,is the heart shadow abnormally large?,no,0,yes_no,type+len2,test,0.0062154373154,0.9973051548,0.0211743041873
+1647,vqa_rad_75,is the heart shadow abnormally large?,yes,1,yes_no,type+len2,test,0.995066285133,0.00105433736462,0.978452265263
+1648,vqa_rad_75,is the cardiac silhouette enlarged?,no,0,yes_no,type+len2,test,0.0185553934425,0.994863450527,0.00892018619925
+1648,vqa_rad_75,is the cardiac silhouette enlarged?,yes,1,yes_no,type+len2,test,0.966455519199,0.00103948381729,0.962455272675
+1652,vqa_rad_112,is there pneumothorax?,no,0,yes_no,type+len2,test,0.0275676231831,0.00110778794624,0.0064395852387
+1652,vqa_rad_112,is there pneumothorax?,yes,1,yes_no,type+len2,test,0.998568415642,0.988916993141,0.991381585598
+1653,vqa_rad_112,how can you tell there is no pneumothorax present?,lung markings present all the way laterally to the ribs,0,how,type+len2,test,0.00263870833442,6.5993212047e-05,0.99847561121
+1653,vqa_rad_112,how can you tell there is no pneumothorax present?,blind-ending loop of bowel arising from the cecum,1,how,type+len2,test,0.522344410419,0.424540430307,0.000126391387312
+1656,vqa_rad_112,why is the right lung most common location for aspirations?,the right mainstem bronchus is more in line with the trachea than the left,0,why,type+len2,test,0.017730243504,0.00321635603905,0.923972845078
+1656,vqa_rad_112,why is the right lung most common location for aspirations?,soft tissue mass in the region of the terminal ileum with mesenteric lymphadenopathy,1,why,type+len2,test,0.999789178371,0.999532461166,0.999301075935
+1659,vqa_rad_155,can the white and gray matter be differentiated?,yes,0,yes_no,type+len2,test,0.999368488789,0.99927264452,0.954098343849
+1659,vqa_rad_155,can the white and gray matter be differentiated?,no,1,yes_no,type+len2,test,0.00215956731699,0.00317078479566,0.210084185004
+1661,vqa_rad_155,is there good gray-white matter differentiation?,yes,0,yes_no,type+len2,test,0.998955845833,0.999664306641,0.00419455068186
+1661,vqa_rad_155,is there good gray-white matter differentiation?,no,1,yes_no,type+len2,test,0.00213331007399,0.000965842860751,0.998296797276
+1663,vqa_rad_75,are any of the ribs fractured?,no,0,yes_no,type+len2,test,6.3396942096e-06,3.43645733665e-05,5.26912117493e-06
+1663,vqa_rad_75,are any of the ribs fractured?,yes,1,yes_no,type+len2,test,0.999998450279,0.999985694885,0.999966859818
+1664,vqa_rad_75,are there rib fractures present?,no,0,yes_no,type+len2,test,0.000259632361121,0.0110432878137,4.0648268623e-05
+1664,vqa_rad_75,are there rib fractures present?,yes,1,yes_no,type+len2,test,0.999963998795,0.9964646101,0.999856829643
+1668,vqa_rad_183,what are the multiple round hyperdensities located immediately inferior to the musculature?,intestine,0,what,type+len2,test,0.512730121613,0.997947871685,0.423519313335
+1668,vqa_rad_183,what are the multiple round hyperdensities located immediately inferior to the musculature?,bilateral,1,what,type+len2,test,0.999947190285,0.999653935432,0.0040607159026
+1669,vqa_rad_183,what are the anterior circular hyperdensities?,intestine,0,what,type+len2,test,0.96393018961,0.995914280415,0.965867340565
+1669,vqa_rad_183,what are the anterior circular hyperdensities?,mri,1,what,type+len2,test,0.999999523163,0.999986171722,0.99999666214
+1670,vqa_rad_87,are the ventricles enlarged?,no,0,yes_no,type+len2,test,0.999786555767,0.916554272175,0.998546123505
+1670,vqa_rad_87,are the ventricles enlarged?,yes,1,yes_no,type+len2,test,0.000560452463105,0.633585751057,0.00150101794861
+1672,vqa_rad_87,is there ventricular enlargement?,no,0,yes_no,type+len2,test,0.998918652534,0.00954491365701,0.68716186285
+1672,vqa_rad_87,is there ventricular enlargement?,yes,1,yes_no,type+len2,test,0.00139406044036,0.999304175377,0.21809579432
+1688,vqa_rad_112,is the trachea deviated from midline?,no,0,yes_no,type+len2,test,9.66778970906e-05,0.000124272875837,4.09817148466e-05
+1688,vqa_rad_112,is the trachea deviated from midline?,yes,1,yes_no,type+len2,test,0.999939918518,0.999231815338,0.999873876572
+1689,vqa_rad_112,is there tracheal deviation?,no,0,yes_no,type+len2,test,7.56664885557e-05,5.24101669725e-05,2.55123213719e-05
+1689,vqa_rad_112,is there tracheal deviation?,yes,1,yes_no,type+len2,test,0.999977111816,0.999406576157,0.999940991402
+1690,vqa_rad_155,where is the lesion located?,left occipital lobe,0,where,type+len2,test,0.149144083261,0.820534467697,0.000170846717083
+1690,vqa_rad_155,where is the lesion located?,pleural effusion,1,where,type+len2,test,0.999449431896,0.999999403954,0.603277385235
+1691,vqa_rad_155,which lobe is the lesion in?,left occipital lobe,0,which,type+len2,test,0.0132561875507,0.0847297236323,0.0294071678072
+1691,vqa_rad_155,which lobe is the lesion in?,just one,1,which,type+len2,test,0.999804675579,0.999931335449,0.999997615814
+1698,vqa_rad_112,what does the black on an x ray indicate?,air,0,what,type+len2,test,2.99614421237e-05,0.000104221289803,0.00108901911881
+1698,vqa_rad_112,what does the black on an x ray indicate?,one,1,what,type+len2,test,0.030038041994,0.0323131531477,0.993225753307
+1705,vqa_rad_142,has the small bowel perforated?,no,0,yes_no,type+len2,test,0.962605774403,0.98639023304,0.80109667778
+1705,vqa_rad_142,has the small bowel perforated?,yes,1,yes_no,type+len2,test,0.00906599778682,0.0958679914474,0.45514139533
+1707,vqa_rad_146,are any fractures present?,no,0,yes_no,type+len2,test,0.000510641548317,0.144704505801,3.71542932953e-06
+1707,vqa_rad_146,are any fractures present?,yes,1,yes_no,type+len2,test,0.999952554703,0.999018788338,0.99996650219
+1708,vqa_rad_146,is there a skull fracture?,no,0,yes_no,type+len2,test,0.000218208355363,0.3638022542,0.000325814267853
+1708,vqa_rad_146,is there a skull fracture?,yes,1,yes_no,type+len2,test,0.999975442886,0.974700391293,0.999724805355
+1711,vqa_rad_210,is the cardiac silhouette enlarged?,no,0,yes_no,type+len2,test,0.000693815003615,0.535119116306,0.00892018619925
+1711,vqa_rad_210,is the cardiac silhouette enlarged?,yes,1,yes_no,type+len2,test,0.999808013439,0.686814725399,0.962455272675
+1712,vqa_rad_210,is the heart size abnormal,no,0,yes_no,type+len2,test,0.00391886243597,0.987202942371,0.816731214523
+1712,vqa_rad_210,is the heart size abnormal,yes,1,yes_no,type+len2,test,0.998542308807,0.149154141545,0.104761645198
+1713,vqa_rad_140,is there a subarachnoid bleed in the image?,no,0,yes_no,type+len2,test,0.108114652336,0.0161375347525,0.207979738712
+1713,vqa_rad_140,is there a subarachnoid bleed in the image?,yes,1,yes_no,type+len2,test,0.971185266972,0.994738996029,0.99700909853
+1714,vqa_rad_140,is a subarachnoid bleed present?,no,0,yes_no,type+len2,test,0.757043302059,0.0445934534073,0.213356420398
+1714,vqa_rad_140,is a subarachnoid bleed present?,yes,1,yes_no,type+len2,test,0.346676647663,0.990765333176,0.972983658314
+1715,vqa_rad_183,what material is the peripheral hypodensity?,fat,0,what,type+len2,test,0.995074570179,0.999889850616,0.985054254532
+1715,vqa_rad_183,what material is the peripheral hypodensity?,left,1,what,type+len2,test,0.999930858612,0.999995708466,0.999995589256
+1716,vqa_rad_142,is there evidence of pneumoperitoneum?,yes,0,yes_no,type+len2,test,0.959252655506,0.999705851078,0.662234485149
+1716,vqa_rad_142,is there evidence of pneumoperitoneum?,no,1,yes_no,type+len2,test,0.00535281095654,0.00345080043189,0.223882824183
+1717,vqa_rad_183,what is the the dark gray surrounding the periphery of the image?,fat,0,what,type+len2,test,0.999826729298,0.999868273735,0.999983429909
+1717,vqa_rad_183,what is the the dark gray surrounding the periphery of the image?,bilateral,1,what,type+len2,test,0.999983906746,0.999958753586,0.910491168499
+1724,vqa_rad_140,are the cortexes atrophied here?,no,0,yes_no,type+len2,test,0.999932050705,0.999975919724,0.997159361839
+1724,vqa_rad_140,are the cortexes atrophied here?,yes,1,yes_no,type+len2,test,5.36989318789e-05,0.000166312573128,0.0100565925241
+1725,vqa_rad_140,is cortical atrophy present?,no,0,yes_no,type+len2,test,0.937554657459,0.355438411236,0.000535751983989
+1725,vqa_rad_140,is cortical atrophy present?,yes,1,yes_no,type+len2,test,0.346564650536,0.898350000381,0.999431073666
+1732,vqa_rad_145,are the clavicles fractured?,no,0,yes_no,type+len2,test,0.0151003114879,5.27587799297e-05,1.81059385795e-05
+1732,vqa_rad_145,are the clavicles fractured?,yes,1,yes_no,type+len2,test,0.999294757843,0.99991953373,0.999881744385
+1733,vqa_rad_145,is a clavicular fracture present?,no,0,yes_no,type+len2,test,0.26409381628,0.000108438485768,0.000115570692287
+1733,vqa_rad_145,is a clavicular fracture present?,yes,1,yes_no,type+len2,test,0.996788978577,0.999727189541,0.999849081039
+1741,vqa_rad_15,is this in the coronal plane?,no,0,yes_no,type+len2,test,0.874996244907,0.997555851936,0.0121848480776
+1741,vqa_rad_15,is this in the coronal plane?,yes,1,yes_no,type+len2,test,0.667884767056,0.00761290639639,0.995378136635
+1742,vqa_rad_11,is there lymphadenopathy?,no,0,yes_no,type+len2,test,0.0119814975187,0.00523149129003,0.0034992841538
+1742,vqa_rad_11,is there lymphadenopathy?,yes,1,yes_no,type+len2,test,0.99883466959,0.995056033134,0.997841715813
+1743,vqa_rad_11,is lymphadenopathy present?,no,0,yes_no,type+len2,test,0.130656480789,0.0410843230784,0.0419149808586
+1743,vqa_rad_11,is lymphadenopathy present?,yes,1,yes_no,type+len2,test,0.99605101347,0.960972964764,0.967954218388
+1744,vqa_rad_9,are the ventricles unaltered?,no,0,yes_no,type+len2,test,0.993465721607,0.97665989399,0.00460160616785
+1744,vqa_rad_9,are the ventricles unaltered?,yes,1,yes_no,type+len2,test,0.0912755429745,0.00598918879405,0.982078611851
+1745,vqa_rad_9,are the ventricles normal?,no,0,yes_no,type+len2,test,0.999213695526,0.972142755985,0.984455227852
+1745,vqa_rad_9,are the ventricles normal?,yes,1,yes_no,type+len2,test,0.00155502348207,0.00584219256416,0.00810223631561
+1746,vqa_rad_15,what is the shape of the mass?,elliptical,0,what,type+len2,test,0.999961733818,0.999961733818,0.999969363213
+1746,vqa_rad_15,what is the shape of the mass?,ribs,1,what,type+len2,test,0.525833308697,0.00438830116764,0.98621493578
+1747,vqa_rad_15,what is the form of the mass?,elliptical,0,what,type+len2,test,0.999977707863,0.999962210655,0.999995589256
+1747,vqa_rad_15,what is the form of the mass?,diffuse,1,what,type+len2,test,0.0246688127518,0.884409785271,0.0237456876785
+1761,vqa_rad_13,what is the location of the abnormality?,right lung,0,what,type+len2,test,0.338261574507,0.0124346483499,0.966880083084
+1761,vqa_rad_13,what is the location of the abnormality?,posterior brain,1,what,type+len2,test,0.999997138977,0.999995589256,0.000110766646685
+1762,vqa_rad_13,where is the abnormality?,right lung,0,where,type+len2,test,0.994829118252,0.728967607021,0.957923293114
+1762,vqa_rad_13,where is the abnormality?,oral and iv,1,where,type+len2,test,0.999956488609,0.997543990612,0.00517678959295
+1765,vqa_rad_9,the bottom of the image indicates what area of the brain?,posterior brain,0,other,type+len2,test,1.20038093883e-05,4.57882197225e-05,1.00824763649e-05
+1765,vqa_rad_9,the bottom of the image indicates what area of the brain?,right temporal lobe,1,other,type+len2,test,5.25382210981e-06,7.50202104882e-07,0.0851693302393
+1770,vqa_rad_9,what injury does this brain image suggest?,hypoxic ischemic injury,0,what,type+len2,test,0.999052345753,0.291952252388,0.983875691891
+1770,vqa_rad_9,what injury does this brain image suggest?,pineal region,1,what,type+len2,test,6.119299087e-06,2.32743968809e-06,0.998391330242
+1772,vqa_rad_9,what is evinced by this brain image?,loss of normal gray-white matter junction,0,what,type+len2,test,1.46229858728e-05,1.23475556393e-05,0.000987409963273
+1772,vqa_rad_9,what is evinced by this brain image?,increased opacity in the left retrocardiac region,1,what,type+len2,test,0.999997377396,0.999993920326,0.999999880791
+1773,vqa_rad_13,is this an image of normal physiology?,no,0,yes_no,type+len2,test,0.996774017811,0.999744594097,0.999982476234
+1773,vqa_rad_13,is this an image of normal physiology?,yes,1,yes_no,type+len2,test,0.0180624965578,2.65401777142e-05,4.06329600082e-05
+1774,vqa_rad_13,is this patient healthy?,no,0,yes_no,type+len2,test,6.86219063937e-05,0.573716342449,6.33977688267e-05
+1774,vqa_rad_13,is this patient healthy?,yes,1,yes_no,type+len2,test,0.999957561493,0.0538331493735,0.999959349632
+1777,vqa_rad_134,are the airway walls thickened in the bases?,yes,0,yes_no,type+len2,test,0.000629007292446,0.0216551553458,0.0274985209107
+1777,vqa_rad_134,are the airway walls thickened in the bases?,no,1,yes_no,type+len2,test,0.999107897282,0.824358046055,0.970631718636
+1778,vqa_rad_134,is there increased airway wall thickening of the bilateral bases?,yes,0,yes_no,type+len2,test,0.529769837856,0.875331044197,0.30793774128
+1778,vqa_rad_134,is there increased airway wall thickening of the bilateral bases?,no,1,yes_no,type+len2,test,0.589258432388,0.0209237169474,0.208257630467
+1781,vqa_rad_13,are there abnormalities seen in the lungs?,yes,0,yes_no,type+len2,test,0.999773800373,0.0087340567261,0.999955296516
+1781,vqa_rad_13,are there abnormalities seen in the lungs?,no,1,yes_no,type+len2,test,0.00101384916343,0.971033275127,2.87656512228e-05
+1785,vqa_rad_13,where is the nodule?,below the 7th rib in the right lung.,0,where,type+len2,test,0.947917819023,0.0148657513782,0.931028842926
+1785,vqa_rad_13,where is the nodule?,left lobe mass 1.5 x 1.8 cm,1,where,type+len2,test,0.000361561251339,0.000404920923756,0.000199182744836
+1786,vqa_rad_13,what is the abnormality?,single lung nodule,0,what,type+len2,test,6.78043143125e-05,0.000212004568311,0.0623657181859
+1786,vqa_rad_13,what is the abnormality?,right sylvian fissure,1,what,type+len2,test,0.999995470047,0.999558150768,0.999892115593
+1787,vqa_rad_134,are there abnormalities?,yes,0,yes_no,type+len2,test,0.999991059303,0.999987125397,0.00729620223865
+1787,vqa_rad_134,are there abnormalities?,no,1,yes_no,type+len2,test,0.000196758875973,2.18519344344e-05,0.951606690884
+1788,vqa_rad_134,is anything wrong in this image?,yes,0,yes_no,type+len2,test,0.998875677586,0.999873638153,0.985310912132
+1788,vqa_rad_134,is anything wrong in this image?,no,1,yes_no,type+len2,test,0.000980132026598,0.000301578023937,0.00511911790818
+1793,vqa_rad_2,is there evidence of an aortic aneurysm?,yes,0,yes_no,type+len2,test,0.999195635319,0.996953964233,0.99999833107
+1793,vqa_rad_2,is there evidence of an aortic aneurysm?,no,1,yes_no,type+len2,test,0.0325359068811,0.00119696033653,1.37883091611e-06
+1799,vqa_rad_198,is the colon more prominent on the patient's right or left side?,left,0,yes_no,type+len2,test,0.00847144983709,0.995864272118,0.000161820367794
+1799,vqa_rad_198,is the colon more prominent on the patient's right or left side?,breasts,1,yes_no,type+len2,test,0.00603810511529,0.609825670719,0.00408966559917
+1800,vqa_rad_198,where is the colon most prominent from this view?,left,0,where,type+len2,test,0.382122546434,0.999717772007,0.00335745885968
+1800,vqa_rad_198,where is the colon most prominent from this view?,infarct,1,where,type+len2,test,0.999976754189,0.99998831749,0.996255874634
+1812,vqa_rad_263,is the anatomy of the brain gyri affected?,no,0,yes_no,type+len2,test,0.990501284599,0.999209523201,0.982357978821
+1812,vqa_rad_263,is the anatomy of the brain gyri affected?,yes,1,yes_no,type+len2,test,0.196947410703,0.0024109040387,0.0634613484144
+1815,vqa_rad_263,what is the plane of this image?,axial,0,what,type+len2,test,5.90950639889e-06,0.000223915805691,2.72103875432e-06
+1815,vqa_rad_263,what is the plane of this image?,pa,1,what,type+len2,test,0.99799478054,0.997677147388,0.146512508392
+1816,vqa_rad_266,is this a ct image?,no,0,yes_no,type+len2,test,0.000672297435813,3.98713673349e-05,0.529115974903
+1816,vqa_rad_266,is this a ct image?,yes,1,yes_no,type+len2,test,0.999668359756,0.999911904335,0.512649595737
+1819,vqa_rad_273,is there leakage of blood?,no,0,yes_no,type+len2,test,0.00213439622894,0.71528929472,1.29141935759e-05
+1819,vqa_rad_273,is there leakage of blood?,yes,1,yes_no,type+len2,test,0.999700546265,0.996490776539,0.999985218048
+1831,vqa_rad_231,are the lateral ventricles visible?,yes,0,yes_no,type+len2,test,0.0145009690896,0.948728084564,0.000320382561767
+1831,vqa_rad_231,are the lateral ventricles visible?,no,1,yes_no,type+len2,test,0.947023570538,0.0111470352858,0.999850511551
+1832,vqa_rad_231,can the lateral ventricles be seen?,yes,0,yes_no,type+len2,test,0.00651603844017,0.876610636711,0.000214603918721
+1832,vqa_rad_231,can the lateral ventricles be seen?,no,1,yes_no,type+len2,test,0.979808628559,0.0351843833923,0.999903440475
+1850,vqa_rad_142,is the small bowel appropriately identified with gi contrast?,yes,0,yes_no,type+len2,test,0.000757497211453,0.000376591051463,0.000152612687089
+1850,vqa_rad_142,is the small bowel appropriately identified with gi contrast?,no,1,yes_no,type+len2,test,0.999566376209,0.999654650688,0.999908328056
+1861,vqa_rad_142,is there a small bowel obstruction?,yes,0,yes_no,type+len2,test,0.000588296970818,0.00698102964088,0.0209794733673
+1861,vqa_rad_142,is there a small bowel obstruction?,no,1,yes_no,type+len2,test,0.998139619827,0.997125327587,0.991220057011
+1868,vqa_rad_199,what plane is this film,coronal,0,what,type+len2,test,0.997650206089,0.445920854807,0.918406188488
+1868,vqa_rad_199,what plane is this film,axial,1,what,type+len2,test,0.00110114261042,0.0187123138458,1.32939458126e-05
+1888,vqa_rad_135,diaphragm is elevated on which side?,right,0,other,type+len2,test,7.33190681785e-05,0.000477285910165,3.74458795704e-05
+1888,vqa_rad_135,diaphragm is elevated on which side?,ribs,1,other,type+len2,test,0.982700765133,0.994344711304,0.000465878489194
+1889,vqa_rad_135,which side of the diaphragm is elevated?,right,0,which,type+len2,test,0.000105276965769,0.000294749654131,4.37003145635e-05
+1889,vqa_rad_135,which side of the diaphragm is elevated?,peritoneum,1,which,type+len2,test,0.973341584206,0.999799787998,0.594833493233
+1897,vqa_rad_187,what plane is this?,axial,0,what,type+len2,test,1.1896046999e-05,9.0437279141e-06,4.57500573248e-06
+1897,vqa_rad_187,what plane is this?,nodules,1,what,type+len2,test,0.999803841114,0.999978065491,0.999985218048
+1903,vqa_rad_162,where are the acute infarcts?,r frontal lobe,0,where,type+len2,test,0.0174054950476,0.0240417122841,0.0176420081407
+1903,vqa_rad_162,where are the acute infarcts?,the lungs,1,where,type+len2,test,0.999999046326,0.999999403954,0.998119294643
+1904,vqa_rad_162,where do you see acute infarcts?,r frontal lobe,0,where,type+len2,test,0.104957044125,0.0259460937232,0.00870160665363
+1904,vqa_rad_162,where do you see acute infarcts?,horsehoe kidney,1,where,type+len2,test,0.999977469444,0.997733235359,0.999264419079
+1911,vqa_rad_72,is this a ct of the abdomen?,no,0,yes_no,type+len2,test,0.0298664178699,0.97952580452,0.297944515944
+1911,vqa_rad_72,is this a ct of the abdomen?,yes,1,yes_no,type+len2,test,0.997739315033,0.0561876781285,0.411751955748
+1915,vqa_rad_307,what is the location of the lesion?,right lower lateral lung field,0,what,type+len2,test,0.00322620850056,0.000595577352215,0.999936103821
+1915,vqa_rad_307,what is the location of the lesion?,trace the gallbladder emptying?,1,what,type+len2,test,0.209897175431,0.982036650181,0.945421099663
+1916,vqa_rad_307,where is the lesion located?,right lower lateral lung field,0,where,type+len2,test,0.015400737524,0.0049105733633,0.999361336231
+1916,vqa_rad_307,where is the lesion located?,the left occipital lobe,1,where,type+len2,test,0.999980807304,0.999997377396,0.000152536609676
+1922,vqa_rad_92,is the heart enlarged?,no,0,yes_no,type+len2,test,0.000571652897634,0.00159022852313,0.470408946276
+1922,vqa_rad_92,is the heart enlarged?,yes,1,yes_no,type+len2,test,0.9998306036,0.997750580311,0.534499824047
+1923,vqa_rad_92,is the heart abnormally large?,no,0,yes_no,type+len2,test,0.000115697825095,0.000433877314208,0.00247448915616
+1923,vqa_rad_92,is the heart abnormally large?,yes,1,yes_no,type+len2,test,0.999982118607,0.999498844147,0.998190104961
+1934,vqa_rad_59,where are the brain lesions located?,right hemisphere,0,where,type+len2,test,0.0165215674788,0.283703535795,0.999928474426
+1934,vqa_rad_59,where are the brain lesions located?,right subdural hematoma,1,where,type+len2,test,1.02594704003e-05,4.10836628362e-06,0.00393023481593
+1935,vqa_rad_59,which hemisphere of the brain are the lesions located in?,right hemisphere,0,which,type+len2,test,0.0212714634836,0.152356877923,0.50822108984
+1935,vqa_rad_59,which hemisphere of the brain are the lesions located in?,air fluid level,1,which,type+len2,test,0.999909281731,0.999907612801,0.999978542328
+1936,vqa_rad_77,in which brain area is the lesion located?,right cerebellopontine angle,0,other,type+len2,test,0.995621263981,0.998975872993,0.999997019768
+1936,vqa_rad_77,in which brain area is the lesion located?,iv contrast,1,other,type+len2,test,0.990691244602,0.998703956604,0.999999880791
+1937,vqa_rad_77,where is the lesion located?,right cerebellopontine angle,0,where,type+len2,test,0.979249060154,0.998610377312,0.999834418297
+1937,vqa_rad_77,where is the lesion located?,ascending colon,1,where,type+len2,test,0.99887663126,0.968967914581,0.988020598888
+1939,vqa_rad_109,is there narrowing of the cardiac contour?,yes,0,yes_no,type+len2,test,0.994207620621,0.0434034019709,0.919123351574
+1939,vqa_rad_109,is there narrowing of the cardiac contour?,no,1,yes_no,type+len2,test,0.0297375191003,0.843031704426,0.0861947014928
+1950,vqa_rad_109,is the cardiac silhouette small/stretched,yes,0,yes_no,type+len2,test,0.999535679817,0.16707020998,0.836924672127
+1950,vqa_rad_109,is the cardiac silhouette small/stretched,no,1,yes_no,type+len2,test,0.00240589515306,0.592869400978,0.0227565634996
+1954,vqa_rad_72,where is the abnormality?,right posteroinferior cerebellum,0,where,type+len2,test,0.503002643585,0.0139880841598,4.41886504632e-06
+1954,vqa_rad_72,where is the abnormality?,right upper lobe,1,where,type+len2,test,0.999995708466,0.999998927116,0.999351322651
+1955,vqa_rad_72,what abnormality is present?,bleeding in the right posteroinferior cerebellum,0,what,type+len2,test,0.999374091625,0.515642821789,0.00403742538765
+1955,vqa_rad_72,what abnormality is present?,supine (see air-fluid level),1,what,type+len2,test,0.00502201216295,0.000820938672405,0.00289791729301
+1964,vqa_rad_112,is this patient male or female?,female,0,yes_no,type+len2,test,0.000326813809806,0.000983614707366,6.3621737354e-05
+1964,vqa_rad_112,is this patient male or female?,haustra,1,yes_no,type+len2,test,0.950259208679,0.924722790718,0.0923493430018
+1965,vqa_rad_112,what is the patient's gender?,female,0,what,type+len2,test,0.000248793774517,0.00102376309223,0.00034762424184
+1965,vqa_rad_112,what is the patient's gender?,loculated,1,what,type+len2,test,0.998971223831,0.998209357262,0.999736487865
+1966,vqa_rad_210,is the trachea normal?,no,0,yes_no,type+len2,test,0.000157120128279,0.0242501050234,5.63852063351e-06
+1966,vqa_rad_210,is the trachea normal?,yes,1,yes_no,type+len2,test,0.999966621399,0.992936432362,0.999950885773
+1967,vqa_rad_210,is the trachea midline?,yes,0,yes_no,type+len2,test,0.999738395214,0.470249921083,0.946228682995
+1967,vqa_rad_210,is the trachea midline?,no,1,yes_no,type+len2,test,0.000382937170798,0.902246773243,0.00780768413097
+1970,vqa_rad_75,what is located immediately inferior to the right hemidiaphragm?,the liver,0,what,type+len2,test,0.952891528606,0.977328598499,0.00113005470484
+1970,vqa_rad_75,what is located immediately inferior to the right hemidiaphragm?,nucleus pulposus,1,what,type+len2,test,0.0605419464409,0.265257149935,0.0111635457724
+1975,vqa_rad_146,what are the black areas at the top of the image?,maxillary sinuses,0,what,type+len2,test,0.997708082199,0.935648798943,0.999780714512
+1975,vqa_rad_146,what are the black areas at the top of the image?,right cerebellum,1,what,type+len2,test,0.944072186947,0.458700895309,0.999990344048
+1976,vqa_rad_146,what does the least dense region represent,maxillary sinuses,0,what,type+len2,test,0.998807549477,0.213531449437,0.999953746796
+1976,vqa_rad_146,what does the least dense region represent,double arch,1,what,type+len2,test,0.999986410141,0.999382972717,0.999756991863
+1982,vqa_rad_87,is the lesion on the left or right?,right,0,yes_no,type+len2,test,0.00137392489705,0.000392427115003,0.00058832304785
+1982,vqa_rad_87,is the lesion on the left or right?,hyperintense,1,yes_no,type+len2,test,0.107806958258,0.293798238039,0.999995470047
+1984,vqa_rad_87,what side is the lesion on?,right,0,what,type+len2,test,0.00092607550323,0.000568498973735,0.000216808679397
+1984,vqa_rad_87,what side is the lesion on?,axial,1,what,type+len2,test,0.998346328735,0.999996304512,0.999989151955
+1995,vqa_rad_210,are the hemidiaphragms flattened?,no,0,yes_no,type+len2,test,0.000395768147428,0.0413269661367,7.61152477935e-05
+1995,vqa_rad_210,are the hemidiaphragms flattened?,yes,1,yes_no,type+len2,test,0.999908566475,0.997254908085,0.999790847301
+1996,vqa_rad_210,is the diaphragm flat on either side?,no,0,yes_no,type+len2,test,0.00150170119014,0.58235681057,0.0275342408568
+1996,vqa_rad_210,is the diaphragm flat on either side?,yes,1,yes_no,type+len2,test,0.999469697475,0.470017641783,0.954501867294
+1999,vqa_rad_13,is this an mri?,no,0,yes_no,type+len2,test,6.781641423e-05,0.0529835037887,0.000292283453746
+1999,vqa_rad_13,is this an mri?,yes,1,yes_no,type+len2,test,0.999965667725,0.667231798172,0.999812543392
+2000,vqa_rad_11,are there clearly defined cardiac borders in this image?,yes,0,yes_no,type+len2,test,4.79561676912e-05,0.000174028988113,0.000465446180897
+2000,vqa_rad_11,are there clearly defined cardiac borders in this image?,no,1,yes_no,type+len2,test,0.99993956089,0.999754369259,0.999690651894
+2002,vqa_rad_15,name one organ that is captured by this image.,intestines,0,other,type+len2,test,0.996122300625,0.903598070145,0.999462068081
+2002,vqa_rad_15,name one organ that is captured by this image.,left,1,other,type+len2,test,0.999717891216,0.99996972084,0.999342858791
+2006,vqa_rad_11,is there a localized mass?,no,0,yes_no,type+len2,test,0.998087346554,0.987140655518,0.997480690479
+2006,vqa_rad_11,is there a localized mass?,yes,1,yes_no,type+len2,test,0.00408413028345,0.00366989453323,0.00252900295891
+2007,vqa_rad_11,is there a focal mass present?,no,0,yes_no,type+len2,test,0.999884009361,0.998051524162,0.999974250793
+2007,vqa_rad_11,is there a focal mass present?,yes,1,yes_no,type+len2,test,4.97916335007e-05,0.000581990985665,1.66011104739e-05
+2023,vqa_rad_22,is air present in the bowels?,yes,0,yes_no,type+len2,test,0.999926686287,0.998498082161,0.0057613523677
+2023,vqa_rad_22,is air present in the bowels?,no,1,yes_no,type+len2,test,8.76218982739e-05,0.0829534754157,0.954927682877
+2024,vqa_rad_22,is there bowel gas?,yes,0,yes_no,type+len2,test,0.999736249447,0.991899371147,0.00176573416684
+2024,vqa_rad_22,is there bowel gas?,no,1,yes_no,type+len2,test,0.000292747252388,0.344188153744,0.999748289585
+2028,vqa_rad_142,is there slight dilation of the right renal pelvis?,yes,0,yes_no,type+len2,test,0.999761641026,0.999975919724,0.999993562698
+2028,vqa_rad_142,is there slight dilation of the right renal pelvis?,no,1,yes_no,type+len2,test,0.000503448827658,0.000749635335524,1.54598801601e-05
+2034,vqa_rad_18,what pathology does the image represent,kidney cyst,0,what,type+len2,test,0.977748036385,0.920442700386,0.997128427029
+2034,vqa_rad_18,what pathology does the image represent,right temporal lobe,1,what,type+len2,test,0.999991297722,0.999866247177,0.0399462468922
+2035,vqa_rad_18,what is the mass most likely?,kidney cyst,0,what,type+len2,test,0.99973744154,0.985242724419,0.999997735023
+2035,vqa_rad_18,what is the mass most likely?,in the bowels,1,what,type+len2,test,0.999898910522,0.767413496971,0.999873757362
+2039,vqa_rad_142,is there enlargement of the right renal pelvis?,yes,0,yes_no,type+len2,test,0.998297154903,0.99979943037,0.999182403088
+2039,vqa_rad_142,is there enlargement of the right renal pelvis?,no,1,yes_no,type+len2,test,0.0019441350596,0.00192345189862,0.000626173568889
+2045,vqa_rad_19,"what are the two humps"" at the base on the image signifying?""",diaphragm,0,what,type+len2,test,0.00736591638997,0.00524426670745,0.00475690839812
+2045,vqa_rad_19,"what are the two humps"" at the base on the image signifying?""",abcess,1,what,type+len2,test,0.000100248340459,0.00015223408991,8.54640256875e-06
+2046,vqa_rad_17,are liver findings normal?,yes,0,yes_no,type+len2,test,0.0708932057023,0.0292518772185,0.999787867069
+2046,vqa_rad_17,are liver findings normal?,no,1,yes_no,type+len2,test,0.789839863777,0.975362956524,0.00195527239703
+2047,vqa_rad_17,does the liver look normal?,yes,0,yes_no,type+len2,test,0.999632239342,0.999292969704,0.999990463257
+2047,vqa_rad_17,does the liver look normal?,no,1,yes_no,type+len2,test,0.000119952761452,0.000363475526683,1.39593503263e-05
+2051,vqa_rad_226,what organ system is visualized?,chest,0,what,type+len2,test,0.99881541729,0.998033344746,0.000325854023686
+2051,vqa_rad_226,what organ system is visualized?,axial,1,what,type+len2,test,0.999707996845,0.999354302883,0.999808490276
+2060,vqa_rad_255,is the air under the diaphragm pathologic?,no,0,yes_no,type+len2,test,0.000269646203378,0.00141567050014,7.74287855165e-06
+2060,vqa_rad_255,is the air under the diaphragm pathologic?,yes,1,yes_no,type+len2,test,0.999763548374,0.998826086521,0.999981999397
+2062,vqa_rad_255,is there free air under the diaphragm?,no,0,yes_no,type+len2,test,3.77852629754e-05,0.000291537900921,1.12744137368e-05
+2062,vqa_rad_255,is there free air under the diaphragm?,yes,1,yes_no,type+len2,test,0.999954104424,0.999790132046,0.999969363213
+2070,vqa_rad_257,what do the two small hyperintensities indicate?,yes,0,what,type+len2,test,0.0992673039436,0.00117849407252,0.0003000262368
+2070,vqa_rad_257,what do the two small hyperintensities indicate?,no,1,what,type+len2,test,0.971888840199,0.995409548283,0.999787151814
+2081,vqa_rad_17,are the kidney present?,yes,0,yes_no,type+len2,test,0.803471028805,0.945092737675,0.69030892849
+2081,vqa_rad_17,are the kidney present?,no,1,yes_no,type+len2,test,0.108697578311,0.342906445265,0.0183619912714
+2082,vqa_rad_11,is there an air-fluid level?,no,0,yes_no,type+len2,test,0.999900698662,0.995250940323,0.000596398196649
+2082,vqa_rad_11,is there an air-fluid level?,yes,1,yes_no,type+len2,test,0.000234020204516,0.000886507390533,0.998847842216
+2088,vqa_rad_19,where is the location of the mass?,anterior mediastinum,0,where,type+len2,test,0.00254586548544,0.00132655655034,0.820043444633
+2088,vqa_rad_19,where is the location of the mass?,right parietal,1,where,type+len2,test,0.99998831749,0.999991178513,0.845827817917
+2099,vqa_rad_231,what image plane is this?,axial,0,what,type+len2,test,2.09258832911e-05,0.00273586600088,2.83491463051e-05
+2099,vqa_rad_231,what image plane is this?,one,1,what,type+len2,test,0.999636530876,0.997997224331,0.999989032745
+2101,vqa_rad_307,is there air present under the diaphragm?,no,0,yes_no,type+len2,test,0.000105834085844,0.000124966856674,0.000167810416315
+2101,vqa_rad_307,is there air present under the diaphragm?,yes,1,yes_no,type+len2,test,0.99998664856,0.999738037586,0.999665498734
+2115,vqa_rad_224,what type of mri modality is used?,dwi diffusion weighted,0,what,type+len2,test,0.999341905117,0.971522390842,0.72849804163
+2115,vqa_rad_224,what type of mri modality is used?,plain film x-ray,1,what,type+len2,test,0.99994790554,0.977347075939,0.0307571142912
+2135,vqa_rad_111,is this patient in a supine position?,yes,0,yes_no,type+len2,test,0.00650324067101,0.683654427528,0.0618324242532
+2135,vqa_rad_111,is this patient in a supine position?,no,1,yes_no,type+len2,test,0.976384460926,0.40461063385,0.983396232128
+2136,vqa_rad_111,is the patient lying supine?,yes,0,yes_no,type+len2,test,0.000449596904218,0.00433042645454,4.36007794633e-05
+2136,vqa_rad_111,is the patient lying supine?,no,1,yes_no,type+len2,test,0.999757230282,0.998507082462,0.999990940094
+2143,vqa_rad_111,was this image taken by x-ray?,no,0,yes_no,type+len2,test,0.999976158142,0.999943256378,0.996153056622
+2143,vqa_rad_111,was this image taken by x-ray?,yes,1,yes_no,type+len2,test,0.000312606571242,0.000527434982359,0.00148968747817
+2144,vqa_rad_100,how is the artifact in this image categorized?,motion,0,how,type+len2,test,0.876988589764,0.900977551937,0.917123258114
+2144,vqa_rad_100,how is the artifact in this image categorized?,right,1,how,type+len2,test,0.954705178738,0.0258306469768,0.999432861805
+2145,vqa_rad_100,what type of artifact is shown in this image?,motion,0,what,type+len2,test,0.952711999416,0.978433251381,0.99416744709
+2145,vqa_rad_100,what type of artifact is shown in this image?,biconvex,1,what,type+len2,test,0.00158085045405,0.000749542494304,4.1195785343e-06
+2153,vqa_rad_111,what are the hyperdense lesions noted at the edges of the aorta?,calcified atherosclerosis,0,what,type+len2,test,0.00890499725938,0.0359096564353,0.998919129372
+2153,vqa_rad_111,what are the hyperdense lesions noted at the edges of the aorta?,left parietal lobe,1,what,type+len2,test,0.999930858612,0.999996066093,0.999106109142
+2154,vqa_rad_111,what are the hyperintensities surrounding the aorta?,calcified atherosclerosis,0,what,type+len2,test,0.258891046047,0.0456093475223,0.993679761887
+2154,vqa_rad_111,what are the hyperintensities surrounding the aorta?,chest xray,1,what,type+len2,test,0.999997854233,0.999886512756,1
+2161,vqa_rad_89,is this in the posterior anterior plane?,yes,0,yes_no,type+len2,test,0.953876435757,0.0058957869187,0.935078620911
+2161,vqa_rad_89,is this in the posterior anterior plane?,no,1,yes_no,type+len2,test,0.00829576700926,0.881470561028,0.0433515682817
+2167,vqa_rad_67,the image probably had what incidental finding?,cavum vergae,0,other,type+len2,test,0.999036669731,0.999857902527,0.999996423721
+2167,vqa_rad_67,the image probably had what incidental finding?,left thalamus,1,other,type+len2,test,0.998977661133,0.991643488407,0.999999642372
+2168,vqa_rad_67,what was probably found incidentally on this image?,cavum vergae,0,what,type+len2,test,0.999754369259,0.999914646149,0.999997138977
+2168,vqa_rad_67,what was probably found incidentally on this image?,nucleus pulposus,1,what,type+len2,test,0.0096292309463,0.0490170009434,0.068819411099
+2177,vqa_rad_118,this image is consistent with what condition?,appendicitis,0,other,type+len2,test,0.0526329539716,0.00892993248999,0.999796807766
+2177,vqa_rad_118,this image is consistent with what condition?,hyperintense,1,other,type+len2,test,0.972923278809,0.989382147789,0.999038219452
+2178,vqa_rad_118,what condition does the patient have?,appendicitis,0,what,type+len2,test,0.000543425616343,0.707514464855,0.00172506598756
+2178,vqa_rad_118,what condition does the patient have?,one,1,what,type+len2,test,0.0111568570137,0.973603069782,0.903994381428
+2189,vqa_rad_2,is there cardiomyopathy?,yes,0,yes_no,type+len2,test,0.000563958543353,5.3000425396e-05,0.0707946941257
+2189,vqa_rad_2,is there cardiomyopathy?,no,1,yes_no,type+len2,test,0.999751031399,0.987682759762,0.955245554447
+2192,vqa_rad_89,what abnormalities are in the lung apices?,nodular opacities,0,what,type+len2,test,0.999942064285,0.999763667583,0.999440968037
+2192,vqa_rad_89,what abnormalities are in the lung apices?,right lower lobe,1,what,type+len2,test,0.000245244591497,0.000147323982674,0.0160396806896
+2193,vqa_rad_89,what is seen in the lung apices?,nodular opacities,0,what,type+len2,test,0.999963760376,0.999748289585,0.999267041683
+2193,vqa_rad_89,what is seen in the lung apices?,right temporal lobe,1,what,type+len2,test,0.999997735023,0.99996638298,0.998981773853
+2200,vqa_rad_109,are >12 ribs present in the image?,yes,0,yes_no,type+len2,test,0.876252949238,0.0011389675783,0.998886525631
+2200,vqa_rad_109,are >12 ribs present in the image?,no,1,yes_no,type+len2,test,0.580305814743,0.994937777519,0.000930728332605
+2211,vqa_rad_109,does this represent adequate inspiratory effort?,yes,0,yes_no,type+len2,test,3.8905760448e-05,2.51175897574e-05,2.94418470048e-07
+2211,vqa_rad_109,does this represent adequate inspiratory effort?,no,1,yes_no,type+len2,test,0.999956846237,0.999882459641,0.999999523163
+2212,vqa_rad_89,what kind of image is this?,x-ray,0,what,type+len2,test,5.45133261767e-05,0.000282351538772,0.00245931232348
+2212,vqa_rad_89,what kind of image is this?,abnormal,1,what,type+len2,test,0.0891144052148,0.0394096709788,0.589325547218
+2224,vqa_rad_49,is the diaphragm clearly visualized on both sides of the thorax?,yes,0,yes_no,type+len2,test,0.00967031251639,0.000160935582244,0.000861423381139
+2224,vqa_rad_49,is the diaphragm clearly visualized on both sides of the thorax?,no,1,yes_no,type+len2,test,0.990507483482,0.997450172901,0.996633470058
+2225,vqa_rad_49,is the diaphragm obscured?,no,0,yes_no,type+len2,test,8.76717967913e-05,0.00147745397408,1.41491073009e-05
+2225,vqa_rad_49,is the diaphragm obscured?,yes,1,yes_no,type+len2,test,0.99997484684,0.996601343155,0.99994969368
+2228,vqa_rad_144,is there evidence of subdiaphragmatic free air on the left?,no,0,yes_no,type+len2,test,0.0124952821061,0.971079826355,0.000251278514042
+2228,vqa_rad_144,is there evidence of subdiaphragmatic free air on the left?,yes,1,yes_no,type+len2,test,0.998347759247,0.0300692822784,0.999688506126
+2229,vqa_rad_144,is the free air under the left hemidiaphragm pathologic?,no,0,yes_no,type+len2,test,0.000282722467091,0.0407644696534,3.67904067389e-05
+2229,vqa_rad_144,is the free air under the left hemidiaphragm pathologic?,yes,1,yes_no,type+len2,test,0.999892473221,0.971465468407,0.99985396862

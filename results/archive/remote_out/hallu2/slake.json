@@ -1,0 +1,1 @@
+{"ds": "slake", "seed": 0, "test_auroc": 0.9804596355613402, "n": 2008, "best_epoch": 3, "best_val_auroc": 0.9788088296543108, "note": "val-earlystop lr3e-05-gc1.0-6000-10ep maxnNone seed0"}

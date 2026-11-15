@@ -1,0 +1,351 @@
+{
+ "overlap_jaccard_r1_r2": 0.6061,
+ "n_pairs_total": 9885,
+ "flagged_r1_total": 20,
+ "flagged_r2_total": 33,
+ "benchmarks": {
+  "vqa_rad": {
+   "label": "VQA-RAD",
+   "n_pairs": 452,
+   "n_rows": 904,
+   "flagged_r1": 0,
+   "flagged_r2": 0,
+   "flagged_both": 0,
+   "flagged_union": 0,
+   "share_union": 0.0,
+   "auroc_before": 0.6818,
+   "auroc_after_drop": 0.6818,
+   "delta_after_drop": 0.0,
+   "decision_curve": {
+    "pt0.2_pi0.05": {
+     "full": 0.0038,
+     "noimage": 0.0014,
+     "qce": 0.0039,
+     "flag_all": -0.1875,
+     "flag_none": 0.0
+    },
+    "pt0.2_pi0.10": {
+     "full": 0.0124,
+     "noimage": 0.0034,
+     "qce": 0.0122,
+     "flag_all": -0.125,
+     "flag_none": 0.0
+    },
+    "pt0.2_pi0.20": {
+     "full": 0.0549,
+     "noimage": 0.0522,
+     "qce": 0.0553,
+     "flag_all": -0.0,
+     "flag_none": 0.0
+    },
+    "pt0.5_pi0.05": {
+     "full": 0.0038,
+     "noimage": 0.0013,
+     "qce": 0.0032,
+     "flag_all": -0.9,
+     "flag_none": 0.0
+    },
+    "pt0.5_pi0.10": {
+     "full": 0.0075,
+     "noimage": 0.0027,
+     "qce": 0.0064,
+     "flag_all": -0.8,
+     "flag_none": 0.0
+    },
+    "pt0.5_pi0.20": {
+     "full": 0.015,
+     "noimage": 0.0058,
+     "qce": 0.0181,
+     "flag_all": -0.6,
+     "flag_none": 0.0
+    }
+   }
+  },
+  "path_vqa": {
+   "label": "Path-VQA",
+   "n_pairs": 1190,
+   "n_rows": 2380,
+   "flagged_r1": 1,
+   "flagged_r2": 1,
+   "flagged_both": 1,
+   "flagged_union": 1,
+   "share_union": 0.0008,
+   "auroc_before": 0.906,
+   "auroc_after_drop": 0.9061,
+   "delta_after_drop": 0.0001,
+   "decision_curve": {
+    "pt0.2_pi0.05": {
+     "full": 0.0212,
+     "noimage": 0.0144,
+     "qce": 0.0202,
+     "flag_all": -0.1875,
+     "flag_none": 0.0
+    },
+    "pt0.2_pi0.10": {
+     "full": 0.0534,
+     "noimage": 0.0368,
+     "qce": 0.0507,
+     "flag_all": -0.125,
+     "flag_none": 0.0
+    },
+    "pt0.2_pi0.20": {
+     "full": 0.1297,
+     "noimage": 0.1015,
+     "qce": 0.1286,
+     "flag_all": -0.0,
+     "flag_none": 0.0
+    },
+    "pt0.5_pi0.05": {
+     "full": 0.0132,
+     "noimage": 0.0076,
+     "qce": 0.0161,
+     "flag_all": -0.9,
+     "flag_none": 0.0
+    },
+    "pt0.5_pi0.10": {
+     "full": 0.0328,
+     "noimage": 0.021,
+     "qce": 0.0355,
+     "flag_all": -0.8,
+     "flag_none": 0.0
+    },
+    "pt0.5_pi0.20": {
+     "full": 0.0894,
+     "noimage": 0.0617,
+     "qce": 0.0857,
+     "flag_all": -0.6,
+     "flag_none": 0.0
+    }
+   }
+  },
+  "omni": {
+   "label": "OmniMed",
+   "n_pairs": 401,
+   "n_rows": 802,
+   "flagged_r1": 0,
+   "flagged_r2": 1,
+   "flagged_both": 0,
+   "flagged_union": 1,
+   "share_union": 0.0025,
+   "auroc_before": 0.9658,
+   "auroc_after_drop": 0.9661,
+   "delta_after_drop": 0.0002,
+   "decision_curve": {
+    "pt0.2_pi0.05": {
+     "full": 0.0422,
+     "noimage": 0.0324,
+     "qce": 0.0385,
+     "flag_all": -0.1875,
+     "flag_none": 0.0
+    },
+    "pt0.2_pi0.10": {
+     "full": 0.0863,
+     "noimage": 0.0692,
+     "qce": 0.0824,
+     "flag_all": -0.125,
+     "flag_none": 0.0
+    },
+    "pt0.2_pi0.20": {
+     "full": 0.1766,
+     "noimage": 0.1516,
+     "qce": 0.1736,
+     "flag_all": -0.0,
+     "flag_none": 0.0
+    },
+    "pt0.5_pi0.05": {
+     "full": 0.0369,
+     "noimage": 0.0271,
+     "qce": 0.0322,
+     "flag_all": -0.9,
+     "flag_none": 0.0
+    },
+    "pt0.5_pi0.10": {
+     "full": 0.0813,
+     "noimage": 0.0589,
+     "qce": 0.0723,
+     "flag_all": -0.8,
+     "flag_none": 0.0
+    },
+    "pt0.5_pi0.20": {
+     "full": 0.1701,
+     "noimage": 0.1317,
+     "qce": 0.1566,
+     "flag_all": -0.6,
+     "flag_none": 0.0
+    }
+   }
+  },
+  "slake": {
+   "label": "SLAKE",
+   "n_pairs": 1004,
+   "n_rows": 2008,
+   "flagged_r1": 0,
+   "flagged_r2": 6,
+   "flagged_both": 0,
+   "flagged_union": 6,
+   "share_union": 0.006,
+   "auroc_before": 0.9824,
+   "auroc_after_drop": 0.9831,
+   "delta_after_drop": 0.0007,
+   "decision_curve": {
+    "pt0.2_pi0.05": {
+     "full": 0.0399,
+     "noimage": 0.0264,
+     "qce": 0.038,
+     "flag_all": -0.1875,
+     "flag_none": 0.0
+    },
+    "pt0.2_pi0.10": {
+     "full": 0.0848,
+     "noimage": 0.0565,
+     "qce": 0.0818,
+     "flag_all": -0.125,
+     "flag_none": 0.0
+    },
+    "pt0.2_pi0.20": {
+     "full": 0.1785,
+     "noimage": 0.1313,
+     "qce": 0.1725,
+     "flag_all": -0.0,
+     "flag_none": 0.0
+    },
+    "pt0.5_pi0.05": {
+     "full": 0.0323,
+     "noimage": 0.0237,
+     "qce": 0.0322,
+     "flag_all": -0.9,
+     "flag_none": 0.0
+    },
+    "pt0.5_pi0.10": {
+     "full": 0.0739,
+     "noimage": 0.0505,
+     "qce": 0.0711,
+     "flag_all": -0.8,
+     "flag_none": 0.0
+    },
+    "pt0.5_pi0.20": {
+     "full": 0.1625,
+     "noimage": 0.1074,
+     "qce": 0.1554,
+     "flag_all": -0.6,
+     "flag_none": 0.0
+    }
+   }
+  },
+  "kvasir": {
+   "label": "Kvasir-VQA-x1",
+   "n_pairs": 6838,
+   "n_rows": 13676,
+   "flagged_r1": 19,
+   "flagged_r2": 25,
+   "flagged_both": 19,
+   "flagged_union": 25,
+   "share_union": 0.0037,
+   "auroc_before": 0.9862,
+   "auroc_after_drop": 0.9867,
+   "delta_after_drop": 0.0005,
+   "decision_curve": {
+    "pt0.2_pi0.05": {
+     "full": 0.0441,
+     "noimage": 0.0444,
+     "qce": 0.0434,
+     "flag_all": -0.1875,
+     "flag_none": 0.0
+    },
+    "pt0.2_pi0.10": {
+     "full": 0.0902,
+     "noimage": 0.0904,
+     "qce": 0.0889,
+     "flag_all": -0.125,
+     "flag_none": 0.0
+    },
+    "pt0.2_pi0.20": {
+     "full": 0.1833,
+     "noimage": 0.1837,
+     "qce": 0.1817,
+     "flag_all": -0.0,
+     "flag_none": 0.0
+    },
+    "pt0.5_pi0.05": {
+     "full": 0.0421,
+     "noimage": 0.0428,
+     "qce": 0.0406,
+     "flag_all": -0.9,
+     "flag_none": 0.0
+    },
+    "pt0.5_pi0.10": {
+     "full": 0.0864,
+     "noimage": 0.087,
+     "qce": 0.0841,
+     "flag_all": -0.8,
+     "flag_none": 0.0
+    },
+    "pt0.5_pi0.20": {
+     "full": 0.1776,
+     "noimage": 0.1783,
+     "qce": 0.1747,
+     "flag_all": -0.6,
+     "flag_none": 0.0
+    }
+   }
+  }
+ },
+ "examples": [
+  {
+   "benchmark": "OmniMed",
+   "question": "What is the specific type of abnormality shown in this image?",
+   "expert": "Age-related Macular degeneration (AMD).",
+   "borrowed_negative": "Age-related Macular Degeneration (AMD)",
+   "r1": false,
+   "r2": true
+  },
+  {
+   "benchmark": "SLAKE",
+   "question": "What disease is/are shown on the right of brain?",
+   "expert": "Brain Edema, Brain Enhancing Tumor, Brain Non-enhancing Tumor",
+   "borrowed_negative": "Brain Enhancing Tumor, Brain Edema, Brain Non-enhancing Tumor",
+   "r1": false,
+   "r2": true
+  },
+  {
+   "benchmark": "SLAKE",
+   "question": "What disease is/are shown on the right of brain?",
+   "expert": "Brain Edema, Brain Enhancing Tumor, Brain Non-enhancing Tumor",
+   "borrowed_negative": "Brain Enhancing Tumor, Brain Edema, Brain Non-enhancing Tumor",
+   "r1": false,
+   "r2": true
+  },
+  {
+   "benchmark": "SLAKE",
+   "question": "Where is/are the abnormality located?",
+   "expert": "Left Lung, Right",
+   "borrowed_negative": "Right Lung",
+   "r1": false,
+   "r2": true
+  },
+  {
+   "benchmark": "SLAKE",
+   "question": "What diseases are included in the picture?",
+   "expert": "Brain Tumor, Brain Edema",
+   "borrowed_negative": "Brain Edema, Brain Non-enhancing Tumor",
+   "r1": false,
+   "r2": true
+  },
+  {
+   "benchmark": "SLAKE",
+   "question": "Where is the effusion?",
+   "expert": "Left Lung",
+   "borrowed_negative": "Lower Left Lung",
+   "r1": false,
+   "r2": true
+  },
+  {
+   "benchmark": "SLAKE",
+   "question": "Where is/are the abnormality located?",
+   "expert": "Left Lung, Right",
+   "borrowed_negative": "Right Lung, Left",
+   "r1": false,
+   "r2": true
+  }
+ ]
+}
